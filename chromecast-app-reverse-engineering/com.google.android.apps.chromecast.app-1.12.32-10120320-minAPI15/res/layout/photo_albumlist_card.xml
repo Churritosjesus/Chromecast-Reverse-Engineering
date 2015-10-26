@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" card_view:cardElevation="@dimen/card_elevation" card_view:cardPreventCornerOverlap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/card_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/album_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/album_photo_count" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/md_grey_800" android:ellipsize="end" android:id="@id/album_title" android:paddingTop="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/panel_padding" android:singleLine="true" android:layout_toLeftOf="@id/checkbox_select_album" />
+        <CheckBox android:id="@id/checkbox_select_album" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/panel_padding" android:layout_alignTop="@id/album_title" android:layout_alignBottom="@id/album_photo_count" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/md_grey_500" android:ellipsize="middle" android:id="@id/album_photo_count" android:paddingBottom="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/album_title" android:layout_alignLeft="@id/album_title" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

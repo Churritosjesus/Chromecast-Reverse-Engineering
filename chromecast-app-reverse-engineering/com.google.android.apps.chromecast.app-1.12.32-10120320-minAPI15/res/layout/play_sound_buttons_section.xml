@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/play_sound_btn" android:text="@string/setup_play_sound_button" style="@style/Button.Orange.LargeFixed" />
+    <Button android:id="@id/sound_confirm_btn" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/setup_heard_sound_button" style="@style/Button.Orange.LargeFixed" />
+    <Button android:id="@id/sound_not_heard_btn" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/setup_no_sound_button" style="@style/Button.Grey.LargeFixed" />
+</LinearLayout>

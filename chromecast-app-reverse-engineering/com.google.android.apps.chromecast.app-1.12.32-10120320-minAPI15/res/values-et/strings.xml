@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_devices_title">Ühtegi Chromecasti ei leitud</string>
+    <string name="no_devices_text1">Ühendage Chromecast teleri HDMI-porti.</string>
+    <string name="no_devices_text2">Ühendage USB-toide teleri või USB-toiteadapteriga.</string>
+    <string name="no_devices_text3">Veenduge, et telefon/tahvelarvuti ja Chromecast oleks samas WiFi-võrgus.</string>
+    <string name="no_devices_text4">Veenduge, et teler oleks sisse lülitatud ja valitud oleks õige sisend.</string>
+    <string name="no_audio_devices_text1">Veenduge, et Chromecast Audio oleks ühendatud pistikupessa või USB-porti.</string>
+    <string name="no_audio_devices_text2">Veenduge, et telefon/tahvelarvuti ja Chromecast Audio oleks samas WiFi-võrgus.</string>
+    <string name="no_audio_devices_text3">Veenduge, et kõlar oleks sisse lülitatud ja valitud oleks õige sisend.</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">Seadistame Chromecasti või Chromecast Audio.</string>
+    <string name="no_devices_splash_subtext">Valige Chromecasti tüüp, mille soovite seadistada:</string>
+    <string name="location_services_dialog">Seadme %1$s seadistamiseks lülitage sisse asukohateenused. See võimaldab telefonil tuvastada läheduses oleva(d) seadme(d) %2$s, mis on seadistamiseks valmis.</string>
+    <string name="add_device">Uue seadme lisamine</string>
+    <string name="terms_title">Privaatsus ja tingimused</string>
+    <string name="terms_text">"Google'i privaatsuseeskirjad kirjeldavad teavet, mida Google kogub Chromecasti seadistamise ja kasutamise ajal. Saate muuta Chromecasti privaatsusseadeid (nt kas Chromecast saadab Google'ile kasutusandmeid ja krahhiaruandeid), kui olete oma seadme seadistanud, avades selles rakenduses seadme seaded.
+
+Allolevat nuppu „Nõustun” vajutades kinnitate, et nõustute dokumentidega %1$s ja %2$s."</string>
+    <string name="terms_text_germany">"Google privaatsuseeskirjad kirjeldavad teavet, mida Google kogub Chromecasti seadistamise ja kasutamise ajal. Saate muuta Chromecasti privaatsusseadeid (nt kas Chromecast saadab Google'ile kasutusandmeid ja krahhiaruandeid), kui olete oma seadme seadistanud, avades selles rakenduses seadme seaded.
+
+Allolevat nuppu „Nõustun” vajutades kinnitate, et nõustute dokumendiga %1$s ja olete lugenud dokumenti %2$s."</string>
+    <string name="terms_of_service_pattern">"Google'i teenusetingimuste"</string>
+    <string name="dogfood_confidentiality_text">See Chromecasti dogfood-versioon on üksnes asutusesiseseks kasutamiseks ja sisaldab funktsioone, mida ei ole veel avaldatud.</string>
+    <string name="dogfood_confidentiality_title">Konfidentsiaalne</string>
+    <string name="dogfood_confidentiality_accept">Selge</string>
+    <string name="privacy_policy_pattern">Privaatsuseeskirjad</string>
+    <string name="privacy_policy_pattern_germany">"Google'i privaatsuseeskirjad"</string>
+    <string name="terms_accept">Nõustu</string>
+    <string name="terms_decline">Tühista</string>
+    <string name="setup_title_enable_wifi">WiFi lubamine …</string>
+    <string name="not_set_up_info">Vajalik on seadistamine</string>
+    <string name="wifi_enable_title">WiFi-t ei tuvastatud</string>
+    <string name="wifi_enable_message">Lülitage WiFi sisse, et luua ühendus Chromecastiga.</string>
+    <string name="wifi_enable_proceed">Lülita WiFi sisse</string>
+    <string name="wifi_enable_fail">WiFi-ühendust ei õnnestunud luua. Kontrollige WiFi-seadeid ja proovige uuesti.</string>
+    <string name="no_wifi_title">WiFi pole saadaval</string>
+    <string name="menu_discover_help">Abi ja tagasiside</string>
+    <string name="discover_help_title">Miks minu Chromecasti / Chromecast Audiot ei kuvata selles loendis?</string>
+    <string name="discover_help_text">"Veenduge, et teie Chromecast:
+• oleks sellest seadmest umbes kuue meetri kaugusel;
+• oleks sisse lülitatud (USB-kaabli abil) ja valge näidikutuli põleks;
+• oleks samas WiFi-võrgus kui see seade (kui see on seadistatud).
+
+Veenduge, et teie WiFi-võrk:
+• lubaks uute seadmete liitumist.
+
+Kui te ikka ei näe oma Chromecasti, siis saate:
+• tehaseseadetele lähtestada. Selleks hoidke 15 sekundit all Chromecasti lähtestamise nuppu.
+
+Täiendavat abi leiate aadressilt support.google.com/chromecast."</string>
+    <string name="developer_mode_toast">Arendaja režiim on lubatud</string>
+    <string name="drawer_item_learn">Lisateave</string>
+    <string name="drawer_item_backdrop">Taustadekoratsioon</string>
+    <string name="drawer_item_settings">Seaded</string>
+    <string name="drawer_item_cast_screen">Ekraani/heli ülekandmine</string>
+    <string name="drawer_open">Ava navigeerimissahtel</string>
+    <string name="drawer_close">Sule navigeerimissahtel</string>
+    <string name="accessibility_settings">Seadme seadete avamine</string>
+    <string name="ignore">Ignoreeri</string>
+    <string name="setup">Seadista</string>
+    <string name="hidden_device_count">Eiratud seadmed (%1$d)</string>
+    <string name="opencast_pin">PIN-kood: %1$s</string>
+    <string name="backdrop_exit_history">Valmis</string>
+    <string name="backdrop_history_label">Ajalugu %1$s/%2$s</string>
+    <string name="accessibility_backdrop_history">Lülitu taustadekoratsiooni ajaloo režiimile</string>
+    <string name="accessibility_backdrop_history_exit">Välju taustadekoratsiooni ajaloo režiimist</string>
+    <string name="accessibility_backdrop_history_previous">Mine taustadekoratsiooni ajaloo eelmisele kujutisele</string>
+    <string name="accessibility_backdrop_history_next">Mine taustadekoratsiooni ajaloo järgmisele kujutisele</string>
+    <string name="device_settings_title">Chromecasti seaded</string>
+    <string name="device_connect_progress">Ühendamine seadmega %1$s</string>
+    <string name="device_connect_failed">Chromecastiga ei õnnestunud ühendust luua. Veenduge, et Chromecast asub läheduses.</string>
+    <string name="device_connect_failed_poor_link_title">Chromecastiga ei õnnestu ühendust luua</string>
+    <string name="device_connect_failed_poor_link">Veenduge, et Chromecast asub läheduses, ja kontrollige, kas WiFi-seadete valik „Automaatne võrgulüliti” on välja lülitatud, kuni Chromecasti seadistamine on lõppenud.</string>
+    <string name="device_setup_progress">Chromecasti ühendamine võrguga %1$s</string>
+    <string name="device_ethernet_setup_progress">Chromecasti ühendamine</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s ei suutnud luua ühendust võrguga %2$s. Kontrollige parooli.</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s ei suutnud luua ühendust võrguga %2$s. Kontrollige WiFi-võrgu nime.</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s ei suutnud luua ühendust võrguga %2$s. Kontrollige WiFi-ruuterit.</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s ei suutnud luua ühendust võrguga %2$s. Kontrollige sisendit.</string>
+    <string name="device_reboot_progress">Seadme %1$s taaskäivitamine</string>
+    <string name="settings_saved_toast">Seadete muudatus rakendati Chromecasti</string>
+    <string name="wifi_different_title">WiFi-võrgu muutmine</string>
+    <string name="wifi_different_message">Chromecasti (%2$s) ja selle seadme (%1$s) WiFi-võrgud on erinevad. Pärast seadistamist ühendatakse see seade võrguga %2$s, et saaksite kasutada Chromecasti.</string>
+    <string name="confirm_reboot">Kas taaskäivitada %1$s?</string>
+    <string name="confirm_reset">Kas lähtestada %1$s tehaseseadetele?</string>
+    <string name="reboot_ok">OK</string>
+    <string name="settings_device_label">SEADME TEAVE</string>
+    <string name="settings_name_label">Nimi</string>
+    <string name="settings_wifi_label">WiFi</string>
+    <string name="settings_time_zone_label">Ajavöönd</string>
+    <string name="settings_time_format_label">Kellaaja vorming</string>
+    <string name="settings_locale_label">Keel</string>
+    <string name="settings_sounds_label">HELID</string>
+    <string name="settings_playback_sounds_label">Taasesituse helid</string>
+    <string name="settings_playback_sounds_description">Ülekande alustamine ja helitugevuse muutmised</string>
+    <string name="settings_hdr_label">Kõrgdünaamiline ulatus</string>
+    <string name="settings_hdr_description">AVR-idele ja HiFi-süsteemidele</string>
+    <string name="settings_privacy_label">PRIVAATSUS</string>
+    <string name="settings_opencast_label">Külalisrežiim</string>
+    <string name="settings_opencast_pin">PIN-kood: %1$s</string>
+    <string name="settings_opencast_getting_pin">Seadme PIN-koodi toomine…</string>
+    <string name="settings_cast_nearby_intro_description">"Võimaldage samas ruumis viibijatel luua ühendus teie seadmega %1$s ilma teie WiFi-võrku kasutamata.
+
+See kasutab läheduses olevate seadmete tuvastamiseks teie seadme %2$s asukoha ja WiFi kombinatsiooni."</string>
+    <string name="settings_cast_nearby_learn_more">Lisateave</string>
+    <string name="settings_cast_nearby_learn_title">Kuidas see toimib?</string>
+    <string name="settings_cast_nearby_learn_description">"Külalise seadme ühendamiseks edastab seade %1$s automaatselt 4-kohalise PIN-koodi, kasutades selleks lühikest heli, mida teie ei kuule.
+
+Kui heli abil sidumine ei õnnestu, siis palutakse külalisel sisestada PIN-kood. Seadme omanik leiab PIN-koodi Chromecasti rakendusest.
+
+Selle funktsiooni võite igal ajal välja lülitada."</string>
+    <string name="settings_information_label">TEAVE</string>
+    <string name="wifi_other_name">Muu …</string>
+    <string name="wifi_name_title">Võrgu nimi</string>
+    <string name="wifi_password_title_setup">WiFi-parool</string>
+    <string name="wifi_password_hint">(muutmata)</string>
+    <string name="wifi_security_title">Turvalisus</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">väga nõrk signaal</string>
+    <string name="wifi_level_description_2">nõrk signaal</string>
+    <string name="wifi_level_description_3">tugev signaal</string>
+    <string name="wifi_level_description_4">väga tugev signaal</string>
+    <string name="device_mac_address_pattern">MAC-aadress: %1$s</string>
+    <string name="device_ip_address_pattern">IP-aadress: %1$s</string>
+    <string name="device_build_version_pattern">Püsivaraversioon: %1$s</string>
+    <string name="device_country_code_pattern">Riigi kood: %1$s</string>
+    <string name="time_format_12_hours">12-tunnise kellaaja vormingu kasutamine</string>
+    <string name="time_format_24_hours">24-tunnise kellaaja vormingu kasutamine</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">Meil ei õnnestunud Chromecastiga ühendust luua. Peate võib-olla uuesti proovima.</string>
+    <string name="execute_requests_failed">Meil ei õnnestunud luua ühendust teie Chromecastiga.</string>
+    <string name="execute_requests_failed_status">Meil ei õnnestunud luua ühendust teie Chromecastiga (%1$s).</string>
+    <string name="config_wifi_device_not_found">"Seadet %1$s ei õnnestunud teie WiFi-võrgust tuvastada. Kontrollige WiFi-seadeid.
+• Kui teil on kahesüsteemne (2,4 ja 5 GHz) ruuter, siis veenduge, et see pole AP-isolatsioonirežiimis
+• Kui ruuteris on kasutusel MAC-aadressi põhine piiramine, siis veenduge, et see seade ja Chromecast saavad liituda
+Probleemi veaotsinguks külastage aadressi support.google.com/chromecast."</string>
+    <string name="menu_reboot">Chromecasti taaskäivitamine</string>
+    <string name="menu_reset">Chromecasti lähtestamine tehaseseadetele</string>
+    <string name="menu_feedback">Tagasiside aruande saatmine</string>
+    <string name="menu_oss_licenses">Avatud lähtekoodi litsentsid</string>
+    <string name="menu_other_licenses_title">Muud litsentsid</string>
+    <string name="alert_cancel">Tühista</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">Jah</string>
+    <string name="alert_settings">Ava menüü Seaded</string>
+    <string name="alert_wifi_settings">WiFi-seaded</string>
+    <string name="alert_dont_show_again">Ära kuva seda uuesti</string>
+    <string name="continue_button_text">Jätka</string>
+    <string name="menu_offers">Otsi pakkumisi</string>
+    <string name="prompt_offers_serial_number">"Kas nõustute saadaolevate pakkumiste leidmiseks jagama Google'iga oma Chromecasti seerianumbrit?"</string>
+    <string name="prompt_offers_button_neg">Tühista</string>
+    <string name="prompt_offers_button_pos">Olen nõus</string>
+    <string name="progress_offers">Pakkumiste otsimine …</string>
+    <string name="offers_failure">Pakkumisi ei õnnestunud otsida. Veenduge, et teie Chromecast oleks seadistatud ja valmis ülekandmiseks.</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">Chromecasti</string>
+    <string name="device_type_chromecast_plural">Chromecastid</string>
+    <string name="device_type_chromecast_audio">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_possessive">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_plural">Chromecast Audiod</string>
+    <string name="found_title">Leiti %1$s</string>
+    <string name="configure_title">Seadme %1$s seadistamine</string>
+    <string name="name_choice_title">Andke seadmele %1$s nimi</string>
+    <string name="name_choice_hint">Näide: „Elutuba”</string>
+    <string name="setup_enable_opencast_text">Luba külalisrežiim</string>
+    <string name="setup_enable_opencast_description">See võimaldab samas ruumis olevatel seadmetel teha ülekandeid WiFi-võrku ühendamata. See kasutab läheduses olevate seadmete leidmiseks ülekandeseadme asukohta ja WiFi-t.</string>
+    <string name="apply_wifi_button_text">Määra võrk</string>
+    <string name="apply_name_button_text">Määra nimi</string>
+    <string name="show_password_text">Kuva parool</string>
+    <string name="configure_network_heading_text">Ühendage Chromecast oma WiFi-ga</string>
+    <string name="configuration_fail_dialog_title">Ühenduse probleem seadistamise ajal.</string>
+    <string name="configuration_fail_dialog_message">Kontrollige WiFi-võrgu seadeid.</string>
+    <string name="reconfigure_cancel">Tühista</string>
+    <string name="reconfigure_proceed">Proovi uuesti</string>
+    <string name="prompt_friendly_name_title">Chromecasti nimi</string>
+    <string name="prompt_network_title">Chromecasti WiFi</string>
+    <string name="prompt_country_title">Valige oma riik</string>
+    <string name="prompt_country_text">Peate oma Chromecasti õigesti seadistama.</string>
+    <string name="missing_ssid_message">Sisestage võrgu SSID.</string>
+    <string name="wep_short_password_message">WiFi-võrgu parooli pikkus peab olema vähemalt 5 tähemärki.</string>
+    <string name="wpa_short_password_message">WiFi-võrgu parooli pikkus peab olema vähemalt 8 tähemärki.</string>
+    <string name="not_supported_network_message">See WiFi-võrk pole toetatud. Valige protokolliga WEP/WPA/WPA2 kaitstud võrk.</string>
+    <string name="restore_wifi_toast">WiFi lülitati tagasi seadmele %1$s</string>
+    <string name="wifi_restore_fail">Seadme %1$s WiFi-võrguga ei õnnestunud ühendust luua. Kontrollige WiFi-seadeid.</string>
+    <string name="settings_network_fail">Seadme %1$s WiFi-võrguga ei õnnestunud ühendust luua. WiFi-võrgu üksikasjade kinnitamiseks seadistage oma seade uuesti.</string>
+    <string name="configure_tv_title_text">Teleri sisendi muutmine</string>
+    <string name="configure_tv_title_body">Kas see on õige Chromecast? Veendumiseks leidke teleriekraanilt see kood.</string>
+    <string name="noupdate_app_alert_text">See funktsioon ei ühildu installitud Androidi versiooniga.</string>
+    <string name="bad_device_message">Teie Chromecasti ei õnnestunud autentida. Probleemi veaotsinguks külastage aadressi support.google.com/chromecast.</string>
+    <string name="validation_ignore_button">Jätka ikkagi</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">Meil ei õnnestunud WiFi-parameetreid töödelda. Peate võib-olla uuesti proovima.</string>
+    <string name="pin_confirmed_button">Näen koodi</string>
+    <string name="pin_mismatched_button">Ma ei näe koodi</string>
+    <string name="setup_ping_failed">Meil ei õnnestunud teie Chromecastiga ühendust luua. Võimalik, et Chromecast ja seade on ühendatud võrkudesse, mis ei saa üksteisega suhelda. Peate võib-olla pisut muutma oma WiFi-ruuteri seadeid. Vaadake lisateavet siit.</string>
+    <string name="setup_ping_pattern">siit</string>
+    <string name="setup_ssdp_scan_failed">Meil ei õnnestunud teie Chromecasti võrgus tuvastada. Võimalik, et peate pisut muutma oma WiFi-ruuteri seadeid. Vaadake lisateavet siit.</string>
+    <string name="setup_ssdp_scan_pattern">siit</string>
+    <string name="wpa_auth_ieee_8021x">Kaitstud 802.1x EAP-ga</string>
+    <string name="wpa_auth_none_open">Kaitsmata</string>
+    <string name="wpa_auth_none_wep">Kaitstud WEP-ga</string>
+    <string name="wpa_auth_none_wep_shared">Kaitstud WEP-ga</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">Kaitstud WPA-ga</string>
+    <string name="wpa_auth_wpa_psk">Kaitstud WPA-ga</string>
+    <string name="wpa_auth_wpa2_eap">Kaitstud WPA2-ga</string>
+    <string name="wpa_auth_wpa2_psk">Kaitstud WPA2-ga</string>
+    <string name="play_services_old_alert">Google Play teenuseid tuleb värskendada. Avage Play pood ja vaadake, kas värskendused on saadaval.</string>
+    <string name="oss_licenses_title">Avatud lähtekoodi litsentsid</string>
+    <string name="loading_licenses">Litsentside toomine …</string>
+    <string name="loading_licenses_failed">Meil ei õnnestu praegu hankida teie Chromecastilt avatud lähtekoodi litsentse. Proovige hiljem uuesti.</string>
+    <string name="send_crash_reports">"Saada Chromecasti kasutusandmed ja krahhiaruanded Google'ile"</string>
+    <string name="use_device_id_text">Värskenduste kontrollimisel saada see Chromecasti seerianumber</string>
+    <string name="preferences_info_title">Teave</string>
+    <string name="preference_terms_of_service_title">Teenusetingimused</string>
+    <string name="preference_privacy_policy_title">Privaatsuseeskirjad</string>
+    <string name="preference_open_source_licenses_title">Avatud lähtekoodi litsentsid</string>
+    <string name="preference_software_version_title">Tarkvara versioon</string>
+    <string name="help_menu_print">Printimine …</string>
+    <string name="help_menu_view_in_google_play_store">Kuvamine Google Play poes</string>
+    <string name="mirror_splash_heading">Peegeldage telefoni või tahvelarvuti ekraani</string>
+    <string name="mirror_splash_body">Ekraani/heli ülekandmine võimaldab teil peegeldada seadmes olevat sisu teleris või kõlarites.</string>
+    <string name="mirror_button">Ekraani/heli ülekandmine</string>
+    <string name="disconnect_mirror_button">Puudutage ühenduse katkestamiseks</string>
+    <string name="disconnect_mirror_button_description">Eemalda ülekande ekraan</string>
+    <string name="mirror_help_link">Külastage abikeskust</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">Kuva ülekandmine</string>
+    <string name="cast_screen_on_long_status_name">Seda kuva kantakse praegu üle seadmes %1$s</string>
+    <string name="cast_screen_on_long_status_no_name">Seda kuva kantakse praegu üle</string>
+    <string name="cast_screen_disconnect_toast">Ühenduse katkestamine…</string>
+    <string name="cast_screen_connect_toast">Ühendamine…</string>
+    <string name="cast_screen_no_devices">"Teie võrgust ei leitud ühilduvaid Google Casti seadmeid.
+
+Lisateabe saamiseks %1$s."</string>
+    <string name="cast_screen_no_devices_link">külastage abikeskust</string>
+    <string name="cast_screen_unapproved_device_warning">Ekraanikuva ülekandmine ei ole optimeeritud selle seadme jaoks, kasutuskogemus võib olla erinev.</string>
+    <string name="cast_screen_enable_wifi_title">Kas lülitada WiFi sisse?</string>
+    <string name="cast_screen_enable_wifi_message">Ekraani ülekandmiseks on vaja WiFi-ühendust.</string>
+    <string name="backdrop_settings_entry_point">Taustadekoratsiooni seaded</string>
+    <string name="backdrop_unlinking_confirmation">Kas eemaldada taustadekoratsiooni eelistused seadmest %1$s?</string>
+    <string name="backdrop_on_current_network">Teie võrgus</string>
+    <string name="backdrop_on_other_network">Teises võrgus</string>
+    <string name="photos_setting_turned_off_toast">Seade „Teie fotod” lülitatakse välja, sest ühtegi albumit ei valitud.</string>
+    <string name="weather_activity_title">Ilm</string>
+    <string name="weather_search_places">Asukoha lisamine</string>
+    <string name="backdrop_added_date">Lisati %1$s</string>
+    <string name="backdrop_unlink_device_description">Taustadekoratsiooni kuvava seadme %1$s linkimise tühistamine</string>
+    <string name="backdrop_link_scan_text">Chromecastide skannimine ...</string>
+    <string name="backdrop_legal_title">Taustadekoratsiooniks on vaja:</string>
+    <string name="backdrop_legal_text">"• Kasutage oma Chromecasti asukohta asjakohaste fotode ja muu sisu leidmiseks.
+
+• Lubage Chromecastil kasutada teie Google'i kontot, et saada juurdepääs oma fotodele, kohandada taustadekoratsioone ja hallata eelistusi.
+
+ Saate neid seaded hiljem selle rakenduse abil muuta."</string>
+    <string name="backdrop_allow">Luba</string>
+    <string name="backdrop_unlink_device_accessibility">Tühista seadme %1$s linkimine taustadekoratsiooniga</string>
+    <string name="backdrop_link_error_all_devices">Taustadekoratsiooniga linkimine ei õnnestu. Proovige hiljem uuesti.</string>
+    <string name="backdrop_unlink_error_all_devices">Taustadekoratsiooniga linkimise tühistamine ei õnnestu. Proovige hiljem uuesti.</string>
+    <string name="backdrop_network_error">Taustadekoratsiooni seadeid ei õnnestunud laadida. Veenduge, et seade saaks ühenduse Internetiga, ja proovige uuesti.</string>
+    <string name="backdrop_device_linking_message">Taustadekoratsiooni lisamine …</string>
+    <string name="backdrop_device_unlinking_message">Taustadekoratsiooni eelistuste eemaldamine …</string>
+    <string name="backdrop_device_unlink_success">Taustadekoratsiooni eelistused on eemaldatud</string>
+    <string name="backdrop_device_setting_update_error">Kasutajat %1$s ei saa värskendatud seadetest teavitada</string>
+    <string name="backdrop_settings_turned_off_toast">%1$s lülitatakse välja, sest ühtegi üksust pole valitud.</string>
+    <string name="backdrop_setting_defer_loading_error">Midagi läks valesti. Seadeid ei saa laadida.</string>
+    <string name="backdrop_oauth_callback_error">Kontot ei saa autentida.</string>
+    <string name="backdrop_revoke_third_party_error">Midagi läks valesti. Teie kontot ei saa eemaldada.</string>
+    <string name="backdrop_facebook_sdk_login_error">Facebookiga ei saa ühendust luua. Proovige hiljem uuesti.</string>
+    <string name="backdrop_revoke_third_party_dialog_title">Kas eemaldada konto?</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">Eemalda</string>
+    <string name="setting_on">Sees</string>
+    <string name="setting_off">Väljas</string>
+    <string name="accessibility_checked">Märgitud</string>
+    <string name="accessibility_not_checked">Märkimata</string>
+    <string name="backdrop_no">Ei, tänan</string>
+    <string name="backdrop_signin_ok">Logi sisse</string>
+    <string name="backdrop_default_title">Taustadekoratsiooni kujutis</string>
+    <string name="backdrop_default_attribution">Mingit teavet pole saadaval</string>
+    <string name="backdrop_ready_to_cast">Valmis ülekandeks</string>
+    <string name="tv_show_description">%1$s, %2$d. hooaeg, %3$d. jagu</string>
+    <string name="spinner_loading_text">Andmete laadimine …</string>
+    <string name="remote_devices">Lingitud taustadekoratsiooni kasutavad seadmed (%1$d)</string>
+    <string name="albums_download_server_error">Albumeid ei õnnestunud laadida. Proovige hiljem uuesti.</string>
+    <string name="albums_download_no_connection_error">Albumeid ei õnnestunud laadida. Veenduge, et seadmes oleks Interneti-ühendus, ja proovige uuesti.</string>
+    <string name="no_albums_text">Teil pole sellel kontol ühtegi albumit. Kui loote albumid, siis need on siin saadaval.</string>
+    <string name="photos_progress_spinner_text">Albumite laadimine …</string>
+    <string name="preview_title">Eelvaade</string>
+    <string name="preview_num_photos">Esimesed %1$d fotot %2$d-st</string>
+    <string name="menu_sorting">Sortimine</string>
+    <string name="menu_album_refresh">Värskendamine</string>
+    <string name="remove_weather_location_dialog_body">Kas soovite kustutada seadme %1$s ilma asukoha?</string>
+    <string name="remove_weather_location_dialog_remove">Eemalda</string>
+    <string name="remove_weather_location_dialog_keep">Jäta alles</string>
+    <string name="temperature_format_dialog_title">Temperatuuri vorming</string>
+    <string name="temperature_format_dialog_set">Määra</string>
+    <string name="temperature_format_dialog_cancel">Tühista</string>
+    <string name="farenheit">°F</string>
+    <string name="celsius">°C</string>
+    <string name="add_location">Lisa asukoht</string>
+    <string name="use_chromecast_location">Chromecasti asukohtade kasutamine</string>
+    <string name="temperature_format_preference">Temperatuuri vormingu eelistus</string>
+    <string name="location_toast_message">%1$s on juba asukohtade loendis.</string>
+    <string name="update_prompt">Tundub, et saadaval on rakenduse uuem versioon. Funktsioon toimib õigesti ainult siis, kui värskendate rakendust.</string>
+    <string name="update_title">Kas värskendada Chromecasti rakendust?</string>
+    <string name="update_button">Värskenda</string>
+    <string name="update_cancel">Ei, tänan</string>
+    <string name="whats_on_tab_name">Mida näidat.?</string>
+    <string name="my_devices_tab_name">Seadmed</string>
+    <string name="get_apps_tab_name">Rak. hank.</string>
+    <string name="open_app_button">Ava rakendus</string>
+    <string name="search_hint">Otsige filme ja saateid</string>
+    <string name="app_install_button">Installi</string>
+    <string name="browse_all_apps">Sirvi kõiki rakendusi</string>
+    <string name="view_all_text">Kuva kõik</string>
+    <string name="intent_error">Rakendust ei saanud avada.</string>
+    <string name="trailer">Tutvustus</string>
+    <string name="drawer_item_home">Avaleht</string>
+    <string name="unavailable_to_cast">Seda sisu ei saa üle kanda.</string>
+    <string name="details_error_msg">Selle sisu üksikasju ei saanud laadida.</string>
+    <string name="browse_view_no_feeds_title">Hankige mõni rakendus</string>
+    <string name="browse_view_no_feeds_message">Installige mõni ülekandmisloaga rakendus, et alustada oma lemmiksisu ülekandmist telerisse ja kõlaritesse.</string>
+    <string name="get_apps">Hangi rakendusi</string>
+    <string name="browse_view_timeout_title">Juurdepääsu võrgule ei saa luua</string>
+    <string name="browse_view_timeout_message">Meil ei õnnestu võrguühendust luua. Lülitage WiFi sisse ja veenduge, et teie seade pole lennukirežiimis.</string>
+    <string name="try_again">Proovi uuesti</string>
+    <string name="search_no_results_title">Tulemusi ei leitud</string>
+    <string name="search_no_results_description">Proovige otsida midagi muud.</string>
+    <string name="accessibility_open_app">Ava rakendus: %1$s</string>
+    <string name="accessibility_clip_duration">Kestus: %1$s</string>
+    <string name="accessibility_offer_card">Pakkumiste kaart</string>
+    <string name="accessibility_app_card">Rakenduse %1$s kaart</string>
+    <string name="accessibility_category_card">Kategooria %1$s rakenduste kaart: %2$s</string>
+    <string name="redeem_offer">Lunastamine</string>
+    <string name="offer_terms">Kuva tingimused</string>
+    <string name="hide_offer">Peitmine</string>
+    <string name="offer_options">Pakkumise valikud</string>
+    <string name="offer_redemption_error">Kahjuks ei saanud me seda pakkumist lunastada. See võib olla selles seadmes juba lunastatud.</string>
+    <string name="found_header_text">Seadistame Chromecasti %1$s</string>
+    <string name="found_body_text">Saate hakata lemmiksisu peagi üle kandma.</string>
+    <string name="start_setup_button">Seadista</string>
+    <string name="setup_before_sound_text">Esitame kohe heli, et testida teie seadet Chromecast Audio.</string>
+    <string name="setup_after_sound_text">Kas kuulsite heli oma kõlaritest?</string>
+    <string name="setup_play_sound_button">Esita testheli</string>
+    <string name="setup_heard_sound_button">Kuulsin seda</string>
+    <string name="setup_no_sound_button">Ei kuulnud seda</string>
+    <string name="setup_help_text">Veenduge, et kõlarid oleksid sisse lülitatud ega oleks vaigistatud.</string>
+    <string name="setup_tap_image_text">(puudutage uuesti esitamiseks)</string>
+    <string name="no_sound_header">Kas te ei kuule heli?</string>
+    <string name="setup_error_steps">Proovige järgmisi toiminguid…</string>
+    <string name="no_sound_text1">Veenduge, et Chromecast Audio helikaabel oleks ühendatud õigesse sisendisse.</string>
+    <string name="no_sound_text2">Veenduge, et kõlar oleks sisse lülitatud ja valitud oleks õige sisend.</string>
+    <string name="no_sound_text3">Veenduge, et kõlari heli poleks vaigistatud.</string>
+    <string name="play_sound_again_button">Esita heli uuesti</string>
+    <string name="setup_failed_header">Midagi on valesti…</string>
+    <string name="audio_setup_failed_text1">Võib-olla lõite kogemata ühenduse Chromecast Audioga, mis ei kuulu teile. Veenduge, et teie Chromecast Audio oleks ühendatud ja kõlari sisend oleks õige.</string>
+    <string name="audio_setup_failed_text2">Soovitame seadme seadistamise katkestada, kuni kuulete kõlaritest heli.</string>
+    <string name="wrong_pin_header">Kas koodi ei ole teleriekraanil?</string>
+    <string name="wrong_pin_text1">Veenduge, et teler oleks sisse lülitatud.</string>
+    <string name="wrong_pin_text2">Veenduge, et teleris on valitud HDMI-sisend, kuhu ühendasite Chromecasti.</string>
+    <string name="done_header_text">Olete valmis ülekande alustamiseks.</string>
+    <string name="done_body_audio_text">Avage üks Cast-toega muusikarakendustest ja puudutage rakenduse Cast nuppu.</string>
+    <string name="done_body_text">Avage üks Cast-toega rakendustest ja puudutage rakenduse Cast nuppu.</string>
+    <string name="done_button">Sirvige oma Cast-toega rakendusi</string>
+    <string name="setup_failed_text1">Võib-olla lõite kogemata ühenduse Chromecastiga, mis ei kuulu teile. Veenduge, et teie Chromecast oleks ühendatud ja teleris oleks valitud õige sisend.</string>
+    <string name="setup_failed_text2">Soovitame Chromecasti seadistamise katkestada, kuni saate koodi kinnitada.</string>
+    <string name="setup_complete_header_text">Võrguühendus töötab</string>
+    <string name="setup_complete_check_ota_body_text">Oodake, kuni otsime värskendusi.</string>
+    <string name="ota_wait_percent">%1$d%%</string>
+    <string name="ota_wait_header_text">Värskendamine on kohustuslik</string>
+    <string name="ota_wait_body_text">Oodake, kuni toome värskenduse.</string>
+    <string name="chromecast_ota_downloading">Värskenduse allalaadimine</string>
+    <string name="chromecast_ota_updating">Värskenduse installimine, oodake veidi</string>
+    <string name="chromecast_ota_done">Värskendamine on lõpetatud</string>
+    <string name="skip_learn_video_button_text">Jäta vahele</string>
+    <string name="skip_tutorial_page_button_text">Jäta vahele</string>
+    <string name="tutorial_next_description">Järgmine</string>
+    <string name="ota_error_header">Värskendamine võtab oodatust kauem aega</string>
+    <string name="ota_error_options_none">Mitte ühtegi ülalolevatest</string>
+    <string name="ota_error_done_btn">OK, selge</string>
+    <string name="ota_error_troubleshoot_btn">Veaotsing</string>
+    <string name="ota_error_download_slow_header">Värskenduse allalaadimiseks kulub oodatust kauem aega</string>
+    <string name="ota_error_download_slow_description">Seda võivad põhjustada teie WiFi-ruuteri seaded või Interneti-ühenduse kiirus.</string>
+    <string name="ota_error_audio_description">Chromecast Audio oleku kontrollimiseks leidke seadme küljel olev LED-tuli.</string>
+    <string name="ota_error_audio_option_blink_orange">Vilgub oranžilt</string>
+    <string name="ota_error_audio_option_blink_white">Vilgub valgelt</string>
+    <string name="ota_error_audio_option_white">Põleb valgelt</string>
+    <string name="ota_error_blink_orange_header">Värskendamine on ikka pooleli</string>
+    <string name="ota_error_blink_orange_description">"Kui Chromecast Audio värskendamine on lõpetatud, süttib LED-tuli valgena.
+
+Kui see on tehtud, peaksite Chromecast Audiot nägema järgmise ekraani vahekaardil Seadmed."</string>
+    <string name="ota_error_blink_white_header">Värskendamist ei lõpetatud</string>
+    <string name="ota_error_blink_white_description">Näib, et midagi läks värskendamisel valesti.</string>
+    <string name="ota_error_solid_white_header">Värskendamine lõpetati</string>
+    <string name="ota_error_solid_white_description">"Näib, et värskendamine lõpetati. See seade võib aga olla ühendatud Chromecast Audiost erinevasse WiFi-võrku.
+
+Proovige seade ühendada Chromecast Audioga samasse WiFi-võrku.
+
+Kui see õnnestub, peaksite Chromecast Audiot nägema järgmise ekraani vahekaardil Seadmed."</string>
+    <string name="ota_error_tv_description">Chromecasti oleku kontrollimiseks vaadake telerit.</string>
+    <string name="ota_error_tv_option_installing">Installimine on ikka pooleli</string>
+    <string name="ota_error_tv_option_ready">Ülekandeks valmis</string>
+    <string name="ota_error_still_installing_header">Installimine on ikka pooleli</string>
+    <string name="ota_error_still_installing_description">"Kui Chromecasti värskendamine on lõpetatud, peaksite teleris nägema sõnumit „Ülekandeks valmis”.
+
+Pärast värskendamist peaksite oma Chromecasti nägema järgmise ekraani vahekaardil Seadmed."</string>
+    <string name="ota_error_ready_to_cast_header">Ülekandeks valmis</string>
+    <string name="ota_error_ready_to_cast_description">"Näib, et teie Chromecasti värskendamine on lõpetatud ja see on ülekandeks valmis, kuid teie telefon või tahvelarvuti võib olla ühendatud teise WiFi-võrku.
+
+Veenduge, et teie telefon või tahvelarvuti oleks Chromecastiga samas WiFi-võrgus."</string>
+    <string name="stop_casting_button">Katkesta ülekandmine</string>
+    <string name="no_media_info">Teave puudub</string>
+</resources>

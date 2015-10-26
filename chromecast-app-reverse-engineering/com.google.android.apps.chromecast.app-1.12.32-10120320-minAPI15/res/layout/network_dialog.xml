@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/edit_wifi_view" android:paddingLeft="@dimen/dialog_outer_padding" android:paddingRight="@dimen/dialog_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_padding">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/network_selector" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loading_view" android:paddingTop="@dimen/dialog_outer_padding" android:paddingBottom="@dimen/dialog_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProgressSpinner.Material" />
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/cover_image_container" layout="@layout/detail_cover_image" />
+    <TextView android:id="@id/duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/cover_image_container" android:layout_alignBottom="@id/cover_image_container" style="@style/DurationBadge" />
+    <View android:background="@color/md_lightblue_600" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thumbnail_offset" android:layout_alignTop="@id/header_container" android:layout_alignBottom="@id/header_container" />
+    <RelativeLayout android:id="@id/header_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/negative_thumbnail_offset" android:layout_below="@id/cover_image_container">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thumbnail_offset" android:layout_toRightOf="@id/entity_thumbnail" style="@style/DetailContentTitle" />
+        <TextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/entity_thumbnail" android:layout_below="@id/title" style="@style/DetailContentSubtitle" />
+        <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/entity_thumbnail" android:layout_width="@dimen/details_thumbnail_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_padding" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:contentDescription="@null" android:elevation="10.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

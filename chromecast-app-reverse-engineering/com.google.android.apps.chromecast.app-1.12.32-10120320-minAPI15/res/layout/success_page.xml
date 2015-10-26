@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:id="@id/scroll_area" android:background="@color/app_background" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:background="@color/app_background" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/done_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_padding_top" android:src="@drawable/setup_done" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <TextView android:id="@id/done_header_text" android:text="@string/done_header_text" android:layout_below="@id/done_image" style="@style/WarmWelcomeText.Title" />
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/done_header_body" android:text="@string/done_body_text" android:layout_below="@id/done_header_text" style="@style/WarmWelcomeText.Description" />
+        <Button android:id="@id/done_button" android:text="@string/done_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Button.Orange.LargeFixed" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_outer_padding" android:paddingRight="@dimen/dialog_outer_padding" android:paddingBottom="@dimen/dialog_outer_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/message" android:paddingLeft="@dimen/dialog_outer_padding" android:paddingBottom="@dimen/content_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cast_screen_unapproved_device_warning" style="@style/AlertText" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/panel_padding" android:text="@string/alert_dont_show_again" style="@style/AlertText" />
+</LinearLayout>

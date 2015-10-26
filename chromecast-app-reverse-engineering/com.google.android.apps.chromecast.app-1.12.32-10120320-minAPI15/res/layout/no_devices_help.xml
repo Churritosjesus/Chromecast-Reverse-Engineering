@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setup_help" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_devices_image" android:paddingBottom="@dimen/content_large_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/no_devices_steps" />
+    <Button android:layout_gravity="center" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/mirror_help_link" android:onClick="onGetHelpClicked" style="@style/Button.Flat.Gray" />
+</LinearLayout>

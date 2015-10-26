@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@android:color/black" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignLeft="@id/cover_image" android:layout_alignTop="@id/cover_image" android:layout_alignRight="@id/cover_image" android:layout_alignBottom="@id/cover_image" />
+    <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/trailer_scrim" android:background="@color/transparent_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/cover_image" android:layout_alignTop="@id/cover_image" android:layout_alignRight="@id/cover_image" android:layout_alignBottom="@id/cover_image">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trailer" style="@style/TrailerText" />
+    </FrameLayout>
+</RelativeLayout>

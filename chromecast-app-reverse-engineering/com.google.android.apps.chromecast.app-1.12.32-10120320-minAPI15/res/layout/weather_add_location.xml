@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/cast_blue" android:id="@id/addLocationText" android:text="@string/add_location" android:layout_toRightOf="@id/addLocationIcon" style="@style/BackdropSettingDescription" />
+    <ImageView android:id="@id/addLocationIcon" android:src="@drawable/button_add" android:layout_alignBottom="@id/addLocationText" style="@style/WeatherIconStyle" />
+    <View android:layout_toRightOf="@id/addLocationIcon" android:layout_below="@id/addLocationText" android:layout_alignLeft="@id/addLocationText" style="@style/Line" />
+</RelativeLayout>

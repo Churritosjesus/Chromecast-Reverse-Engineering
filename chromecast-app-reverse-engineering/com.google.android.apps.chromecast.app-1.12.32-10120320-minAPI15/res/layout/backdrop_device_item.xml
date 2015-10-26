@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/card_max_width" android:layout_height="@dimen/backdrop_device_row_height" style="@style/SelectableItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/panel_padding" android:paddingRight="@dimen/panel_padding" android:layout_width="0.0dip" android:layout_height="@dimen/backdrop_device_row_height" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="bottom" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="0.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/md_grey_500" android:gravity="top" android:id="@id/added_date" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center_vertical" android:id="@id/unlink_backdrop" android:paddingLeft="@dimen/panel_padding" android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_btn_remove_selected" android:contentDescription="@string/backdrop_unlink_device_accessibility" />
+</LinearLayout>

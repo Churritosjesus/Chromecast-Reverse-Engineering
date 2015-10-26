@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backdrop_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.chromecast.app.widget.ChromecastSwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:gravity="center_horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:layout_gravity="center_horizontal" android:id="@android:id/list" android:paddingTop="@dimen/panel_padding" android:paddingBottom="@dimen/panel_padding" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="@dimen/listitem_padding" android:choiceMode="multipleChoice" />
+            <View android:id="@id/disable_list_overlay" android:background="@color/disable_list_overlay_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewFlipper android:id="@android:id/empty" android:background="@color/backdrop_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/progress_panel" />
+            </ViewFlipper>
+        </FrameLayout>
+    </com.google.android.apps.chromecast.app.widget.ChromecastSwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/image_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/promo_image" android:background="@color/md_grey_300" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/graphics_backdrop" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/card_max_width">
+        <TextView android:id="@id/card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DeviceCardName" />
+        <TextView android:id="@id/card_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/cast_blue" android:id="@id/positive_button" style="@style/CardButtonText" />
+        <TextView android:textColor="@color/cast_blue" android:id="@id/negative_button" android:text="@string/ignore" style="@style/CardButtonText" />
+    </LinearLayout>
+</LinearLayout>

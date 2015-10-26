@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/browse_timeout" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/splash_padding" android:paddingTop="@dimen/empty_state_top_padding" android:paddingRight="@dimen/splash_padding" android:paddingBottom="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_signal_wifi_off" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browse_view_timeout_title" style="@style/EmptyStateTextTitle" />
+            <TextView android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/browse_view_timeout_message" style="@style/EmptyStateTextMessage" />
+            <Button android:id="@id/try_again" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/try_again" android:onClick="enableWifi" style="@style/Button.Orange.LargeFixed" />
+        </LinearLayout>
+    </ScrollView>
+</merge>

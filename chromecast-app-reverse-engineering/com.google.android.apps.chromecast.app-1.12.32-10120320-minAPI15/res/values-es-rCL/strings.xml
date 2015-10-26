@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_devices_title">No se encontró ningún Chromecast</string>
+    <string name="no_devices_text1">Conecta el Chromecast al puerto HDMI de la TV.</string>
+    <string name="no_devices_text2">Conecta el cable de alimentación USB a la TV o al adaptador de corriente USB.</string>
+    <string name="no_devices_text3">Asegúrate de que el teléfono o la tablet y el Chromecast estén conectados a la misma red Wi-Fi.</string>
+    <string name="no_devices_text4">Asegúrate de que la TV esté encendida y que esté seleccionada la entrada correcta.</string>
+    <string name="no_audio_devices_text1">Asegúrate de que el Chromecast Audio esté conectado a una toma de corriente o un puerto USB.</string>
+    <string name="no_audio_devices_text2">Asegúrate de que el teléfono o la tablet y el Chromecast Audio estén conectados a la misma red Wi-Fi.</string>
+    <string name="no_audio_devices_text3">Asegúrate de que la bocina esté encendida y que esté seleccionada la entrada correcta.</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">Configura tu Chromecast o Chromecast Audio</string>
+    <string name="no_devices_splash_subtext">Selecciona el tipo de Chromecast que deseas configurar:</string>
+    <string name="location_services_dialog">Activa Servicios de ubicación para configurar tu %1$s. Esta acción permite que el teléfono detecte %2$s cercanos, listos para configurar.</string>
+    <string name="add_device">Agregar nuevo dispositivo</string>
+    <string name="terms_title">Privacidad y condiciones</string>
+    <string name="terms_text">"En la Política de privacidad de Google, se describe la información que Google recopila durante la configuración y el uso del Chromecast. Después de configurar el Chromecast, puedes modificar la configuración de privacidad (por ejemplo, para que el dispositivo envíe datos de uso e informes de fallos a Google) con las opciones de configuración del dispositivo de esta aplicación.
+
+Al hacer clic en la opción “Aceptar” que se encuentra a continuación, aceptas las %1$s y la %2$s."</string>
+    <string name="terms_text_germany">"En la Política de privacidad de Google, se describe la información que Google recopila durante la configuración y el uso del Chromecast. Después de configurar el Chromecast, puedes modificar la configuración de privacidad (por ejemplo, para que el dispositivo envíe datos de uso e informes de fallos a Google) a través de las opciones de configuración del dispositivo de esta aplicación.
+
+Al hacer clic en la opción “Aceptar” que se encuentra a continuación, aceptas las %1$s y confirmas que leíste la %2$s."</string>
+    <string name="terms_of_service_pattern">Condiciones del servicio de Google</string>
+    <string name="dogfood_confidentiality_text">Esta es una versión de Chromecast para hacer una prueba interna y contiene funciones que aún no se publicaron.</string>
+    <string name="dogfood_confidentiality_title">Confidencial</string>
+    <string name="dogfood_confidentiality_accept">Entendido</string>
+    <string name="privacy_policy_pattern">Política de privacidad</string>
+    <string name="privacy_policy_pattern_germany">Política de privacidad de Google</string>
+    <string name="terms_accept">Aceptar</string>
+    <string name="terms_decline">Cancelar</string>
+    <string name="setup_title_enable_wifi">Habilitando Wi-Fi…</string>
+    <string name="not_set_up_info">Requiere configuración</string>
+    <string name="wifi_enable_title">No se detectó ninguna red Wi-Fi</string>
+    <string name="wifi_enable_message">Activa Wi-Fi para establecer conexión con el Chromecast.</string>
+    <string name="wifi_enable_proceed">Activar Wi-Fi</string>
+    <string name="wifi_enable_fail">No se pudo establecer conexión con la red Wi-Fi. Comprueba la configuración de la red Wi-Fi y vuelve a intentarlo.</string>
+    <string name="no_wifi_title">Wi-Fi no disponible</string>
+    <string name="menu_discover_help">Ayuda y comentarios</string>
+    <string name="discover_help_title">¿Por qué mi Chromecast o Chromecast Audio no aparece en la lista?</string>
+    <string name="discover_help_text">"Comprueba lo siguiente sobre el Chromecast:
+• Está ubicado a una distancia no mayor a seis metros (veinte pies) de este dispositivo.
+• Está encendido (por medio del cable USB) y la luz indicadora es de color blanco.
+• Está conectado a la misma red Wi-Fi que este dispositivo (si está configurado).
+
+Comprueba lo siguiente sobre la red Wi-Fi:
+• Permite que se conecten dispositivos nuevos.
+
+Si tu Chromecast sigue sin aparecer, puedes hacer lo siguiente:
+• Restablece la configuración de fábrica. Para hacerlo, presiona el botón de restablecimiento durante quince segundos.
+
+Para obtener más ayuda, visita la página support.google.com/chromecast."</string>
+    <string name="developer_mode_toast">El modo de programador está habilitado.</string>
+    <string name="drawer_item_learn">Más información</string>
+    <string name="drawer_item_backdrop">Fondo</string>
+    <string name="drawer_item_settings">Configuración</string>
+    <string name="drawer_item_cast_screen">Transmitir la pantalla o el audio</string>
+    <string name="drawer_open">Abrir panel de navegación</string>
+    <string name="drawer_close">Cerrar panel de navegación</string>
+    <string name="accessibility_settings">Abrir configuración del dispositivo</string>
+    <string name="ignore">Ignorar</string>
+    <string name="setup">Configurar</string>
+    <string name="hidden_device_count">Dispositivos ignorados (%1$d)</string>
+    <string name="opencast_pin">PIN: %1$s</string>
+    <string name="backdrop_exit_history">Listo</string>
+    <string name="backdrop_history_label">Historia %1$s/%2$s</string>
+    <string name="accessibility_backdrop_history">Ingresar al historial de Fondo</string>
+    <string name="accessibility_backdrop_history_exit">Salir del historial de Fondo</string>
+    <string name="accessibility_backdrop_history_previous">Ir a la imagen anterior del historial de Fondo</string>
+    <string name="accessibility_backdrop_history_next">Ir a la imagen siguiente del historial de Fondo</string>
+    <string name="device_settings_title">Configuración de Chromecast</string>
+    <string name="device_connect_progress">Conectándose a %1$s</string>
+    <string name="device_connect_failed">No se pudo establecer conexión con el Chromecast. Asegúrate de que esté cerca.</string>
+    <string name="device_connect_failed_poor_link_title">No se puede establecer conexión con el dispositivo Chromecast</string>
+    <string name="device_connect_failed_poor_link">Asegúrate de que el Chromecast esté cerca y de que la opción de cambio de red automático en la configuración de Wi-Fi permanezca desactivada hasta que la configuración del dispositivo se complete.</string>
+    <string name="device_setup_progress">Conectando tu Chromecast a %1$s</string>
+    <string name="device_ethernet_setup_progress">Conectando el Chromecast</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s no se pudo conectar a %2$s. Comprueba la contraseña.</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s no se pudo conectar a %2$s. Comprueba el nombre de la red Wi-Fi.</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s no se pudo conectar a %2$s. Comprueba el router Wi-Fi.</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s no se pudo conectar a %2$s. Comprueba la entrada.</string>
+    <string name="device_reboot_progress">Reiniciando %1$s</string>
+    <string name="settings_saved_toast">El cambio de configuración se aplicó a tu Chromecast.</string>
+    <string name="wifi_different_title">Cambiar la red Wi-Fi</string>
+    <string name="wifi_different_message">Las redes Wi-Fi del Chromecast (%2$s) y este dispositivo (%1$s) son diferentes. Después de la configuración, este dispositivo se conectará a %2$s para que puedas utilizar el Chromecast.</string>
+    <string name="confirm_reboot">¿Quieres reiniciar %1$s?</string>
+    <string name="confirm_reset">¿Quieres restablecer la configuración de fábrica de %1$s?</string>
+    <string name="reboot_ok">Aceptar</string>
+    <string name="settings_device_label">INFORMACIÓN SOBRE EL DISPOSITIVO</string>
+    <string name="settings_name_label">Nombre</string>
+    <string name="settings_wifi_label">Wi-Fi</string>
+    <string name="settings_time_zone_label">Zona horaria</string>
+    <string name="settings_time_format_label">Formato de hora</string>
+    <string name="settings_locale_label">Idioma</string>
+    <string name="settings_sounds_label">SONIDOS</string>
+    <string name="settings_playback_sounds_label">Sonidos de reproducción</string>
+    <string name="settings_playback_sounds_description">Inicio de la transmisión y cambios de volumen</string>
+    <string name="settings_hdr_label">Alto rango dinámico</string>
+    <string name="settings_hdr_description">Para sistemas AVR y de alta fidelidad</string>
+    <string name="settings_privacy_label">PRIVACIDAD</string>
+    <string name="settings_opencast_label">Modo de invitado</string>
+    <string name="settings_opencast_pin">PIN %1$s</string>
+    <string name="settings_opencast_getting_pin">Obteniendo el PIN del dispositivo…</string>
+    <string name="settings_cast_nearby_intro_description">"Permite que cualquier persona que se encuentre en la misma habitación se conecte a tu %1$s sin que haya establecido conexión con la red Wi-Fi.
+
+Usa una combinación de la ubicación de tu %2$s y Wi-Fi para identificar dispositivos cercanos."</string>
+    <string name="settings_cast_nearby_learn_more">Más información</string>
+    <string name="settings_cast_nearby_learn_title">Cómo funciona</string>
+    <string name="settings_cast_nearby_learn_description">"Para conectarse al dispositivo del invitado, tu %1$s transferirá de forma automática el PIN de cuatro dígitos a través de un tono de audio breve que no podrás oír.
+
+Si el audio no se sincroniza, se le solicitará al invitado que ingrese el PIN que aparece en la aplicación de Chromecast.
+
+Puedes desactivar esta función cuando lo desees."</string>
+    <string name="settings_information_label">INFORMACIÓN</string>
+    <string name="wifi_other_name">Otra…</string>
+    <string name="wifi_name_title">Nombre de la red</string>
+    <string name="wifi_password_title_setup">Contraseña de Wi-Fi</string>
+    <string name="wifi_password_hint">(sin cambios)</string>
+    <string name="wifi_security_title">Seguridad</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">señal muy débil</string>
+    <string name="wifi_level_description_2">señal débil</string>
+    <string name="wifi_level_description_3">señal fuerte</string>
+    <string name="wifi_level_description_4">señal muy fuerte</string>
+    <string name="device_mac_address_pattern">Dirección MAC: %1$s</string>
+    <string name="device_ip_address_pattern">Dirección IP: %1$s</string>
+    <string name="device_build_version_pattern">Versión del firmware: %1$s</string>
+    <string name="device_country_code_pattern">Código de país: %1$s</string>
+    <string name="time_format_12_hours">Utilizar formato de 12 horas</string>
+    <string name="time_format_24_hours">Utilizar formato de 24 horas</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">No se pudo establecer comunicación con el Chromecast. Es posible que tengas que volver a intentarlo.</string>
+    <string name="execute_requests_failed">No se pudo establecer comunicación con el Chromecast.</string>
+    <string name="execute_requests_failed_status">No se pudo establecer comunicación con el Chromecast (%1$s).</string>
+    <string name="config_wifi_device_not_found">"No se encontró %1$s en la red Wi-Fi. Comprueba la configuración de Wi-Fi.
+• Si tienes un router de doble banda (2.4 y 5 GHz), asegúrate de que no esté en modo de aislamiento de AP.
+• Si el router tiene habilitada la lista blanca para direcciones MAC, asegúrate de que permita que este dispositivo y el Chromecast se conecten.
+Para obtener más ayuda y solucionar este problema, visita support.google.com/chromecast."</string>
+    <string name="menu_reboot">Reiniciar Chromecast</string>
+    <string name="menu_reset">Restablecer la configuración de fábrica de Chromecast</string>
+    <string name="menu_feedback">Enviar informe de comentarios</string>
+    <string name="menu_oss_licenses">Licencias de código abierto</string>
+    <string name="menu_other_licenses_title">Otras licencias</string>
+    <string name="alert_cancel">Cancelar</string>
+    <string name="alert_ok">Aceptar</string>
+    <string name="alert_yes">Sí</string>
+    <string name="alert_settings">Abrir la configuración</string>
+    <string name="alert_wifi_settings">Configuración de Wi-Fi</string>
+    <string name="alert_dont_show_again">No volver a mostrar esto</string>
+    <string name="continue_button_text">Continuar</string>
+    <string name="menu_offers">Buscar ofertas</string>
+    <string name="prompt_offers_serial_number">¿Aceptas compartir el número de serie de tu dispositivo Chromecast con Google para conocer las ofertas disponibles?</string>
+    <string name="prompt_offers_button_neg">Cancelar</string>
+    <string name="prompt_offers_button_pos">Aceptar</string>
+    <string name="progress_offers">Buscando ofertas…</string>
+    <string name="offers_failure">No es posible buscar ofertas. Asegúrate de que tu dispositivo Chromecast esté configurado y listo para transmitir contenido.</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">de Chromecast</string>
+    <string name="device_type_chromecast_plural">Chromecasts</string>
+    <string name="device_type_chromecast_audio">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_possessive">de Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_plural">Chromecast Audios</string>
+    <string name="found_title">Se encontró %1$s</string>
+    <string name="configure_title">Configurar %1$s</string>
+    <string name="name_choice_title">Asigna un nombre a tu %1$s</string>
+    <string name="name_choice_hint">Ejemplo: \"Sala de estar\"</string>
+    <string name="setup_enable_opencast_text">Habilitar el modo de invitado</string>
+    <string name="setup_enable_opencast_description">Esto permite a cualquier dispositivo presente en la misma sala transmitir contenido sin necesidad de establecer conexión con la misma red Wi-Fi. Utiliza una combinación de la ubicación de tu dispositivo de transmisión y la red Wi-Fi para encontrar dispositivos cercanos.</string>
+    <string name="apply_wifi_button_text">Establecer red</string>
+    <string name="apply_name_button_text">Establecer nombre</string>
+    <string name="show_password_text">Mostrar contraseña</string>
+    <string name="configure_network_heading_text">Conecta el dispositivo Chromecast a la red Wi-Fi</string>
+    <string name="configuration_fail_dialog_title">Problema de conexión durante la configuración</string>
+    <string name="configuration_fail_dialog_message">Comprueba la configuración de la red Wi-Fi.</string>
+    <string name="reconfigure_cancel">Cancelar</string>
+    <string name="reconfigure_proceed">Volver a intentar</string>
+    <string name="prompt_friendly_name_title">Nombre de Chromecast</string>
+    <string name="prompt_network_title">Red Wi-Fi de Chromecast</string>
+    <string name="prompt_country_title">Seleccionar país</string>
+    <string name="prompt_country_text">Es necesario para configurar el Chromecast correctamente.</string>
+    <string name="missing_ssid_message">Ingresa un SSID de red.</string>
+    <string name="wep_short_password_message">La contraseña de la red Wi-Fi debe tener 5 caracteres como mínimo.</string>
+    <string name="wpa_short_password_message">La contraseña de la red Wi-Fi debe tener 8 caracteres como mínimo.</string>
+    <string name="not_supported_network_message">No se admite esta red Wi-Fi. Elige una red protegida WEP, WPA o WPA2.</string>
+    <string name="restore_wifi_toast">La red Wi-Fi se volvió a cambiar a %1$s.</string>
+    <string name="wifi_restore_fail">No se pudo establecer conexión con la red Wi-Fi %1$s. Comprueba la configuración de Wi-Fi.</string>
+    <string name="settings_network_fail">No se pudo establecer conexión con la red Wi-Fi %1$s. Vuelve a configurar el dispositivo para confirmar la información de la red Wi-Fi.</string>
+    <string name="configure_tv_title_text">Cambia la entrada del televisor</string>
+    <string name="configure_tv_title_body">¿Estás utilizando el Chromecast correcto? Busca este código en el televisor para asegurarte.</string>
+    <string name="noupdate_app_alert_text">Esta función no es compatible con la versión de Android instalada.</string>
+    <string name="bad_device_message">No se pudo autenticar el Chromecast. Visita support.google.com/chromecast para obtener ayuda y solucionar este problema.</string>
+    <string name="validation_ignore_button">Continuar de todos modos</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">No se pudieron procesar los parámetros de la red Wi-Fi. Es posible que tengas que volver a intentarlo.</string>
+    <string name="pin_confirmed_button">Confirmar que veo el código</string>
+    <string name="pin_mismatched_button">El código no aparece</string>
+    <string name="setup_ping_failed">No se pudo establecer comunicación con el Chromecast. Es posible que el Chromecast y el dispositivo estén conectados a redes que no pueden comunicarse entre sí. Probablemente tengas que realizar un pequeño cambio en la configuración del router Wi-Fi. Obtén más información aquí.</string>
+    <string name="setup_ping_pattern">aquí</string>
+    <string name="setup_ssdp_scan_failed">No se pudo detectar el Chromecast en la red. Es posible que tengas que realizar un pequeño cambio en la configuración del router Wi-Fi. Obtén más información aquí.</string>
+    <string name="setup_ssdp_scan_pattern">aquí</string>
+    <string name="wpa_auth_ieee_8021x">Protegida con 802.1x EAP</string>
+    <string name="wpa_auth_none_open">No segura</string>
+    <string name="wpa_auth_none_wep">Protegida con WEP</string>
+    <string name="wpa_auth_none_wep_shared">Protegida con WEP</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">Protegida con WPA</string>
+    <string name="wpa_auth_wpa_psk">Protegida con WPA</string>
+    <string name="wpa_auth_wpa2_eap">Protegida con WPA2</string>
+    <string name="wpa_auth_wpa2_psk">Protegida con WPA2</string>
+    <string name="play_services_old_alert">Es necesario actualizar Play Services. Abre Google Play Store y comprueba si hay actualizaciones disponibles.</string>
+    <string name="oss_licenses_title">Licencias de código abierto</string>
+    <string name="loading_licenses">Recuperando licencias…</string>
+    <string name="loading_licenses_failed">No se pueden recuperar las licencias de código abierto de tu Chromecast en este momento. Vuelve a intentarlo más tarde.</string>
+    <string name="send_crash_reports">Enviar informes de fallos y datos de uso del Chromecast a Google</string>
+    <string name="use_device_id_text">Enviar el número de serie de este Chromecast al buscar actualizaciones</string>
+    <string name="preferences_info_title">Información</string>
+    <string name="preference_terms_of_service_title">Condiciones del servicio</string>
+    <string name="preference_privacy_policy_title">Política de privacidad</string>
+    <string name="preference_open_source_licenses_title">Licencias de código abierto</string>
+    <string name="preference_software_version_title">Versión del software</string>
+    <string name="help_menu_print">Imprimir…</string>
+    <string name="help_menu_view_in_google_play_store">Ver en Google Play Store</string>
+    <string name="mirror_splash_heading">Duplicar el teléfono o la tablet</string>
+    <string name="mirror_splash_body">La transmisión de la pantalla o el audio te permite duplicar cualquier contenido del dispositivo a la TV o las bocinas.</string>
+    <string name="mirror_button">Transmitir la pantalla o el audio</string>
+    <string name="disconnect_mirror_button">Presionar para desconectar</string>
+    <string name="disconnect_mirror_button_description">Desconectar la transmisión de pantalla</string>
+    <string name="mirror_help_link">Visitar el Centro de ayuda</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">Pantalla de transmisión</string>
+    <string name="cast_screen_on_long_status_name">Transmitiendo esta pantalla ahora a %1$s</string>
+    <string name="cast_screen_on_long_status_no_name">Transmitiendo esta pantalla ahora</string>
+    <string name="cast_screen_disconnect_toast">Desconectando…</string>
+    <string name="cast_screen_connect_toast">Conectando…</string>
+    <string name="cast_screen_no_devices">"No se encontraron dispositivos compatibles con Google Cast en la red.
+
+Para obtener más información, %1$s."</string>
+    <string name="cast_screen_no_devices_link">accede al Centro de ayuda</string>
+    <string name="cast_screen_unapproved_device_warning">La transmisión en pantalla no se optimizó para este dispositivo, la experiencia puede variar.</string>
+    <string name="cast_screen_enable_wifi_title">¿Quieres activar la red Wi-Fi?</string>
+    <string name="cast_screen_enable_wifi_message">La transmisión de contenido de la pantalla requiere conexión Wi-Fi.</string>
+    <string name="backdrop_settings_entry_point">Configuración de Fondo</string>
+    <string name="backdrop_unlinking_confirmation">¿Deseas eliminar las preferencias de Fondo de %1$s?</string>
+    <string name="backdrop_on_current_network">En tu red</string>
+    <string name="backdrop_on_other_network">En otra red</string>
+    <string name="photos_setting_turned_off_toast">Desactivando \"Tus fotos\" porque no se seleccionó ningún álbum</string>
+    <string name="weather_activity_title">Tiempo</string>
+    <string name="weather_search_places">Agregar ubicación</string>
+    <string name="backdrop_added_date">Se agregó %1$s.</string>
+    <string name="backdrop_unlink_device_description">Desvincular el dispositivo %1$s de Fondo</string>
+    <string name="backdrop_link_scan_text">Buscando Chromecast…</string>
+    <string name="backdrop_legal_title">El fondo necesita:</string>
+    <string name="backdrop_legal_text">"• Utiliza la ubicación de tu Chromecast para buscar fotos y otro contenido relevante.
+
+• Permite que el Chromecast utilice tu cuenta de Google para acceder a tus fotos, personalizar el contenido de Fondo y administrar tus preferencias.
+
+ Puedes modificar estas opciones de configuración más tarde con esta aplicación."</string>
+    <string name="backdrop_allow">Permitir</string>
+    <string name="backdrop_unlink_device_accessibility">Desvincular %1$s de Fondo</string>
+    <string name="backdrop_link_error_all_devices">No se pueden vincular al fondo. Vuelve a intentarlo más tarde.</string>
+    <string name="backdrop_unlink_error_all_devices">No se pueden desvincular del fondo. Vuelve a intentarlo más tarde.</string>
+    <string name="backdrop_network_error">No se pudo cargar la configuración de Fondo. Asegúrate de que puedes conectarte a Internet y vuelve a intentarlo.</string>
+    <string name="backdrop_device_linking_message">Agregando a Fondo…</string>
+    <string name="backdrop_device_unlinking_message">Quitando las preferencias de Fondo…</string>
+    <string name="backdrop_device_unlink_success">Se quitaron las preferencias de Fondo.</string>
+    <string name="backdrop_device_setting_update_error">No se ha podido informar a %1$s sobre la configuración actualizada.</string>
+    <string name="backdrop_settings_turned_off_toast">Apagando %1$s porque no se seleccionaron elementos.</string>
+    <string name="backdrop_setting_defer_loading_error">Se produjo un error. No se puede cargar la configuración.</string>
+    <string name="backdrop_oauth_callback_error">No se puede autenticar la cuenta.</string>
+    <string name="backdrop_revoke_third_party_error">Se produjo un error. No se puede quitar la cuenta.</string>
+    <string name="backdrop_facebook_sdk_login_error">No se pudo conectar a Facebook. Vuelve a intentarlo más tarde.</string>
+    <string name="backdrop_revoke_third_party_dialog_title">¿Deseas quitar la cuenta?</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">Quitar</string>
+    <string name="setting_on">Activado</string>
+    <string name="setting_off">Desactivado</string>
+    <string name="accessibility_checked">Marcada</string>
+    <string name="accessibility_not_checked">Sin marcar</string>
+    <string name="backdrop_no">No, gracias</string>
+    <string name="backdrop_signin_ok">Acceder</string>
+    <string name="backdrop_default_title">Imagen de Fondo</string>
+    <string name="backdrop_default_attribution">No hay información disponible.</string>
+    <string name="backdrop_ready_to_cast">Listo para transmitir contenido</string>
+    <string name="tv_show_description">%1$s, temporada %2$d, episodio %3$d</string>
+    <string name="spinner_loading_text">Cargando datos…</string>
+    <string name="remote_devices">Dispositivos de Fondo vinculados (%1$d)</string>
+    <string name="albums_download_server_error">No se pudieron cargar tus álbumes. Vuelve a intentarlo más tarde.</string>
+    <string name="albums_download_no_connection_error">No se pudieron cargar tus álbumes. Asegúrate de que puedes conectarte a Internet y vuelva a intentarlo.</string>
+    <string name="no_albums_text">No tienes álbumes en esta cuenta. Créalos y estarán disponibles aquí.</string>
+    <string name="photos_progress_spinner_text">Cargando álbumes…</string>
+    <string name="preview_title">Obtener vista previa</string>
+    <string name="preview_num_photos">Primeras %1$d fotos de %2$d</string>
+    <string name="menu_sorting">Ordenar</string>
+    <string name="menu_album_refresh">Actualizar</string>
+    <string name="remove_weather_location_dialog_body">¿Te gustaría eliminar la ubicación del tiempo para %1$s?</string>
+    <string name="remove_weather_location_dialog_remove">Eliminar</string>
+    <string name="remove_weather_location_dialog_keep">Conservar</string>
+    <string name="temperature_format_dialog_title">Formato de temperatura</string>
+    <string name="temperature_format_dialog_set">Establecer</string>
+    <string name="temperature_format_dialog_cancel">Cancelar</string>
+    <string name="farenheit">°F</string>
+    <string name="celsius">°C</string>
+    <string name="add_location">Agregar ubicación</string>
+    <string name="use_chromecast_location">Usar ubicaciones de Chromecast</string>
+    <string name="temperature_format_preference">Preferencia de formato de temperatura</string>
+    <string name="location_toast_message">%1$s ya está en tu lista de ubicaciones.</string>
+    <string name="update_prompt">Parece que hay una versión nueva de esta aplicación. Esta función no funcionará correctamente, a menos que actualices la aplicación.</string>
+    <string name="update_title">¿Quieres actualizar la aplicación Chromecast?</string>
+    <string name="update_button">Actualizar</string>
+    <string name="update_cancel">No, gracias</string>
+    <string name="whats_on_tab_name">Novedades</string>
+    <string name="my_devices_tab_name">Dispositivos</string>
+    <string name="get_apps_tab_name">Obtener apps</string>
+    <string name="open_app_button">Abrir app</string>
+    <string name="search_hint">Buscar películas y programas</string>
+    <string name="app_install_button">Instalar</string>
+    <string name="browse_all_apps">Explorar todas las aplicaciones</string>
+    <string name="view_all_text">Ver todos</string>
+    <string name="intent_error">No se pudo abrir la app.</string>
+    <string name="trailer">Avances</string>
+    <string name="drawer_item_home">Página principal</string>
+    <string name="unavailable_to_cast">No se puede transmitir este contenido.</string>
+    <string name="details_error_msg">No se pudieron cargar los detalles de este contenido.</string>
+    <string name="browse_view_no_feeds_title">Descarga algunas aplicaciones</string>
+    <string name="browse_view_no_feeds_message">Instala algunas apps compatibles con Google Cast y empieza a transmitir tu contenido favorito a las bocinas y a la televisión.</string>
+    <string name="get_apps">Obtener apps</string>
+    <string name="browse_view_timeout_title">No se pudo establecer conexión con la red</string>
+    <string name="browse_view_timeout_message">No se pudo establecer conexión con la red. Activa la conexión Wi-Fi y comprueba que el dispositivo no esté en modo de avión.</string>
+    <string name="try_again">Volver a intentar</string>
+    <string name="search_no_results_title">No se encontraron resultados</string>
+    <string name="search_no_results_description">Intenta hacer otra búsqueda</string>
+    <string name="accessibility_open_app">Abrir app: %1$s</string>
+    <string name="accessibility_clip_duration">Duración: %1$s</string>
+    <string name="accessibility_offer_card">Tarjeta de oferta</string>
+    <string name="accessibility_app_card">Tarjeta de la app de %1$s</string>
+    <string name="accessibility_category_card">Tarjeta de las apps de %1$s: %2$s</string>
+    <string name="redeem_offer">Canjear</string>
+    <string name="offer_terms">Mostrar las condiciones</string>
+    <string name="hide_offer">Ocultar</string>
+    <string name="offer_options">Opciones de oferta</string>
+    <string name="offer_redemption_error">No podemos canjear esta oferta. Es posible que ya se haya canjeado para este dispositivo.</string>
+    <string name="found_header_text">Configuración de %1$s</string>
+    <string name="found_body_text">Transmitirás tu contenido favorito en un instante.</string>
+    <string name="start_setup_button">Configurar</string>
+    <string name="setup_before_sound_text">En breve, reproduciremos un sonido para probar tu Chromecast Audio.</string>
+    <string name="setup_after_sound_text">¿Se escuchó el sonido en las bocinas?</string>
+    <string name="setup_play_sound_button">Reproducir sonido de prueba</string>
+    <string name="setup_heard_sound_button">Lo escuché</string>
+    <string name="setup_no_sound_button">No lo escuché</string>
+    <string name="setup_help_text">Asegúrate de que las bocinas estén encendidas y no silenciadas.</string>
+    <string name="setup_tap_image_text">(presionar para volver a reproducir)</string>
+    <string name="no_sound_header">¿No escuchas el sonido?</string>
+    <string name="setup_error_steps">Prueba estos pasos…</string>
+    <string name="no_sound_text1">Asegúrate de que el cable de audio de tu Chromecast Audio esté conectado a la entrada correcta.</string>
+    <string name="no_sound_text2">Asegúrate de que las bocinas estén encendidas y de que seleccionaste la entrada correcta.</string>
+    <string name="no_sound_text3">Asegúrate de que el volumen de las bocinas no esté silenciado.</string>
+    <string name="play_sound_again_button">Volver a reproducir el sonido</string>
+    <string name="setup_failed_header">Se produjo un error…</string>
+    <string name="audio_setup_failed_text1">Es posible que te hayas conectado a otro Chromecast Audio por error. Asegúrate de que tu dispositivo esté conectado y la bocina esté en la entrada correcta.</string>
+    <string name="audio_setup_failed_text2">Te recomendamos que no continúes con la configuración de este dispositivo hasta que puedas oír el sonido de la bocina.</string>
+    <string name="wrong_pin_header">¿No puedes ver el código en la TV?</string>
+    <string name="wrong_pin_text1">Asegúrate de que la TV esté encendida.</string>
+    <string name="wrong_pin_text2">Asegúrate de que la TV esté en la misma entrada HDMI a la que conectaste el Chromecast.</string>
+    <string name="done_header_text">Estás listo para transmitir contenido</string>
+    <string name="done_body_audio_text">Abre una aplicación de música compatible con Google Cast y presiona el botón para transmitir.</string>
+    <string name="done_body_text">Abre una aplicación compatible con Google Cast y presiona el botón para transmitir.</string>
+    <string name="done_button">Explorar las aplicaciones compatibles con Google Cast</string>
+    <string name="setup_failed_text1">Es posible que te hayas conectado a otro Chromecast por error. Asegúrate de que tu Chromecast esté conectado y la TV esté en la entrada correcta.</string>
+    <string name="setup_failed_text2">Te recomendamos no configurar este Chromecast hasta que puedas verificar el código.</string>
+    <string name="setup_complete_header_text">En línea</string>
+    <string name="setup_complete_check_ota_body_text">Espera mientras buscamos actualizaciones.</string>
+    <string name="ota_wait_percent">%1$d%%</string>
+    <string name="ota_wait_header_text">Actualización necesaria</string>
+    <string name="ota_wait_body_text">Espera mientras buscamos la actualización.</string>
+    <string name="chromecast_ota_downloading">Descargando actualización</string>
+    <string name="chromecast_ota_updating">Se está instalando una actualización, espera</string>
+    <string name="chromecast_ota_done">Actualización completa</string>
+    <string name="skip_learn_video_button_text">Omitir</string>
+    <string name="skip_tutorial_page_button_text">Omitir</string>
+    <string name="tutorial_next_description">Siguiente</string>
+    <string name="ota_error_header">La actualización está tardando más de lo esperado</string>
+    <string name="ota_error_options_none">Ninguna de las opciones anteriores</string>
+    <string name="ota_error_done_btn">Entendido</string>
+    <string name="ota_error_troubleshoot_btn">Solución de problemas</string>
+    <string name="ota_error_download_slow_header">La descarga de la actualización está tardando más de lo esperado</string>
+    <string name="ota_error_download_slow_description">Puede deberse a la configuración del router Wi-Fi o a la velocidad de Internet.</string>
+    <string name="ota_error_audio_description">Para comprobar el estado de tu Chromecast Audio, busca la luz LED en la parte lateral del dispositivo.</string>
+    <string name="ota_error_audio_option_blink_orange">Luz intermitente naranja</string>
+    <string name="ota_error_audio_option_blink_white">Luz intermitente blanca</string>
+    <string name="ota_error_audio_option_white">Luz blanca continua</string>
+    <string name="ota_error_blink_orange_header">Actualización en curso</string>
+    <string name="ota_error_blink_orange_description">"Cuando finalice la actualización del Chromecast Audio, la luz LED se pondrá de color blanco continuo.
+
+A continuación, el Chromecast Audio debería aparecer en la pestaña \"Dispositivos\" de la pantalla siguiente."</string>
+    <string name="ota_error_blink_white_header">No se completó la actualización</string>
+    <string name="ota_error_blink_white_description">Al parecer, no se pudo completar la actualización.</string>
+    <string name="ota_error_solid_white_header">Se completó la actualización</string>
+    <string name="ota_error_solid_white_description">"Al parecer, se completó la actualización. Sin embargo, es posible que este dispositivo esté conectado a una red Wi-Fi distinta a la del Chromecast Audio.
+
+Intenta conectarlos a la misma red Wi-Fi.
+
+Una vez que hayas establecido la conexión correctamente, el Chromecast Audio debería de aparecer en la pestaña \"Dispositivos\" de la pantalla siguiente."</string>
+    <string name="ota_error_tv_description">Mira la TV para comprobar el estado de tu Chromecast.</string>
+    <string name="ota_error_tv_option_installing">Instalación en curso</string>
+    <string name="ota_error_tv_option_ready">Listo para transmitir</string>
+    <string name="ota_error_still_installing_header">Instalación en curso</string>
+    <string name="ota_error_still_installing_description">"Cuando finalice la actualización de Chromecast, debería aparecer el mensaje \"Listo para transmitir\" en la TV.
+
+A continuación, Chromecast debería aparecer en la pestaña \"Dispositivos\" de la pantalla siguiente."</string>
+    <string name="ota_error_ready_to_cast_header">Listo para transmitir</string>
+    <string name="ota_error_ready_to_cast_description">"Al parecer, se completó la actualización de tu Chromecast, y está listo para transmitir. Sin embargo, es posible que el teléfono o la tablet estén conectados a otra red Wi-Fi.
+
+Asegúrate de que el teléfono o la tablet estén conectados a la misma red Wi-Fi que el Chromecast."</string>
+    <string name="stop_casting_button">Detener transmisión</string>
+    <string name="no_media_info">No hay información disponible</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" />
+    <RadioButton android:textSize="@dimen/temperature_symbol_textSize" android:id="@id/farenheit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/farenheit" style="@style/DialogOptionButtonText" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    <RadioButton android:textSize="@dimen/temperature_symbol_textSize" android:id="@id/celsius_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/celsius" style="@style/DialogOptionButtonText" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" />
+</RadioGroup>

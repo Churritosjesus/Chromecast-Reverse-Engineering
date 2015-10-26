@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ota_background_image" android:scaleType="centerCrop" />
+    <Button android:id="@id/done_btn" android:visibility="gone" android:layout_marginBottom="@dimen/fixed_button_bottom_margin" android:text="@string/continue_button_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Button.Orange.LargeFixed" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:id="@id/scroll_area" android:padding="@dimen/splash_padding" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/done_btn">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:paddingLeft="@dimen/splash_padding" android:paddingRight="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_check_box_white_large" />
+            <TextView android:gravity="center" android:id="@id/header_text" android:paddingTop="@dimen/content_large_padding" android:paddingBottom="@dimen/content_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_complete_header_text" android:layout_below="@id/image" style="@style/SplashTextLargeInverse" />
+            <TextView android:gravity="center" android:id="@id/body_text" android:paddingBottom="@dimen/content_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_complete_check_ota_body_text" android:layout_below="@id/header_text" style="@style/SplashTextMediumInverse" />
+            <TextView android:textColor="@color/highlight_color" android:gravity="center" android:id="@id/ota_progress_text" android:padding="@dimen/ota_progress_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ota_wait_percent" android:layout_below="@id/body_text" style="@style/SplashTextMedium" />
+            <ProgressBar android:id="@id/progress_spinner" android:layout_alignLeft="@id/ota_progress_text" android:layout_alignTop="@id/ota_progress_text" android:layout_alignRight="@id/ota_progress_text" android:layout_alignBottom="@id/ota_progress_text" style="@style/ProgressSpinner.Material" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:background="@color/md_red_700" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/dogfood_confidentiality_title" android:textAllCaps="true" />
+    <ImageView android:layout_gravity="center" android:paddingTop="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/product_logo_google_cast_dogfood_color_48" android:contentDescription="@null" />
+    <TextView android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dogfood_confidentiality_text" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/cast_blue_selected" android:gravity="right" android:id="@id/ok_button" android:padding="@dimen/panel_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dogfood_confidentiality_accept" android:textAllCaps="true" style="@style/SelectableItem" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+public abstract interface vc
+{
+  public abstract void a(tq paramtq);
+  
+  public abstract void b(tq paramtq);
+}
+
+
+/* Location:              C:\DEV\android\dex2jar-2.1-SNAPSHOT\classes-dex2jar.jar!\vc.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

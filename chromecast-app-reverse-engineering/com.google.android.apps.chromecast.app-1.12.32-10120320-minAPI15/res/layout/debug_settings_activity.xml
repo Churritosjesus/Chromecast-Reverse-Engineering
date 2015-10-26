@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/VerticalContainer">
+        <include layout="@layout/toolbar" />
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:background="@color/app_background" android:padding="@dimen/panel_padding" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:focusable="true" android:focusableInTouchMode="true" android:text="@string/settings_device_label" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <LinearLayout android:layout_height="wrap_content" style="@style/DeviceSetting">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/server_name_label" />
+                    <Spinner android:textAppearance="?android:textAppearanceSmall" android:id="@id/server_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout style="@style/DeviceSetting">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/last_setup_failure_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/last_setup_failure_label" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/last_setup_failure_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout style="@style/DeviceSetting">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/debug_country" />
+                    <Spinner android:textAppearance="?android:textAppearanceSmall" android:id="@id/country_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:text="@string/debug_announcements_title" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <LinearLayout style="@style/DeviceSetting">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/debug_announcements_level_title" />
+                    <Spinner android:textAppearance="?android:textAppearanceSmall" android:id="@id/announcements_level" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout style="@style/DeviceSetting">
+                    <Button android:id="@id/reset_announcement_dismissals" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/debug_reset_announcements" />
+                </LinearLayout>
+                <TextView android:id="@id/ble_debug_title" android:text="@string/debug_ble_title" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <LinearLayout style="@style/DeviceSetting">
+                    <Switch android:textAppearance="?android:textAppearanceMedium" android:id="@id/switch_ble_enabled_manual" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/debug_ble_manual" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.gms.people.accountswitcherview.AccountSwitcherView android:id="@id/left_drawer" style="@style/Navdrawer" />
+</android.support.v4.widget.DrawerLayout>

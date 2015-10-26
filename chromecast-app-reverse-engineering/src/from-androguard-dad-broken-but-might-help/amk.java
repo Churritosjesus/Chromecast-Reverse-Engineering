@@ -1,0 +1,16 @@
+	private synthetic com.google.android.apps.chromecast.app.DiscoveryActivity a
+	
+	    public amk(com.google.android.apps.chromecast.app.DiscoveryActivity p1)
+	    {
+	        this.a = p1;
+	        return;
+	    }
+	
+	
+	    public final void a(aef p3)
+	    {
+	        com.google.android.apps.chromecast.app.DiscoveryActivity.a(this.a, 1);
+	        com.google.android.apps.chromecast.app.DiscoveryActivity.a(this.a);
+	        return;
+	    }
+	

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/device_list" android:background="@color/md_grey_200" android:paddingTop="@dimen/cardlist_vertical_padding" android:paddingBottom="@dimen/cardlist_vertical_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/card_max_width" android:choiceMode="singleChoice" android:layout_above="@id/add_device" />
+        <android.support.v7.widget.CardView android:id="@id/add_device" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/content_padding" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" card_view:cardElevation="@dimen/card_elevation" card_view:cardPreventCornerOverlap="false" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <TextView android:textStyle="bold" android:gravity="center|left" android:background="?android:selectableItemBackground" android:padding="@dimen/content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/oneline_listitem_height" android:text="@string/add_device" android:drawableLeft="@drawable/ic_add_circle" android:drawablePadding="@dimen/content_padding" android:textAllCaps="true" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</merge>

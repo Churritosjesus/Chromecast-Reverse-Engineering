@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.3" />
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_page_marginTop" android:layout_marginBottom="@dimen/splash_padding" android:layout_weight="5.0">
+        <ImageView android:id="@id/no_data_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_diagram" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:id="@id/no_data_text" android:paddingLeft="@dimen/splash_padding" android:paddingTop="@dimen/splash_padding" android:paddingRight="@dimen/splash_padding" android:paddingBottom="@dimen/splash_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/no_data_image" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.3" />
+</LinearLayout>

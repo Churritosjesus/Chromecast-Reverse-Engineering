@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper android:id="@id/device_settings_view_flipper" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.apps.chromecast.app.widget.BoundedLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" chromecast:max_width="@dimen/setup_max_width">
+                <TextView android:text="@string/settings_device_label" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <LinearLayout android:id="@id/device_name_wrapper" style="@style/DeviceSetting">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_name_label" style="@style/SettingName" />
+                    <TextView android:id="@id/deviceFriendlyName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingValue" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/backdrop_settings_wrapper" style="@style/DeviceSetting">
+                    <TextView android:id="@id/backdrop_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/drawer_item_backdrop" style="@style/SettingName" />
+                    <TextView android:id="@id/backdrop_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/spinner_loading_text" style="@style/SettingValue" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/opencast_settings_wrapper" style="@style/DeviceSetting">
+                    <TextView android:id="@id/opencast_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_opencast_label" style="@style/SettingName" />
+                    <TextView android:id="@id/opencast_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_off" style="@style/SettingValue" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/settings_wifi_wrapper" style="@style/DeviceSetting">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_wifi_label" style="@style/SettingName" />
+                    <TextView android:id="@id/deviceNetworkName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingValue" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/device_time_zone_wrapper" style="@style/DeviceSetting">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_time_zone_label" style="@style/SettingName" />
+                    <Spinner android:id="@id/device_time_zone" style="@style/SettingsSpinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/device_time_format_wrapper" style="@style/DeviceSetting">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_time_format_label" style="@style/SettingName" />
+                    <Spinner android:id="@id/device_time_format" style="@style/SettingsSpinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/device_locale_wrapper" style="@style/DeviceSetting">
+                    <TextView android:id="@id/device_locale_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_locale_label" style="@style/SettingName" />
+                    <Spinner android:id="@id/device_locale" style="@style/SettingsSpinner" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_sounds_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/settings_sounds_label" style="@style/DeviceSettingTitle" />
+                    <include layout="@layout/divider" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/device_playback_sounds_wrapper" style="@style/DeviceSetting">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_playback_sounds_label" style="@style/SettingName" />
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_playback_sounds_description" style="@style/SettingValue" />
+                        </LinearLayout>
+                        <android.support.v7.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/enable_playback_sounds_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/device_hdr_wrapper" style="@style/DeviceSetting">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_hdr_label" style="@style/SettingName" />
+                            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_hdr_description" style="@style/SettingValue" />
+                        </LinearLayout>
+                        <android.support.v7.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/enable_hdr_button" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                    <Button android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/cast_blue" android:id="@id/hdr_learn_more_btn" android:text="@string/settings_cast_nearby_learn_more" style="@style/Button.Flat" />
+                </LinearLayout>
+                <TextView android:text="@string/settings_privacy_label" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <CheckBox android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/black" android:id="@id/crash_opt_in_checkbox" android:button="@null" android:text="@string/send_crash_reports" android:drawableRight="?android:listChoiceIndicatorMultiple" android:drawablePadding="@dimen/content_padding" android:alpha="0.87" style="@style/DeviceSetting" />
+                <CheckBox android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/black" android:id="@id/device_id_opt_in_checkbox" android:button="@null" android:text="@string/use_device_id_text" android:drawableRight="?android:listChoiceIndicatorMultiple" android:drawablePadding="@dimen/content_padding" android:alpha="0.87" style="@style/DeviceSetting" />
+                <TextView android:text="@string/settings_information_label" style="@style/DeviceSettingTitle" />
+                <include layout="@layout/divider" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/device_build_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/SettingValue" />
+                    <TextView android:id="@id/device_country_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/SettingValue" />
+                    <TextView android:id="@id/device_mac_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/SettingValue" />
+                    <TextView android:id="@id/device_ip_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/SettingValue" />
+                </LinearLayout>
+            </com.google.android.apps.chromecast.app.widget.BoundedLinearLayout>
+        </ScrollView>
+        <include android:id="@id/opencast_setting_page" layout="@layout/opencast_setting_page" />
+    </ViewFlipper>
+</FrameLayout>

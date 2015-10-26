@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messenger_send_button_text">Hantar</string>
+    <string name="com_facebook_like_button_not_liked">Suka</string>
+    <string name="com_facebook_like_button_liked">Disukai</string>
+    <string name="com_facebook_loginview_log_out_button">Log keluar</string>
+    <string name="com_facebook_loginview_log_in_button">Log masuk</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log masuk dengan Facebook</string>
+    <string name="com_facebook_loginview_logged_in_as">Dilog masuk sebagai: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Dilog masuk menggunakan Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log keluar</string>
+    <string name="com_facebook_loginview_cancel_action">Batal</string>
+    <string name="com_facebook_loading">Memuatkan...</string>
+    <string name="com_facebook_internet_permission_error_title">Ralat AndroidManifest</string>
+    <string name="com_facebook_internet_permission_error_message">Log masuk WebView memerlukan kebenaran INTERNET</string>
+    <string name="com_facebook_tooltip_default">Baru! Anda yang mengawal - pilih maklumat yang anda ingin kongsi dengan aplikasi.</string>
+    <string name="com_facebook_image_download_unknown_error">Ralat tidak dijangka ketika memuat turun imej.</string>
+    <string name="com_facebook_share_button_text">Kongsi</string>
+    <string name="com_facebook_send_button_text">Hantar</string>
+    <string name="no_devices_title">Tiada Chromecast ditemui</string>
+    <string name="no_devices_text1">Sambungkan Chromecast ke port HDMI TV anda.</string>
+    <string name="no_devices_text2">Sambungkan kuasa USB pada TV atau penyesuai kuasa USB.</string>
+    <string name="no_devices_text3">Pastikan telefon/tablet dan Chromecast anda bersambung ke rangkaian Wi-Fi yang sama.</string>
+    <string name="no_devices_text4">Pastikan TV anda dihidupkan dan input yang betul dipilih.</string>
+    <string name="no_audio_devices_text1">Pastikan Audio Chromecast anda dipalamkan ke soket dinding atau port USB.</string>
+    <string name="no_audio_devices_text2">Pastikan telefon/tablet dan Audio Chromecast anda bersambung ke rangkaian Wi-Fi yang sama.</string>
+    <string name="no_audio_devices_text3">Pastikan pembesar suara anda dihidupkan dan input yang betul dipilih.</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">Mari sediakan Chromecast atau Audio Chromecast anda!</string>
+    <string name="no_devices_splash_subtext">Pilih jenis Chromecast yang ingin anda sediakan:</string>
+    <string name="location_services_dialog">Hidupkan Perkhidmatan Lokasi untuk menyediakan %1$s anda. Langkah ini membolehkan telefon anda mengesan %2$s berdekatan yang sudah boleh disediakan.</string>
+    <string name="add_device">Tambahkan peranti baharu</string>
+    <string name="terms_title">Privasi dan syarat</string>
+    <string name="terms_text">"Dasar Privasi Google menghuraikan maklumat yang dikumpul oleh Google semasa persediaan dan penggunaan Chromecast oleh anda. Anda boleh mengubah suai tetapan privasi Chromecast anda, misalnya sama ada Chromecast menghantar laporan data penggunaan dan ranap sistem kepada Google, selepas anda menyediakan peranti anda dengan mengakses tetapan peranti dalam apl ini.
+
+Dengan menekan “Terima” di bawah, anda mengakui bahawa anda bersetuju menerima %1$s dan %2$s."</string>
+    <string name="terms_text_germany">"Dasar Privasi Google menghuraikan maklumat yang dikumpul oleh Google semasa persediaan dan penggunaan Chromecast oleh anda. Anda boleh mengubah suai tetapan privasi Chromecast anda, misalnya sama ada Chromecast menghantar laporan data penggunaan dan ranap sistem kepada Google, selepas anda menyediakan peranti anda dengan mengakses tetapan peranti dalam apl ini.
+
+Dengan menekan “Terima” di bawah, anda mengakui bahawa anda bersetuju menerima %1$s dan mengesahkan bahawa anda telah membaca %2$s."</string>
+    <string name="terms_of_service_pattern">Syarat Perkhidmatan Google</string>
+    <string name="dogfood_confidentiality_text">Versi dogfood Chromecast ini adalah untuk kegunaan dalaman sahaja dan mengandungi ciri yang belum dikeluarkan kepada orang ramai.</string>
+    <string name="dogfood_confidentiality_title">Sulit</string>
+    <string name="dogfood_confidentiality_accept">OK, faham</string>
+    <string name="privacy_policy_pattern">Dasar Privasi</string>
+    <string name="privacy_policy_pattern_germany">Dasar Privasi Google</string>
+    <string name="terms_accept">Terima</string>
+    <string name="terms_decline">Batal</string>
+    <string name="setup_title_enable_wifi">Mendayakan Wi-Fi…</string>
+    <string name="not_set_up_info">Memerlukan persediaan</string>
+    <string name="wifi_enable_title">Tiada Wi-Fi dikesan</string>
+    <string name="wifi_enable_message">Hidupkan Wi-Fi untuk mewujudkan sambungan dengan Chromecast anda.</string>
+    <string name="wifi_enable_proceed">Hidupkan Wi-Fi</string>
+    <string name="wifi_enable_fail">Tidak dapat menyambung ke Wi-Fi. Sila semak tetapan Wi-Fi anda dan cuba lagi.</string>
+    <string name="no_wifi_title">Wi -Fi tidak tersedia</string>
+    <string name="menu_discover_help">Bantuan &amp; maklum balas</string>
+    <string name="discover_help_title">Mengapa Chromecast/Audio Chromecast saya tidak dipaparkan dalam senarai ini?</string>
+    <string name="discover_help_text">"Sila sahkan yang Chromecast anda:
+• berada dalam jarak 20 kaki dari peranti ini
+• dihidupkan (melalui kabel USB) dan mempunyai lampu penunjuk putih
+• bersambung ke rangkaian Wi-Fi yang sama dengan peranti ini (jika disediakan)
+
+Sila sahkan rangkaian Wi-Fi anda:
+• membenarkan penyertaan peranti baharu
+
+Jika anda tidak nampak Chromecast anda, anda boleh:
+• lakukan penetapan semula kilang - tahan butang tetapan semula Chromecast selama 15 saat
+
+Untuk mendapatkan bantuan lanjut, lawati: support.google.com/chromecast."</string>
+    <string name="developer_mode_toast">Mod pembangun didayakan</string>
+    <string name="drawer_item_learn">Ketahui</string>
+    <string name="drawer_item_backdrop">Tirai Latar</string>
+    <string name="drawer_item_settings">Tetapan</string>
+    <string name="drawer_item_cast_screen">Hantar skrin / audio</string>
+    <string name="drawer_open">Buka laci navigasi</string>
+    <string name="drawer_close">Tutup laci navigasi</string>
+    <string name="accessibility_settings">Buka tetapan peranti</string>
+    <string name="ignore">Abaikan</string>
+    <string name="setup">Sediakan</string>
+    <string name="hidden_device_count">Peranti yang diabaikan (%1$d)</string>
+    <string name="opencast_pin">PIN %1$s</string>
+    <string name="backdrop_exit_history">Selesai</string>
+    <string name="backdrop_history_label">Sejarah %1$s/%2$s</string>
+    <string name="accessibility_backdrop_history">Masukkan sejarah tirai latar</string>
+    <string name="accessibility_backdrop_history_exit">Keluar daripada sejarah tirai latar</string>
+    <string name="accessibility_backdrop_history_previous">Pergi ke imej sebelumnya dalam sejarah tirai latar</string>
+    <string name="accessibility_backdrop_history_next">Pergi ke imej seterusnya dalam sejarah tirai latar</string>
+    <string name="device_settings_title">Tetapan Chromecast</string>
+    <string name="device_connect_progress">Menyambung ke %1$s</string>
+    <string name="device_connect_failed">Tidak dapat menyambung ke Chromecast anda. Pastikan Chromecast anda berada berdekatan.</string>
+    <string name="device_connect_failed_poor_link_title">Tidak dapat menyambungkan ke Chromecast</string>
+    <string name="device_connect_failed_poor_link">Pastikan Chromecast anda berada berdekatan dan semak bahawa \"Pertukaran rangkaian automatik\" dalam tetapan Wi-Fi anda dimatikan sehingga persediaan Chromecast selesai.</string>
+    <string name="device_setup_progress">Menyambungkan Chromecast anda ke %1$s</string>
+    <string name="device_ethernet_setup_progress">Menyambungkan Chromecast anda</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s tidak dapat menyambung ke %2$s - sila semak kata laluan anda.</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s tidak dapat menyambung ke %2$s - sila semak nama rangkaian Wi-Fi anda.</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s tidak dapat menyambung ke %2$s - semak penghala Wi-Fi anda.</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s tidak dapat menyambung ke %2$s - semak input anda.</string>
+    <string name="device_reboot_progress">Sedang but semula %1$s</string>
+    <string name="settings_saved_toast">Perubahan tetapan dikenakan pada Chromecast anda</string>
+    <string name="wifi_different_title">Menukar Rangkaian Wi-Fi</string>
+    <string name="wifi_different_message">Rangkaian Wi-Fi untuk Chromecast anda (%2$s) dan peranti ini (%1$s) didapati berbeza. Selepas persediaaan, peranti ini akan disambung ke %2$s supaya anda boleh menggunakan Chromecast anda.</string>
+    <string name="confirm_reboot">But semula %1$s?</string>
+    <string name="confirm_reset">Lakukan tetapan kilang pada %1$s?</string>
+    <string name="reboot_ok">OK</string>
+    <string name="settings_device_label">MAKLUMAT PERANTI</string>
+    <string name="settings_name_label">Nama</string>
+    <string name="settings_wifi_label">Wi-Fi</string>
+    <string name="settings_time_zone_label">Zon Waktu</string>
+    <string name="settings_time_format_label">Format Masa</string>
+    <string name="settings_locale_label">Bahasa</string>
+    <string name="settings_sounds_label">BUNYI</string>
+    <string name="settings_playback_sounds_label">Bunyi main balik</string>
+    <string name="settings_playback_sounds_description">Cast dimulakan dan kelantangan berubah</string>
+    <string name="settings_hdr_label">Julat dinamik tinggi</string>
+    <string name="settings_hdr_description">Untuk sistem AVR dan Hi-Fi</string>
+    <string name="settings_privacy_label">PRIVASI</string>
+    <string name="settings_opencast_label">Mod tetamu</string>
+    <string name="settings_opencast_pin">PIN %1$s</string>
+    <string name="settings_opencast_getting_pin">Mendapatkan PIN peranti…</string>
+    <string name="settings_cast_nearby_intro_description">"Biarkan sesiapa yang berada di dalam bilik yang sama bersambung ke %1$s anda tanpa menyambung ke rangkaian Wi-Fi anda.
+
+Fungsi ini menggunakan gabungan lokasi %2$s dan Wi-Fi anda untuk mengenal pasti peranti berdekatan."</string>
+    <string name="settings_cast_nearby_learn_more">Ketahui lebih lanjut</string>
+    <string name="settings_cast_nearby_learn_title">Caranya</string>
+    <string name="settings_cast_nearby_learn_description">"Untuk bersambung ke peranti tetamu anda, %1$s anda akan memindahkan PIN 4 digit secara automatik menggunakan nada audio pendek yang tidak dapat anda dengari.
+
+Jika penggandingan audio itu gagal, tetamu anda akan diminta memasukkan PIN tersebut. Pemilik peranti boleh menemui PIN dalam apl Chromecast mereka.
+
+Anda boleh mematikan ciri ini pada bila-bila masa."</string>
+    <string name="settings_information_label">MAKLUMAT</string>
+    <string name="wifi_other_name">Lain-lain…</string>
+    <string name="wifi_name_title">Nama rangkaian</string>
+    <string name="wifi_password_title_setup">Kata Laluan Wi-Fi</string>
+    <string name="wifi_password_hint">(tidak berubah)</string>
+    <string name="wifi_security_title">Keselamatan</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">isyarat sangat lemah</string>
+    <string name="wifi_level_description_2">isyarat lemah</string>
+    <string name="wifi_level_description_3">isyarat kuat</string>
+    <string name="wifi_level_description_4">isyarat sangat kuat</string>
+    <string name="device_mac_address_pattern">Alamat MAC: %1$s</string>
+    <string name="device_ip_address_pattern">Alamat IP: %1$s</string>
+    <string name="device_build_version_pattern">Versi perisian tegar: %1$s</string>
+    <string name="device_country_code_pattern">Kod negara: %1$s</string>
+    <string name="time_format_12_hours">Gunakan format 12 jam</string>
+    <string name="time_format_24_hours">Gunakan format 24 jam</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">Kami tidak dapat berkomunikasi dengan Chromecast anda. Anda mungkin perlu mencuba sekali lagi.</string>
+    <string name="execute_requests_failed">Tidak dapat berkomunikasi dengan Chromecast anda.</string>
+    <string name="execute_requests_failed_status">Tidak dapat berkomunikasi dengan Chromecast anda (%1$s).</string>
+    <string name="config_wifi_device_not_found">"Tidak dapat mencari %1$s pada rangkaian Wi-Fi anda. Sila semak tetapan Wi-Fi anda.
+• Jika anda menggunakan penghala dua jalur (2.4 dan 5GHz) - pastikan penghala tersebut tidak berada dalam mod pengasingan AP
+• Jika penghala anda mendayakan penyenaraian putih MAC - pastikan penghala anda membenarkan penyertaan peranti ini dan Chromecast anda
+Sila lawati support.google.com/chromecast untuk mendapatkan lebih banyak bantuan menyelesaikan isu ini."</string>
+    <string name="menu_reboot">But semula Chromecast</string>
+    <string name="menu_reset">Lakukan tetapan semula kilang pada Chromecast</string>
+    <string name="menu_feedback">Serahkan laporan maklum balas</string>
+    <string name="menu_oss_licenses">Lesen sumber terbuka</string>
+    <string name="menu_other_licenses_title">Lesen lain</string>
+    <string name="alert_cancel">Batal</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">Ya</string>
+    <string name="alert_settings">Buka Tetapan</string>
+    <string name="alert_wifi_settings">Tetapan Wi-Fi</string>
+    <string name="alert_dont_show_again">Jangan tunjukkan ini kepada saya lagi</string>
+    <string name="continue_button_text">Teruskan</string>
+    <string name="menu_offers">Semak tawaran</string>
+    <string name="prompt_offers_serial_number">Adakah anda bersetuju untuk berkongsi nombor siri Chromecast anda dengan Google untuk mencari tawaran yang ada bagi anda?</string>
+    <string name="prompt_offers_button_neg">Batal</string>
+    <string name="prompt_offers_button_pos">Setuju</string>
+    <string name="progress_offers">Menyemak tawaran…</string>
+    <string name="offers_failure">Tidak dapat menyemak tawaran. Sila pastikan Chromecast anda telah dipasang dan bersedia untuk menghantar.</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">Chromecast</string>
+    <string name="device_type_chromecast_plural">Chromecast</string>
+    <string name="device_type_chromecast_audio">Audio Chromecast</string>
+    <string name="device_type_chromecast_audio_possessive">Audio Chromecast</string>
+    <string name="device_type_chromecast_audio_plural">Audio Chromecast</string>
+    <string name="found_title">Menjumpai %1$s</string>
+    <string name="configure_title">Sediakan %1$s</string>
+    <string name="name_choice_title">Namakan %1$s anda</string>
+    <string name="name_choice_hint">Contoh: \"Ruang Tamu\"</string>
+    <string name="setup_enable_opencast_text">Dayakan mod Tetamu</string>
+    <string name="setup_enable_opencast_description">Ini membenarkan peranti di dalam bilik yang sama untuk menghantar tanpa perlu berada pada rangkaian Wi-Fi anda. Mod ini menggunakan kombinasi lokasi peranti cast anda dan Wi-Fi untuk mencari peranti yang berdekatan.</string>
+    <string name="apply_wifi_button_text">Tetapkan rangkaian</string>
+    <string name="apply_name_button_text">Tetapkan nama</string>
+    <string name="show_password_text">Paparkan kata laluan</string>
+    <string name="configure_network_heading_text">Sambungkan Chromecast ke Wi-Fi anda</string>
+    <string name="configuration_fail_dialog_title">Masalah sambungan semasa Persediaan!</string>
+    <string name="configuration_fail_dialog_message">Sila semak tetapan rangkaian Wi-Fi anda.</string>
+    <string name="reconfigure_cancel">Batal</string>
+    <string name="reconfigure_proceed">Cuba lagi</string>
+    <string name="prompt_friendly_name_title">Nama Chromecast</string>
+    <string name="prompt_network_title">Wi-Fi Chromecast</string>
+    <string name="prompt_country_title">Pilih negara anda</string>
+    <string name="prompt_country_text">Diperlukan untuk mengkonfigurasikan Chromecast anda dengan betul.</string>
+    <string name="missing_ssid_message">Sila masukkan SSID rangkaian.</string>
+    <string name="wep_short_password_message">Panjang kata laluan rangkaian Wi-Fi anda mesti sekurang-kurangnya 5 aksara.</string>
+    <string name="wpa_short_password_message">Panjang kata laluan rangkaian Wi-Fi anda mesti sekurang-kurangnya 8 aksara.</string>
+    <string name="not_supported_network_message">Rangkaian Wi-Fi ini tidak disokong. Sila pilih rangkaian WEP/WPA/WPA2 yang selamat.</string>
+    <string name="restore_wifi_toast">Tukar Wi-Fi kembali kepada %1$s</string>
+    <string name="wifi_restore_fail">Tidak dapat menyambung ke rangkaian Wi-Fi %1$s. Sila semak tetapan Wi-Fi anda.</string>
+    <string name="settings_network_fail">Tidak dapat menyambung ke rangkaian Wi-Fi %1$s. Sila sediakan peranti anda sekali lagi untuk mengesahkan butiran rangkaian Wi-Fi anda.</string>
+    <string name="configure_tv_title_text">Tukar input pada TV anda</string>
+    <string name="configure_tv_title_body">Chromecast yang betul? Cari kod ini pada TV anda untuk kepastian.</string>
+    <string name="noupdate_app_alert_text">Ciri ini tidak serasi dengan versi Android yang telah anda pasangkan.</string>
+    <string name="bad_device_message">Kami tidak dapat mengesahkan Chromecast anda. Sila lawati support.google.com/chromecast untuk mendapatkan bantuan menyelesaikan isu ini.</string>
+    <string name="validation_ignore_button">Teruskan juga</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">Kami tidak dapat memproses parameter Wi-Fi anda. Anda mungkin perlu mencuba lagi.</string>
+    <string name="pin_confirmed_button">Saya nampak kod</string>
+    <string name="pin_mismatched_button">Saya tidak nampak kod</string>
+    <string name="setup_ping_failed">Kami tidak dapat berkomunikasi dengan Chromecast anda. Mungkin Chromecast dan peranti anda disambungkan ke rangkaian yang tidak dapat saling berkomunikasi. Masalah ini mungkin memerlukan perubahan kecil kepada tetapan penghala Wi -Fi anda. Ketahui lebih lanjut di sini.</string>
+    <string name="setup_ping_pattern">di sini</string>
+    <string name="setup_ssdp_scan_failed">Kami tidak dapat menemui Chromecast anda pada rangkaian. Masalah ini mungkin memerlukan perubahan kecil kepada tetapan penghala Wi-Fi anda. Ketahui lebih lanjut di sini.</string>
+    <string name="setup_ssdp_scan_pattern">di sini</string>
+    <string name="wpa_auth_ieee_8021x">Dijamin dengan 802.1x EAP</string>
+    <string name="wpa_auth_none_open">Tidak selamat</string>
+    <string name="wpa_auth_none_wep">Dijamin dengan WEP</string>
+    <string name="wpa_auth_none_wep_shared">Dijamin dengan WEP</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">Dijamin dengan WPA</string>
+    <string name="wpa_auth_wpa_psk">Dijamin dengan WPA</string>
+    <string name="wpa_auth_wpa2_eap">Dijamin dengan WPA2</string>
+    <string name="wpa_auth_wpa2_psk">Dijamin dengan WPA2</string>
+    <string name="play_services_old_alert">Perkhidmatan Google Play perlu dikemas kini. Buka Gedung Play dan semak kemas kini yang tersedia.</string>
+    <string name="oss_licenses_title">Lesen sumber terbuka</string>
+    <string name="loading_licenses">Mendapatkan lesen…</string>
+    <string name="loading_licenses_failed">Kami tidak dapat mengambil lesen sumber terbuka dari Chromecast anda pada masa ini. Sila cuba lagi kemudian.</string>
+    <string name="send_crash_reports">Hantar laporan data penggunaan Chromecast dan keranapan sistem kepada Google</string>
+    <string name="use_device_id_text">Hantar nombor siri Chromecast ini apabila menyemak kemas kini</string>
+    <string name="preferences_info_title">Maklumat</string>
+    <string name="preference_terms_of_service_title">Syarat perkhidmatan</string>
+    <string name="preference_privacy_policy_title">Dasar privasi</string>
+    <string name="preference_open_source_licenses_title">Lesen sumber terbuka</string>
+    <string name="preference_software_version_title">Versi perisian</string>
+    <string name="help_menu_print">Cetak…</string>
+    <string name="help_menu_view_in_google_play_store">Lihat di Gedung Google Play</string>
+    <string name="mirror_splash_heading">Cerminkan telefon atau tablet anda</string>
+    <string name="mirror_splash_body">Skrin/audio yang dihantar membolehkan anda mencerminkan semua perkara pada peranti ke TV atau pembesar suara anda.</string>
+    <string name="mirror_button">Hantar skrin / audio</string>
+    <string name="disconnect_mirror_button">Ketik untuk memutuskan sambungan</string>
+    <string name="disconnect_mirror_button_description">Putuskan sambungan skrin Cast</string>
+    <string name="mirror_help_link">Lawati pusat bantuan</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">Memancarkan skrin</string>
+    <string name="cast_screen_on_long_status_name">Sedang memancarkan skrin ini pada %1$s</string>
+    <string name="cast_screen_on_long_status_no_name">Sedang memancarkan skrin ini</string>
+    <string name="cast_screen_disconnect_toast">Memutuskan sambungan…</string>
+    <string name="cast_screen_connect_toast">Menyambungkan…</string>
+    <string name="cast_screen_no_devices">"Tiada peranti Google Cast yang serasi ditemui di rangkaian anda.
+
+Untuk mengetahui lebih lanjut, %1$s."</string>
+    <string name="cast_screen_no_devices_link">lawati Pusat Bantuan</string>
+    <string name="cast_screen_unapproved_device_warning">Penghantaran Skrin tidak dioptimumkan untuk peranti ini; pengalaman anda mungkin berbeza-beza.</string>
+    <string name="cast_screen_enable_wifi_title">Hidupkan Wi-Fi?</string>
+    <string name="cast_screen_enable_wifi_message">Penghantaran skrin memerlukan sambungan Wi-Fi.</string>
+    <string name="backdrop_settings_entry_point">Tetapan tirai latar</string>
+    <string name="backdrop_unlinking_confirmation">Alih keluar pilihan tirai latar anda daripada %1$s?</string>
+    <string name="backdrop_on_current_network">Pada rangkaian anda</string>
+    <string name="backdrop_on_other_network">Pada rangkaian yang lain</string>
+    <string name="photos_setting_turned_off_toast">\"Foto Anda\" sedang dimatikan kerana tiada album dipilih.</string>
+    <string name="weather_activity_title">Cuaca</string>
+    <string name="weather_search_places">Tambah lokasi</string>
+    <string name="backdrop_added_date">Penambahan %1$s</string>
+    <string name="backdrop_unlink_device_description">Nyahpaut tirai latar peranti %1$s</string>
+    <string name="backdrop_link_scan_text">Mengimbas Chromecasts…</string>
+    <string name="backdrop_legal_title">Tirai latar perlu:</string>
+    <string name="backdrop_legal_text">"• Gunakan lokasi Chromecast anda untuk mencari foto dan kandungan lain yang berkaitan.
+
+• Benarkan Chromecast menggunakan akaun Google anda untuk mengakses foto, menyesuaikan kandungan tirai latar dan mengurus pilihan anda.
+
+ Anda boleh meminda tetapan ini kemudian menggunakan apl ini."</string>
+    <string name="backdrop_allow">Benarkan</string>
+    <string name="backdrop_unlink_device_accessibility">Nyahpaut %1$s daripada tirai latar</string>
+    <string name="backdrop_link_error_all_devices">Tidak dapat memaut ke tirai latar. Sila cuba sebentar lagi.</string>
+    <string name="backdrop_unlink_error_all_devices">Tidak dapat menyahpaut dari tirai latar. Sila cuba sebentar lagi.</string>
+    <string name="backdrop_network_error">Tidak dapat memuatkan tetapan tirai latar anda. Pastikan anda boleh menyambung ke internet dan cuba lagi.</string>
+    <string name="backdrop_device_linking_message">Menambahkan pada tirai latar…</string>
+    <string name="backdrop_device_unlinking_message">Mengalih keluar pilihan tirai latar anda…</string>
+    <string name="backdrop_device_unlink_success">Pilihan tirai latar telah dialih keluar</string>
+    <string name="backdrop_device_setting_update_error">Tidak dapat memberitahu %1$s mengenai tetapan yang dikemas kini</string>
+    <string name="backdrop_settings_turned_off_toast">Mematikan %1$s kerana tiada item dipilih.</string>
+    <string name="backdrop_setting_defer_loading_error">Berlaku kesilapan. Tidak dapat memuatkan tetapan.</string>
+    <string name="backdrop_oauth_callback_error">Tidak dapat mengesahkan akaun anda.</string>
+    <string name="backdrop_revoke_third_party_error">Berlaku kesilapan. Tidak dapat mengalih keluar akaun anda.</string>
+    <string name="backdrop_facebook_sdk_login_error">Tidak dapat menyambung ke Facebook. Sila cuba sebentar lagi.</string>
+    <string name="backdrop_revoke_third_party_dialog_title">Alih keluar akaun?</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">Alih Keluar</string>
+    <string name="setting_on">Dihidupkan</string>
+    <string name="setting_off">Dimatikan</string>
+    <string name="accessibility_checked">Ditandai</string>
+    <string name="accessibility_not_checked">Tidak ditandai</string>
+    <string name="backdrop_no">Tidak, terima kasih</string>
+    <string name="backdrop_signin_ok">Log masuk</string>
+    <string name="backdrop_default_title">Imej tirai latar</string>
+    <string name="backdrop_default_attribution">Tiada maklumat yang tersedia</string>
+    <string name="backdrop_ready_to_cast">Sedia untuk menghantar</string>
+    <string name="tv_show_description">%1$s, musim %2$d, episod %3$d</string>
+    <string name="spinner_loading_text">Memuatkan data…</string>
+    <string name="remote_devices">Peranti tirai latar yang dipaut (%1$d)</string>
+    <string name="albums_download_server_error">Tidak dapat memuatkan album anda. Cuba sebentar lagi.</string>
+    <string name="albums_download_no_connection_error">Tidak dapat memuatkan album anda. Pastikan anda dapat bersambung ke internet, kemudian cuba lagi.</string>
+    <string name="no_albums_text">Anda tiada album dalam akaun ini. Buat album dan album itu akan tersedia di sini.</string>
+    <string name="photos_progress_spinner_text">Memuatkan album…</string>
+    <string name="preview_title">Pratonton</string>
+    <string name="preview_num_photos">%1$d Foto yang pertama daripada %2$d Foto</string>
+    <string name="menu_sorting">Isih</string>
+    <string name="menu_album_refresh">Muat semula</string>
+    <string name="remove_weather_location_dialog_body">Adakah anda ingin memadamkan lokasi cuaca untuk %1$s?</string>
+    <string name="remove_weather_location_dialog_remove">Alih keluar</string>
+    <string name="remove_weather_location_dialog_keep">Simpan</string>
+    <string name="temperature_format_dialog_title">Format suhu</string>
+    <string name="temperature_format_dialog_set">Tetapkan</string>
+    <string name="temperature_format_dialog_cancel">Batal</string>
+    <string name="farenheit">°F</string>
+    <string name="celsius">°C</string>
+    <string name="add_location">Tambah lokasi</string>
+    <string name="use_chromecast_location">Gunakan lokasi Chromecast</string>
+    <string name="temperature_format_preference">Pilihan format suhu</string>
+    <string name="location_toast_message">%1$s sudah terdapat dalam senarai lokasi anda.</string>
+    <string name="update_prompt">Nampaknya terdapat versi lebih baharu bagi apl ini. Ciri ini tidak akan berfungsi dengan betul melainkan anda mengemas kini.</string>
+    <string name="update_title">Kemas kini apl Chromecast?</string>
+    <string name="update_button">Kemas kini</string>
+    <string name="update_cancel">Tidak, terima kasih</string>
+    <string name="whats_on_tab_name">Rancangan</string>
+    <string name="my_devices_tab_name">Peranti</string>
+    <string name="get_apps_tab_name">Dapatkan apl</string>
+    <string name="open_app_button">Buka apl</string>
+    <string name="search_hint">Cari filem dan rancangan</string>
+    <string name="app_install_button">Pasang</string>
+    <string name="browse_all_apps">Semak imbas semua apl</string>
+    <string name="view_all_text">Lihat semua</string>
+    <string name="intent_error">Tidak dapat membuka apl.</string>
+    <string name="trailer">Treler</string>
+    <string name="drawer_item_home">Skrin Utama</string>
+    <string name="unavailable_to_cast">Kandungan ini tidak tersedia untuk dihantar.</string>
+    <string name="details_error_msg">Tidak dapat memuatkan butiran untuk kandungan ini.</string>
+    <string name="browse_view_no_feeds_title">Dapatkan beberapa apl dahulu</string>
+    <string name="browse_view_no_feeds_message">Pasang apl berdaya Cast untuk mula menghantar kandungan kegemaran anda ke TV &amp; Pembesar Suara anda.</string>
+    <string name="get_apps">Dapatkan apl</string>
+    <string name="browse_view_timeout_title">Tidak dapat mencapai rangkaian</string>
+    <string name="browse_view_timeout_message">Kami tidak dapat mewujudkan sambungan rangkaian. Hidupkan Wi-Fi dan pastikan peranti anda tidak ditetapkan kepada mod pesawat.</string>
+    <string name="try_again">Cuba lagi</string>
+    <string name="search_no_results_title">Tiada hasil carian ditemui</string>
+    <string name="search_no_results_description">Cuba cari perkara lain.</string>
+    <string name="accessibility_open_app">Buka apl: %1$s</string>
+    <string name="accessibility_clip_duration">Tempoh: %1$s</string>
+    <string name="accessibility_offer_card">Kad tawaran</string>
+    <string name="accessibility_app_card">Kad apl %1$s</string>
+    <string name="accessibility_category_card">Kad apl %1$s: %2$s</string>
+    <string name="redeem_offer">Tebus</string>
+    <string name="offer_terms">Tunjukkan syarat</string>
+    <string name="hide_offer">Sembunyikan</string>
+    <string name="offer_options">Pilihan tawaran</string>
+    <string name="offer_redemption_error">Harap maaf, kami tidak dapat menebus tawaran ini. Tawaran ini mungkin telah ditebus untuk peranti ini.</string>
+    <string name="found_header_text">Mari sediakan %1$s</string>
+    <string name="found_body_text">Anda akan menghantar kandungan kegemaran anda dalam sekelip mata.</string>
+    <string name="start_setup_button">Sediakan</string>
+    <string name="setup_before_sound_text">Kami akan memainkan bunyi untuk menguji Audio Chromecast anda.</string>
+    <string name="setup_after_sound_text">Adakah anda mendengar bunyi melalui pembesar suara anda?</string>
+    <string name="setup_play_sound_button">Mainkan bunyi ujian</string>
+    <string name="setup_heard_sound_button">Saya mendengarnya</string>
+    <string name="setup_no_sound_button">Saya tidak mendengarnya</string>
+    <string name="setup_help_text">Pastikan pembesar suara anda dihidupkan dan tidak diredamkan.</string>
+    <string name="setup_tap_image_text">(ketik untuk memainkan lagi)</string>
+    <string name="no_sound_header">Tidak mendengar bunyi itu?</string>
+    <string name="setup_error_steps">Cuba langkah-langkah ini…</string>
+    <string name="no_sound_text1">Pastikan kabel audio pada Audio Chromecast anda dipalamkan pada input yang betul.</string>
+    <string name="no_sound_text2">Pastikan pembesar suara anda dihidupkan dan input yang betul dipilih.</string>
+    <string name="no_sound_text3">Pastikan kelantangan pada pembesar suara anda tidak diredamkan.</string>
+    <string name="play_sound_again_button">Mainkan bunyi sekali lagi</string>
+    <string name="setup_failed_header">Ada kesilapan berlaku…</string>
+    <string name="audio_setup_failed_text1">Anda mungkin bersambung ke Audio Chromecast yang bukan milik anda secara tidak sengaja. Sila pastikan Audio Chromecast anda dipalamkan dan pembesar suara anda pada input yang betul.</string>
+    <string name="audio_setup_failed_text2">Kami mengesyorkan supaya anda tidak meneruskan dengan penyediaan peranti ini sehingga anda boleh mendengar bunyi daripada pembesar suara anda.</string>
+    <string name="wrong_pin_header">Tidak melihat kod pada TV anda?</string>
+    <string name="wrong_pin_text1">Pastikan TV anda dihidupkan.</string>
+    <string name="wrong_pin_text2">Pastikan TV anda menggunakan input HDMI yang dipalamkan pada Chromecast anda.</string>
+    <string name="done_header_text">Anda sudah bersedia untuk menghantar!</string>
+    <string name="done_body_audio_text">Buka salah satu apl muzik berdaya Cast anda dan ketik butang Hantar.</string>
+    <string name="done_body_text">Buka salah satu apl berdaya Cast anda dan ketik butang Hantar.</string>
+    <string name="done_button">Semak imbas apl Cast anda</string>
+    <string name="setup_failed_text1">Anda mungkin bersambung ke Chromecast yang bukan milik anda secara tidak sengaja. Sila pastikan Chromecast anda dipalamkan dan TV anda ditetapkan pada input yang betul.</string>
+    <string name="setup_failed_text2">Kami mengesyorkan untuk tidak menyediakan Chromecast ini sehingga anda boleh mengesahkan kod.</string>
+    <string name="setup_complete_header_text">Chromecast dalam talian</string>
+    <string name="setup_complete_check_ota_body_text">Harap bersabar sementara kami menyemak kemas kini.</string>
+    <string name="ota_wait_percent">%1$d%%</string>
+    <string name="ota_wait_header_text">Kemas kini diperlukan</string>
+    <string name="ota_wait_body_text">Sila tunggu sementara kami mengambil kemas kini.</string>
+    <string name="chromecast_ota_downloading">Memuat turun kemas kini</string>
+    <string name="chromecast_ota_updating">Memasang kemas kini, harap bersabar</string>
+    <string name="chromecast_ota_done">Kemas kini selesai</string>
+    <string name="skip_learn_video_button_text">Langkau</string>
+    <string name="skip_tutorial_page_button_text">Langkau</string>
+    <string name="tutorial_next_description">Seterusnya</string>
+    <string name="ota_error_header">Kemas kini mengambil masa lebih lama daripada yang dijangkakan</string>
+    <string name="ota_error_options_none">Tiada satu pun di atas</string>
+    <string name="ota_error_done_btn">OK, faham</string>
+    <string name="ota_error_troubleshoot_btn">Selesaikan Masalah</string>
+    <string name="ota_error_download_slow_header">Proses muat turun kemas kini mengambil masa lebih lama daripada jangkaan</string>
+    <string name="ota_error_download_slow_description">Ini mungkin disebabkan oleh tetapan penghala Wi-Fi atau kelajuan Internet anda.</string>
+    <string name="ota_error_audio_description">Untuk menyemak status Audio Chromecast anda, cari lampu LED di bahagian tepi peranti.</string>
+    <string name="ota_error_audio_option_blink_orange">Jingga berkelip</string>
+    <string name="ota_error_audio_option_blink_white">Putih berkelip</string>
+    <string name="ota_error_audio_option_white">Putih menyala</string>
+    <string name="ota_error_blink_orange_header">Kemas kini masih berjalan</string>
+    <string name="ota_error_blink_orange_description">"Setelah Audio Chromecast anda selesai dikemaskinikan, lampu LED akan menyalakan lampu putih padu.
+
+Setelah selesai, anda seharusnya dapat melihat Audio Chromecast pada tab Peranti di skrin yang berikutnya."</string>
+    <string name="ota_error_blink_white_header">Kemas kini tidak lengkap</string>
+    <string name="ota_error_blink_white_description">Kelihatannya terdapat kesulitan dengan kemas kini tersebut.</string>
+    <string name="ota_error_solid_white_header">Kemas kini telah selesai</string>
+    <string name="ota_error_solid_white_description">"Kemas kini kelihatannya sudah selesai. Walau bagaimanapun, peranti ini mungkin disambungkan ke rangkaian Wi-Fi yang berbeza daripada Audio Chromecast.
+
+Sila cuba sambungkan ke rangkaian Wi-Fi yang sama seperti Audio Chromecast anda.
+
+Apabila penyambungan ini selesai, anda seharusnya dapat melihat Audio Chromecast pada tab Peranti skrin yang berikutnya."</string>
+    <string name="ota_error_tv_description">Lihat pada TV untuk menyemak status Chromecast anda.</string>
+    <string name="ota_error_tv_option_installing">Masih memasang</string>
+    <string name="ota_error_tv_option_ready">Sedia untuk menghantar</string>
+    <string name="ota_error_still_installing_header">Masih memasang</string>
+    <string name="ota_error_still_installing_description">"Setelah Chromecast anda selesai dikemaskinikan, anda seharusnya dapat lihat mesej \"Sedia untuk menghantar\" pada TV anda.
+
+Apabila proses ini selesai, Chromecast anda seharusnya dapat dilihat pada tab Peranti di skrin berikutnya."</string>
+    <string name="ota_error_ready_to_cast_header">Sedia untuk menghantar</string>
+    <string name="ota_error_ready_to_cast_description">"Chromecast anda kelihatannya sudah selesai dikemaskinikan dan bersedia untuk menghantar, walau bagaimanapun telefon atau tablet anda mungkin berada pada rangkaian Wi-Fi yang berbeza.
+
+Sila pastikan telefon atau tablet anda berada pada rangkaian Wi-Fi yang sama seperti Chromecast anda."</string>
+    <string name="stop_casting_button">Berhenti menghantar</string>
+    <string name="no_media_info">Tiada maklumat yang tersedia</string>
+</resources>

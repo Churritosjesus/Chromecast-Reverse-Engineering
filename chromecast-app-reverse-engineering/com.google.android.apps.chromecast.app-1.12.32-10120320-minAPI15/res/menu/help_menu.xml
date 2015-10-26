@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_play_store" android:title="@string/help_menu_view_in_google_play_store" app:showAsAction="never" />
+    <item android:id="@id/menu_print" android:title="@string/help_menu_print" app:showAsAction="never" />
+    <item android:id="@id/menu_terms_services" android:title="@string/preference_terms_of_service_title" app:showAsAction="never" />
+    <item android:id="@id/menu_privacy" android:title="@string/preference_privacy_policy_title" app:showAsAction="never" />
+    <item android:id="@id/menu_open_source" android:title="@string/preference_open_source_licenses_title" app:showAsAction="never" />
+</menu>

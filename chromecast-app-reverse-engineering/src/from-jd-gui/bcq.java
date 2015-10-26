@@ -1,0 +1,16 @@
+final class bcq
+  implements Runnable
+{
+  bcq(bcn parambcn) {}
+  
+  public final void run()
+  {
+    bcn.e(this.a);
+  }
+}
+
+
+/* Location:              C:\DEV\android\dex2jar-2.1-SNAPSHOT\classes-dex2jar.jar!\bcq.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

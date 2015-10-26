@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/md_grey_200" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/provider_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/panel_padding" android:minHeight="32.0dip">
+        <com.google.android.apps.chromecast.app.widget.ReusableImageView android:gravity="center_vertical" android:id="@id/provider_label" android:paddingRight="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="@dimen/provider_label_height" android:scaleType="fitStart" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/provider_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/content_padding" android:lines="1" android:layout_weight="1.0" style="@style/ProviderLabel" />
+        <Button android:id="@id/open_app_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/content_padding" android:text="@string/open_app_button" style="@style/ClickableLabel" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/content_thumbnail_container" android:paddingLeft="@dimen/shelf_padding" android:paddingRight="@dimen/shelf_padding" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/content_padding" android:layout_below="@id/provider_container" />
+</RelativeLayout>

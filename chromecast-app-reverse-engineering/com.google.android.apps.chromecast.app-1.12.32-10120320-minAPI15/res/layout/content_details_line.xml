@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/metadata_key" android:layout_width="@dimen/metadata_title_width" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <TextView android:ellipsize="end" android:id="@id/metadata_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/metadata_key" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cover_photo_ratio_width">16</integer>
+    <integer name="cover_photo_ratio_height">9</integer>
+    <integer name="child_position">0</integer>
+    <integer name="google_play_services_version">7327000</integer>
+    <integer name="chips_max_lines">-1</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="device_scan_timeout_ms">15000</integer>
+    <integer name="device_setup_timeout_ms">6000</integer>
+    <integer name="wifi_enable_poll_delay_ms">500</integer>
+    <integer name="wifi_enable_poll_time_ms">15000</integer>
+    <integer name="wifi_connection_timeout_ms">40000</integer>
+    <integer name="setup_refresh_period_ms">45000</integer>
+    <integer name="device_status_poll_time_ms">140000</integer>
+    <integer name="device_status_alive_time_ms">40000</integer>
+    <integer name="device_status_poll_delay_ms">500</integer>
+    <integer name="scan_for_networks_result_delay_ms">1500</integer>
+    <integer name="password_max_length">64</integer>
+    <integer name="wifi_restore_delay_ms">500</integer>
+    <integer name="device_ssdp_scan_timeout_ms">10000</integer>
+    <integer name="device_ssdp_scan_time_setup_ms">15000</integer>
+    <integer name="device_ssdp_scan_time_update_ms">90000</integer>
+    <integer name="analytics_upload_delay_ms">10000</integer>
+    <integer name="analytics_max_upload_age_seconds">86400</integer>
+    <integer name="analytics_max_upload_event_count">100</integer>
+    <integer name="num_gallery_grid_columns">3</integer>
+    <integer name="details_description_lines">5</integer>
+</resources>

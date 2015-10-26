@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/check_box_wrapper" android:layout_width="@dimen/options_icon_width" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/chromecast_location_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textColor="@color/grey_button_text_color" android:text="@string/use_chromecast_location" style="@style/BackdropSettingDescription" />
+</LinearLayout>

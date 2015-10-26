@@ -1,0 +1,11 @@
+final class bcp
+  implements aea
+{
+  bcp(bcn parambcn) {}
+}
+
+
+/* Location:              C:\DEV\android\dex2jar-2.1-SNAPSHOT\classes-dex2jar.jar!\bcp.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

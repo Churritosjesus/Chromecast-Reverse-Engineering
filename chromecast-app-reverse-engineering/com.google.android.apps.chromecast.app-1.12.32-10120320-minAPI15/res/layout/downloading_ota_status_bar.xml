@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/ota_status_bar" android:background="@color/ota_status_bar_background" android:paddingLeft="@dimen/ota_status_overlay_padding" android:paddingTop="@dimen/ota_status_overlay_padding_top" android:paddingRight="@dimen/ota_status_overlay_padding" android:paddingBottom="@dimen/ota_status_overlay_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@id/ota_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chromecast_ota_downloading" />
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="@color/highlight_color" android:id="@id/ota_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_padding" android:text="@string/ota_wait_percent" android:layout_toRightOf="@id/ota_status_text" android:layout_alignTop="@id/ota_status_text" android:layout_alignBottom="@id/ota_status_text" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@null" android:id="@id/device_count" android:visibility="visible" style="@style/BackdropSecondaryAction" />
+    <include android:id="@id/divider" android:visibility="gone" layout="@layout/divider" />
+    <ListView android:id="@id/hidden_device_list" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:stackFromBottom="true" android:transcriptMode="alwaysScroll" android:divider="@null" />
+</LinearLayout>

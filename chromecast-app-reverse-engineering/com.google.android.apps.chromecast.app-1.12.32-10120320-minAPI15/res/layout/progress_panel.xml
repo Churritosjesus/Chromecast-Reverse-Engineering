@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/progress_spinner" android:paddingLeft="@dimen/splash_padding" android:paddingTop="@dimen/splash_padding_top" android:paddingRight="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/progress_text" style="@style/ProgressText" />
+    <ProgressBar style="@style/ProgressSpinner.Material" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/shelf_header" android:layout_width="fill_parent" android:layout_height="@dimen/button_height">
+        <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/shelf_label" android:paddingLeft="@dimen/panel_padding" android:paddingTop="@dimen/content_padding" android:paddingRight="@dimen/content_padding" android:paddingBottom="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <TextView android:gravity="center_vertical" android:id="@id/shelf_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SearchShelfLabel" />
+        <Button android:gravity="center" android:id="@id/view_all_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/content_padding" android:text="@string/view_all_text" style="@style/ClickableLabel" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/content_thumbnail_container" android:background="@color/md_grey_200" android:paddingLeft="@dimen/shelf_padding" android:paddingRight="@dimen/shelf_padding" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/content_padding" android:layout_below="@id/shelf_header" />
+</RelativeLayout>

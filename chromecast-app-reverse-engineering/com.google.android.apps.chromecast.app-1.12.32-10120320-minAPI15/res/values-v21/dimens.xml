@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tutorial_padding_top">72.0dip</dimen>
+    <dimen name="ota_status_overlay_padding_top">40.0dip</dimen>
+    <dimen name="status_bar_height">24.0dip</dimen>
+</resources>

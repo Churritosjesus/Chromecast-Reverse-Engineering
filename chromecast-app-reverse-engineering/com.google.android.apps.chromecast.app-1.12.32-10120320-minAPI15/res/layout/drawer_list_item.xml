@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/activated"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/drawer_icon" android:layout_width="24.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listitem_padding" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/drawer_text_selector" android:gravity="center_vertical" android:id="@id/drawer_label" android:layout_width="wrap_content" android:layout_height="@dimen/oneline_listitem_height" android:layout_marginLeft="@dimen/list_text_margin_start" android:layout_centerVertical="true" android:textIsSelectable="false" style="@style/DrawerListItemText" />
+</RelativeLayout>

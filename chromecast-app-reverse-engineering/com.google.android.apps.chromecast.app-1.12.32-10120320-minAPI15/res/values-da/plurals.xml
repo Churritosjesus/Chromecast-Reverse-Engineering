@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_photos_in_album">
+        <item quantity="other">%d billeder</item>
+        <item quantity="zero">0 billeder</item>
+        <item quantity="one">%d billede</item>
+    </plurals>
+</resources>

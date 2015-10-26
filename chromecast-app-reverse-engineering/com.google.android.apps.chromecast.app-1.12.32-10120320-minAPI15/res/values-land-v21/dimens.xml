@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="ota_status_overlay_padding_top">@dimen/ota_status_overlay_padding</item>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/VerticalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/search_toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewFlipper android:id="@id/search_results_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/spinner" />
+            <include layout="@layout/search_empty_state" />
+        </ViewFlipper>
+        <View android:id="@id/search_scrim" android:background="@color/scrim_overlay" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

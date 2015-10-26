@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_devices_title">未找到任何 Chromecast</string>
+    <string name="no_devices_text1">将 Chromecast 连接到电视的 HDMI 端口。</string>
+    <string name="no_devices_text2">将 USB 电源连接到电视或 USB 电源适配器。</string>
+    <string name="no_devices_text3">确保您的手机/平板电脑和 Chromecast 使用的是同一个 Wi-Fi 网络。</string>
+    <string name="no_devices_text4">确保电视已接通电源，并且选择的输入端口正确。</string>
+    <string name="no_audio_devices_text1">确保 Chromecast Audio 已插入到墙上插座或 USB 端口。</string>
+    <string name="no_audio_devices_text2">确保您的手机/平板电脑和 Chromecast Audio 使用的是同一个 Wi-Fi 网络。</string>
+    <string name="no_audio_devices_text3">确保音响系统已接通电源，并且选择的输入端口正确。</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">开始设置您的 Chromecast 或 Chromecast Audio 吧！</string>
+    <string name="no_devices_splash_subtext">选择您要设置的 Chromecast 所属的类型：</string>
+    <string name="location_services_dialog">启用位置信息服务以设置您的 %1$s。这样一来，您的手机将能够检测到附近可设置的 %2$s。</string>
+    <string name="add_device">添加新设备</string>
+    <string name="terms_title">隐私权和条款</string>
+    <string name="terms_text">"Google 隐私权政策说明了 Google 在您设置和使用 Chromecast 期间会收集哪些信息。设置好 Chromecast 后，您可以在此应用中前往设备设置部分，修改该设备的隐私设置（例如是否允许 Chromecast 向 Google 发送使用情况数据和崩溃报告）。
+
+按下面的“接受”，即表示您同意%1$s和%2$s。"</string>
+    <string name="terms_text_germany">"Google 隐私权政策说明了 Google 在您设置和使用 Chromecast 期间会收集哪些信息。设置好 Chromecast 后，您可以在此应用中前往设备设置部分，修改该设备的隐私设置（例如是否允许 Chromecast 向 Google 发送使用情况数据和崩溃报告）。
+
+按下面的“接受”，即表示您同意%1$s，并确认您已阅读%2$s。"</string>
+    <string name="terms_of_service_pattern">Google服务条款</string>
+    <string name="dogfood_confidentiality_text">此 dogfood 版本的 Chromecast 仅供内部使用，其中包含尚未公开发布的功能。</string>
+    <string name="dogfood_confidentiality_title">机密</string>
+    <string name="dogfood_confidentiality_accept">知道了</string>
+    <string name="privacy_policy_pattern">隐私权政策</string>
+    <string name="privacy_policy_pattern_germany">Google隐私权政策</string>
+    <string name="terms_accept">接受</string>
+    <string name="terms_decline">取消</string>
+    <string name="setup_title_enable_wifi">正在启用 Wi-Fi…</string>
+    <string name="not_set_up_info">需要设置</string>
+    <string name="wifi_enable_title">未检测到任何 Wi-Fi 网络</string>
+    <string name="wifi_enable_message">请开启 Wi-Fi，以便与您的 Chromecast 建立连接。</string>
+    <string name="wifi_enable_proceed">启用Wi-Fi</string>
+    <string name="wifi_enable_fail">无法连接到 Wi-Fi 网络。请检查 Wi-Fi 设置是否正确，然后重试。</string>
+    <string name="no_wifi_title">没有 Wi-Fi 连接</string>
+    <string name="menu_discover_help">帮助和反馈</string>
+    <string name="discover_help_title">为什么我的 Chromecast/Chromecast Audio 没有显示在此列表中？</string>
+    <string name="discover_help_text">"请确保您的 Chromecast 符合以下条件：
+• 在距离此设备 20 英尺（约 6 米）的范围内
+• 已接通电源（使用 USB 线）且白色指示灯亮起
+• 与此设备使用同一个 Wi-Fi 网络（如果已设置）
+
+请确保您的 Wi-Fi 网络符合以下条件：
+• 允许新设备加入
+
+如果您仍看不到自己的 Chromecast，则可以：
+• 将其恢复出厂设置 - 按下 Chromecast 上的“重置”按钮并保持 15 秒
+
+如需更多帮助，请访问 support.google.com/chromecast。"</string>
+    <string name="developer_mode_toast">已启用开发者模式</string>
+    <string name="drawer_item_learn">了解详情</string>
+    <string name="drawer_item_backdrop">背景幕</string>
+    <string name="drawer_item_settings">设置</string>
+    <string name="drawer_item_cast_screen">投射屏幕/音频</string>
+    <string name="drawer_open">打开抽屉式导航栏</string>
+    <string name="drawer_close">关闭抽屉式导航栏</string>
+    <string name="accessibility_settings">打开设备设置</string>
+    <string name="ignore">忽略</string>
+    <string name="setup">设置</string>
+    <string name="hidden_device_count">忽略的设备数 (%1$d)</string>
+    <string name="opencast_pin">PIN 码：%1$s</string>
+    <string name="backdrop_exit_history">完成</string>
+    <string name="backdrop_history_label">第 %1$s 条记录（共 %2$s 条）</string>
+    <string name="accessibility_backdrop_history">进入背景幕历史记录</string>
+    <string name="accessibility_backdrop_history_exit">退出背景幕历史记录</string>
+    <string name="accessibility_backdrop_history_previous">在背景幕历史记录中转到上一张图片</string>
+    <string name="accessibility_backdrop_history_next">在背景幕历史记录中转到下一张图片</string>
+    <string name="device_settings_title">Chromecast 设置</string>
+    <string name="device_connect_progress">正在连接到 %1$s</string>
+    <string name="device_connect_failed">无法连接到您的 Chromecast，请确保此设备就在附近。</string>
+    <string name="device_connect_failed_poor_link_title">无法连接到Chromecast</string>
+    <string name="device_connect_failed_poor_link">请确保您的 Chromecast 就在附近，并确保在 Chromecast 设置完成之前 Wi-Fi 设置中的“自动切换网络”功能一直处于关闭状态。</string>
+    <string name="device_setup_progress">正在将您的 Chromecast 连接到 %1$s</string>
+    <string name="device_ethernet_setup_progress">正在连接您的 Chromecast</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s 无法连接到 %2$s - 请检查您的密码是否正确。</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s 无法连接到 %2$s - 请检查 Wi-Fi 网络名称是否正确。</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s 无法连接到 %2$s - 请检查 Wi-Fi 路由器是否存在问题。</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s 无法连接到 %2$s - 请检查您输入的内容是否正确。</string>
+    <string name="device_reboot_progress">正在重启 %1$s</string>
+    <string name="settings_saved_toast">对设置所做的更改已在您的 Chromecast 上生效</string>
+    <string name="wifi_different_title">更改 Wi-Fi 网络</string>
+    <string name="wifi_different_message">您的 Chromecast 所在的 Wi-Fi 网络 (%2$s) 与此设备所在的 Wi-Fi 网络 (%1$s) 不同。设置完毕后，此设备将连接到 %2$s，以便您使用自己的 Chromecast。</string>
+    <string name="confirm_reboot">要重启 %1$s 吗？</string>
+    <string name="confirm_reset">要将 %1$s 恢复出厂设置吗？</string>
+    <string name="reboot_ok">确定</string>
+    <string name="settings_device_label">设备信息</string>
+    <string name="settings_name_label">名称</string>
+    <string name="settings_wifi_label">Wi-Fi</string>
+    <string name="settings_time_zone_label">时区</string>
+    <string name="settings_time_format_label">时间格式</string>
+    <string name="settings_locale_label">语言</string>
+    <string name="settings_sounds_label">声音</string>
+    <string name="settings_playback_sounds_label">播放声音</string>
+    <string name="settings_playback_sounds_description">开始投射和音量改变</string>
+    <string name="settings_hdr_label">高动态范围</string>
+    <string name="settings_hdr_description">对于 AVR 和高保真系统</string>
+    <string name="settings_privacy_label">隐私设置</string>
+    <string name="settings_opencast_label">访客模式</string>
+    <string name="settings_opencast_pin">PIN码：%1$s</string>
+    <string name="settings_opencast_getting_pin">正在获取设备PIN码…</string>
+    <string name="settings_cast_nearby_intro_description">"此功能处于启用状态时，同一房间内的所有人都能连接到您的%1$s，即使他们与您使用的不是同一个 Wi-Fi 网络，也是如此。
+
+此功能使用您的%2$s的位置信息及 Wi-Fi 网络来确定附近有哪些设备。"</string>
+    <string name="settings_cast_nearby_learn_more">了解详情</string>
+    <string name="settings_cast_nearby_learn_title">工作方式</string>
+    <string name="settings_cast_nearby_learn_description">"为了连接到访客的设备，您的%1$s将通过您听不到的短促音频自动传输 4 位数的 PIN 码。
+
+如果音频配对失败，系统会要求访客输入 PIN 码。设备所有者可以在 Chromecast 应用中找到该 PIN 码。
+
+您可以随时停用此功能。"</string>
+    <string name="settings_information_label">信息</string>
+    <string name="wifi_other_name">其他…</string>
+    <string name="wifi_name_title">网络名称</string>
+    <string name="wifi_password_title_setup">Wi-Fi 密码</string>
+    <string name="wifi_password_hint">（未更改）</string>
+    <string name="wifi_security_title">安全性</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">信号非常弱</string>
+    <string name="wifi_level_description_2">信号较弱</string>
+    <string name="wifi_level_description_3">信号较强</string>
+    <string name="wifi_level_description_4">信号非常强</string>
+    <string name="device_mac_address_pattern">MAC 地址：%1$s</string>
+    <string name="device_ip_address_pattern">IP 地址：%1$s</string>
+    <string name="device_build_version_pattern">固件版本：%1$s</string>
+    <string name="device_country_code_pattern">国家/地区代码：%1$s</string>
+    <string name="time_format_12_hours">使用12小时制</string>
+    <string name="time_format_24_hours">使用24小时制</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">无法与您的 Chromecast 通信，请重试。</string>
+    <string name="execute_requests_failed">无法与您的 Chromecast 通信。</string>
+    <string name="execute_requests_failed_status">无法与您的 Chromecast（%1$s）通信。</string>
+    <string name="config_wifi_device_not_found">"在 Wi-Fi 网络中找不到 %1$s，请检查 Wi-Fi 设置是否正确。
+• 如果您使用了双频（2.4 GHz 和 5 GHz）路由器 - 请确保该路由器未处于 AP 隔离模式
+• 如果您的路由器已启用 MAC 白名单功能 - 请确保该路由器允许此设备和您的 Chromecast 加入
+如需关于排查此问题的更多帮助信息，请访问 support.google.com/chromecast。"</string>
+    <string name="menu_reboot">重启 Chromecast</string>
+    <string name="menu_reset">将 Chromecast 恢复出厂设置</string>
+    <string name="menu_feedback">提交反馈报告</string>
+    <string name="menu_oss_licenses">开放源代码许可</string>
+    <string name="menu_other_licenses_title">其他许可</string>
+    <string name="alert_cancel">取消</string>
+    <string name="alert_ok">确定</string>
+    <string name="alert_yes">是</string>
+    <string name="alert_settings">打开“设置”</string>
+    <string name="alert_wifi_settings">Wi-Fi 设置</string>
+    <string name="alert_dont_show_again">不再显示此对话框</string>
+    <string name="continue_button_text">继续</string>
+    <string name="menu_offers">查询优惠信息</string>
+    <string name="prompt_offers_serial_number">您是否同意将Chromecast的序列号发送给Google，以便查找相关优惠信息？</string>
+    <string name="prompt_offers_button_neg">取消</string>
+    <string name="prompt_offers_button_pos">同意</string>
+    <string name="progress_offers">正在查询优惠信息…</string>
+    <string name="offers_failure">无法查询优惠信息。请确保您的 Chromecast 已设置好并可开始投射。</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">"Chromecast's"</string>
+    <string name="device_type_chromecast_plural">Chromecast</string>
+    <string name="device_type_chromecast_audio">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_possessive">"Chromecast Audio's"</string>
+    <string name="device_type_chromecast_audio_plural">Chromecast Audio</string>
+    <string name="found_title">已找到 %1$s</string>
+    <string name="configure_title">设置 %1$s</string>
+    <string name="name_choice_title">为%1$s指定名称</string>
+    <string name="name_choice_hint">例如：“起居室”</string>
+    <string name="setup_enable_opencast_text">启用访客模式</string>
+    <string name="setup_enable_opencast_description">让同一房间内的设备（即便它们使用的是其他 Wi-Fi 网络）都能投射内容。此模式会利用投射设备的位置信息及 Wi-Fi 网络来查找附近的设备。</string>
+    <string name="apply_wifi_button_text">设置网络</string>
+    <string name="apply_name_button_text">设置名称</string>
+    <string name="show_password_text">显示密码</string>
+    <string name="configure_network_heading_text">将 Chromecast 连接到您的 Wi-Fi 网络</string>
+    <string name="configuration_fail_dialog_title">设置期间出现连接问题！</string>
+    <string name="configuration_fail_dialog_message">请检查 Wi-Fi 网络设置是否正确。</string>
+    <string name="reconfigure_cancel">取消</string>
+    <string name="reconfigure_proceed">重试</string>
+    <string name="prompt_friendly_name_title">Chromecast 名称</string>
+    <string name="prompt_network_title">Chromecast Wi-Fi</string>
+    <string name="prompt_country_title">选择所在的国家/地区</string>
+    <string name="prompt_country_text">必须选择国家/地区，才能正确配置您的 Chromecast。</string>
+    <string name="missing_ssid_message">请输入网络 SSID。</string>
+    <string name="wep_short_password_message">Wi-Fi 网络密码必须至少包含 5 个字符。</string>
+    <string name="wpa_short_password_message">Wi-Fi 网络密码必须至少包含 8 个字符。</string>
+    <string name="not_supported_network_message">此 Wi-Fi 网络不受支持，请选择采用 WEP/WPA/WPA2 加密的网络。</string>
+    <string name="restore_wifi_toast">已将 Wi-Fi 切换回 %1$s</string>
+    <string name="wifi_restore_fail">无法连接到 Wi-Fi 网络 %1$s，请检查 Wi-Fi 设置是否正确。</string>
+    <string name="settings_network_fail">无法连接到 Wi-Fi 网络 %1$s。请重新设置您的设备，以确认 Wi-Fi 网络详细信息正确无误。</string>
+    <string name="configure_tv_title_text">更改电视的输入端口</string>
+    <string name="configure_tv_title_body">Chromecast 是否正确？请查看电视上是否显示了此代码并进行确认。</string>
+    <string name="noupdate_app_alert_text">此功能与您安装的 Android 版本不兼容。</string>
+    <string name="bad_device_message">无法验证您的 Chromecast。如需关于排查此问题的更多帮助信息，请访问 support.google.com/chromecast。</string>
+    <string name="validation_ignore_button">仍然继续</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">无法处理您的 Wi-Fi 参数，请重试。</string>
+    <string name="pin_confirmed_button">电视屏幕上已显示代码</string>
+    <string name="pin_mismatched_button">电视屏幕上未显示代码</string>
+    <string name="setup_ping_failed">无法与您的 Chromecast 通信，可能是因为您的 Chromecast 连接的网络无法与设备连接的网络通信。您可能需要对 Wi-Fi 路由器设置进行一些更改。有关详情，请点击此处。</string>
+    <string name="setup_ping_pattern">此处</string>
+    <string name="setup_ssdp_scan_failed">在网络中找不到您的 Chromecast。您可能需要对 Wi-Fi 路由器设置进行一些更改。有关详情，请点击此处。</string>
+    <string name="setup_ssdp_scan_pattern">此处</string>
+    <string name="wpa_auth_ieee_8021x">采用 802.1x EAP 加密</string>
+    <string name="wpa_auth_none_open">未经加密</string>
+    <string name="wpa_auth_none_wep">采用 WEP 加密</string>
+    <string name="wpa_auth_none_wep_shared">采用 WEP 加密</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">采用 WPA 加密</string>
+    <string name="wpa_auth_wpa_psk">采用 WPA 加密</string>
+    <string name="wpa_auth_wpa2_eap">采用 WPA2 加密</string>
+    <string name="wpa_auth_wpa2_psk">采用 WPA2 加密</string>
+    <string name="play_services_old_alert">Google Play服务需要更新。请在Play商店中查找可用更新。</string>
+    <string name="oss_licenses_title">开放源代码许可</string>
+    <string name="loading_licenses">正在检索许可…</string>
+    <string name="loading_licenses_failed">目前无法从您的 Chromecast 获取开放源代码许可，请稍后重试。</string>
+    <string name="send_crash_reports">向 Google 发送 Chromecast 使用情况数据和崩溃报告</string>
+    <string name="use_device_id_text">在检查是否有更新时发送此 Chromecast 的序列号</string>
+    <string name="preferences_info_title">信息</string>
+    <string name="preference_terms_of_service_title">服务条款</string>
+    <string name="preference_privacy_policy_title">隐私权政策</string>
+    <string name="preference_open_source_licenses_title">开放源代码许可</string>
+    <string name="preference_software_version_title">软件版本</string>
+    <string name="help_menu_print">打印…</string>
+    <string name="help_menu_view_in_google_play_store">在Google Play商店中查看</string>
+    <string name="mirror_splash_heading">镜像手机或平板电脑中的内容</string>
+    <string name="mirror_splash_body">通过“投射屏幕/音频”功能，您可以将设备上的任何内容镜像到电视或音响系统。</string>
+    <string name="mirror_button">投射屏幕/音频</string>
+    <string name="disconnect_mirror_button">点按以断开连接</string>
+    <string name="disconnect_mirror_button_description">断开投射屏幕连接</string>
+    <string name="mirror_help_link">访问帮助中心</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">正在投射屏幕</string>
+    <string name="cast_screen_on_long_status_name">正在将此屏幕投射至“%1$s”</string>
+    <string name="cast_screen_on_long_status_no_name">正在投射此屏幕</string>
+    <string name="cast_screen_disconnect_toast">正在断开连接…</string>
+    <string name="cast_screen_connect_toast">正在连接…</string>
+    <string name="cast_screen_no_devices">"在您的网络中未发现兼容的Google Cast设备。
+
+要了解详情，请%1$s。"</string>
+    <string name="cast_screen_no_devices_link">访问帮助中心</string>
+    <string name="cast_screen_unapproved_device_warning">尚未针对此设备优化屏幕投射功能；您的使用体验可能会受到影响。</string>
+    <string name="cast_screen_enable_wifi_title">要开启 Wi-Fi 吗？</string>
+    <string name="cast_screen_enable_wifi_message">投射屏幕需要连接到 Wi-Fi 网络。</string>
+    <string name="backdrop_settings_entry_point">背景幕设置</string>
+    <string name="backdrop_unlinking_confirmation">要取消您在“%1$s”上的背景幕偏好设置吗？</string>
+    <string name="backdrop_on_current_network">在您的网络中</string>
+    <string name="backdrop_on_other_network">在其他网络中</string>
+    <string name="photos_setting_turned_off_toast">由于未选择任何相册，因此正在停用“您的照片”。</string>
+    <string name="weather_activity_title">天气信息</string>
+    <string name="weather_search_places">添加位置信息</string>
+    <string name="backdrop_added_date">已添加“%1$s”</string>
+    <string name="backdrop_unlink_device_description">取消关联背景幕设备“%1$s”</string>
+    <string name="backdrop_link_scan_text">正在扫描Chromecast…</string>
+    <string name="backdrop_legal_title">背景幕需要：</string>
+    <string name="backdrop_legal_text">"• 利用 Chromecast 的位置信息查找相关照片和其他内容。
+
+• 允许 Chromecast 执行以下操作：通过您的 Google 帐户访问您的照片，定制背景幕内容，以及管理您的偏好设置。
+
+ 您可以在以后通过此应用更改这些设置。"</string>
+    <string name="backdrop_allow">允许</string>
+    <string name="backdrop_unlink_device_accessibility">取消“%1$s”与背景幕的关联</string>
+    <string name="backdrop_link_error_all_devices">无法关联到 Backdrop，请稍后重试。</string>
+    <string name="backdrop_unlink_error_all_devices">无法取消与 Backdrop 之间的关联，请稍后重试。</string>
+    <string name="backdrop_network_error">无法加载您的背景幕设置，请确保设备已连接到互联网，然后重试。</string>
+    <string name="backdrop_device_linking_message">正在添加到背景幕…</string>
+    <string name="backdrop_device_unlinking_message">正在取消您的背景幕偏好设置…</string>
+    <string name="backdrop_device_unlink_success">已取消背景幕偏好设置</string>
+    <string name="backdrop_device_setting_update_error">无法向%1$s发送设置更新</string>
+    <string name="backdrop_settings_turned_off_toast">由于您未选择任何内容，因此系统正在关闭%1$s。</string>
+    <string name="backdrop_setting_defer_loading_error">出了点问题，无法加载设置。</string>
+    <string name="backdrop_oauth_callback_error">无法验证您的帐户。</string>
+    <string name="backdrop_revoke_third_party_error">出了点问题，无法移除您的帐户。</string>
+    <string name="backdrop_facebook_sdk_login_error">无法连接到 Facebook，请稍后重试。</string>
+    <string name="backdrop_revoke_third_party_dialog_title">要移除帐户吗？</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">移除</string>
+    <string name="setting_on">开启</string>
+    <string name="setting_off">关闭</string>
+    <string name="accessibility_checked">已选中</string>
+    <string name="accessibility_not_checked">未选中</string>
+    <string name="backdrop_no">不用了</string>
+    <string name="backdrop_signin_ok">登录</string>
+    <string name="backdrop_default_title">背景幕图片</string>
+    <string name="backdrop_default_attribution">没有信息</string>
+    <string name="backdrop_ready_to_cast">可以投射了</string>
+    <string name="tv_show_description">《%1$s》第 %2$d 季第 %3$d 集</string>
+    <string name="spinner_loading_text">正在加载数据…</string>
+    <string name="remote_devices">关联的背景幕设备（%1$d 台）</string>
+    <string name="albums_download_server_error">无法加载您的相册，请稍后重试。</string>
+    <string name="albums_download_no_connection_error">无法加载您的相册，请确保您可以连接到互联网，然后重试。</string>
+    <string name="no_albums_text">此帐户中没有任何相册。在您创建相册后，它们便会显示在此处。</string>
+    <string name="photos_progress_spinner_text">正在加载相册…</string>
+    <string name="preview_title">预览</string>
+    <string name="preview_num_photos">前 %1$d 张照片（共 %2$d 张）</string>
+    <string name="menu_sorting">排序</string>
+    <string name="menu_album_refresh">刷新</string>
+    <string name="remove_weather_location_dialog_body">要删除“%1$s”上显示的天气信息对应的位置吗？</string>
+    <string name="remove_weather_location_dialog_remove">移除</string>
+    <string name="remove_weather_location_dialog_keep">保留</string>
+    <string name="temperature_format_dialog_title">温度格式</string>
+    <string name="temperature_format_dialog_set">设置</string>
+    <string name="temperature_format_dialog_cancel">取消</string>
+    <string name="farenheit">°F</string>
+    <string name="celsius">°C</string>
+    <string name="add_location">添加位置信息</string>
+    <string name="use_chromecast_location">使用 Chromecast 的位置信息</string>
+    <string name="temperature_format_preference">温度格式偏好设置</string>
+    <string name="location_toast_message">“%1$s”已在您的位置列表中。</string>
+    <string name="update_prompt">此应用好像有更高版本。您必须更新此应用，否则该功能无法正常使用。</string>
+    <string name="update_title">要更新Chromecast应用吗？</string>
+    <string name="update_button">更新</string>
+    <string name="update_cancel">不用了</string>
+    <string name="whats_on_tab_name">热映推荐</string>
+    <string name="my_devices_tab_name">设备</string>
+    <string name="get_apps_tab_name">下载应用</string>
+    <string name="open_app_button">打开应用</string>
+    <string name="search_hint">搜索电影和电视节目</string>
+    <string name="app_install_button">安装</string>
+    <string name="browse_all_apps">浏览所有应用</string>
+    <string name="view_all_text">查看全部</string>
+    <string name="intent_error">无法打开此应用。</string>
+    <string name="trailer">预告片</string>
+    <string name="drawer_item_home">主屏幕</string>
+    <string name="unavailable_to_cast">此内容无法投射。</string>
+    <string name="details_error_msg">无法加载此内容的详细信息。</string>
+    <string name="browse_view_no_feeds_title">快去下载一些应用吧</string>
+    <string name="browse_view_no_feeds_message">您只需安装一些支持 Google Cast 的应用，即可开始将自己喜爱的内容投射到电视和音响系统。</string>
+    <string name="get_apps">下载应用</string>
+    <string name="browse_view_timeout_title">无法连接到网络</string>
+    <string name="browse_view_timeout_message">无法建立网络连接。请开启 Wi-Fi，并确保您的设备未处于飞行模式。</string>
+    <string name="try_again">重试</string>
+    <string name="search_no_results_title">未找到任何结果</string>
+    <string name="search_no_results_description">请试试其他搜索字词。</string>
+    <string name="accessibility_open_app">打开应用：%1$s</string>
+    <string name="accessibility_clip_duration">时长：%1$s</string>
+    <string name="accessibility_offer_card">优惠卡片</string>
+    <string name="accessibility_app_card">%1$s应用卡片</string>
+    <string name="accessibility_category_card">%1$s应用卡片：%2$s</string>
+    <string name="redeem_offer">兑换</string>
+    <string name="offer_terms">显示条款</string>
+    <string name="hide_offer">隐藏</string>
+    <string name="offer_options">优惠选项</string>
+    <string name="offer_redemption_error">抱歉，无法兑换此优惠。您可能已为这台设备兑换此优惠。</string>
+    <string name="found_header_text">开始设置“%1$s”</string>
+    <string name="found_body_text">只需完成几个简单的步骤，即可开始投射您喜爱的内容。</string>
+    <string name="start_setup_button">设置</string>
+    <string name="setup_before_sound_text">系统将播放一段声音，以便测试 Chromecast Audio。</string>
+    <string name="setup_after_sound_text">您从音响系统里听到这段声音了吗？</string>
+    <string name="setup_play_sound_button">播放测试声音</string>
+    <string name="setup_heard_sound_button">听到了</string>
+    <string name="setup_no_sound_button">没听到</string>
+    <string name="setup_help_text">请确保您的音响系统已打开且未设为静音。</string>
+    <string name="setup_tap_image_text">（点按即可重新播放）</string>
+    <string name="no_sound_header">没听到声音？</string>
+    <string name="setup_error_steps">试试这几个步骤…</string>
+    <string name="no_sound_text1">确保您的 Chromecast Audio 上的音频线缆已插入正确的输入端口。</string>
+    <string name="no_sound_text2">确保音响系统已接通电源，并已插入正确的输入端口。</string>
+    <string name="no_sound_text3">确保音响系统未设为静音。</string>
+    <string name="play_sound_again_button">重新播放声音</string>
+    <string name="setup_failed_header">出了点问题…</string>
+    <string name="audio_setup_failed_text1">您可能无意中连接到了他人的 Chromecast Audio。请确保您的 Chromecast Audio 已插好，并且音响系统已插入正确的输入端口。</string>
+    <string name="audio_setup_failed_text2">建议您在听到音响系统发出声音后，再继续设置此设备。</string>
+    <string name="wrong_pin_header">在电视上没有看到该代码？</string>
+    <string name="wrong_pin_text1">确保电视已接通电源。</string>
+    <string name="wrong_pin_text2">确保电视使用的是 Chromecast 所插入到的 HDMI 输入端口。</string>
+    <string name="done_header_text">可以投射了！</string>
+    <string name="done_body_audio_text">打开某个支持 Google Cast 的音乐应用，然后点按“投射”按钮。</string>
+    <string name="done_body_text">打开某个支持 Google Cast 的应用，然后点按“投射”按钮。</string>
+    <string name="done_button">浏览您的投射应用</string>
+    <string name="setup_failed_text1">您可能无意中连接到了其他人的 Chromecast。请确保您的 Chromecast 已插入到正确的输入端口，并且电视的输入端口设置正确。</string>
+    <string name="setup_failed_text2">建议您在验证该代码之后，再设置此 Chromecast。</string>
+    <string name="setup_complete_header_text">已联网</string>
+    <string name="setup_complete_check_ota_body_text">正在检查是否有更新，请稍候。</string>
+    <string name="ota_wait_percent">%1$d%%</string>
+    <string name="ota_wait_header_text">需要更新</string>
+    <string name="ota_wait_body_text">正在获取更新，请稍候。</string>
+    <string name="chromecast_ota_downloading">正在下载更新</string>
+    <string name="chromecast_ota_updating">正在安装更新，请稍候</string>
+    <string name="chromecast_ota_done">已更新完毕</string>
+    <string name="skip_learn_video_button_text">跳过</string>
+    <string name="skip_tutorial_page_button_text">跳过</string>
+    <string name="tutorial_next_description">下一页</string>
+    <string name="ota_error_header">更新时间超出预期</string>
+    <string name="ota_error_options_none">以上都不是</string>
+    <string name="ota_error_done_btn">知道了</string>
+    <string name="ota_error_troubleshoot_btn">问题排查</string>
+    <string name="ota_error_download_slow_header">下载更新需要的时间超出预期</string>
+    <string name="ota_error_download_slow_description">这可能是 Wi-Fi 路由器设置或网速导致的。</string>
+    <string name="ota_error_audio_description">要查看 Chromecast Audio 的状态，请找到设备侧面的 LED 指示灯。</string>
+    <string name="ota_error_audio_option_blink_orange">闪烁黄光</string>
+    <string name="ota_error_audio_option_blink_white">闪烁白光</string>
+    <string name="ota_error_audio_option_white">稳定的白光</string>
+    <string name="ota_error_blink_orange_header">仍在更新</string>
+    <string name="ota_error_blink_orange_description">"Chromecast Audio 更新完毕后，LED 指示灯将发出稳定的白光。
+
+然后，您应该会在下一个屏幕的“设备”标签中看到自己的 Chromecast Audio。"</string>
+    <string name="ota_error_blink_white_header">未能完成更新</string>
+    <string name="ota_error_blink_white_description">更新时好像出了点问题。</string>
+    <string name="ota_error_solid_white_header">已更新完毕</string>
+    <string name="ota_error_solid_white_description">"好像已经更新完毕，但此设备与 Chromecast Audio 连接的可能不是同一个 Wi-Fi 网络。
+
+请尝试将此设备连接到 Chromecast Audio 所在的 Wi-Fi 网络。
+
+如果连接成功，您应该会在下一个屏幕的“设备”标签中看到自己的 Chromecast Audio。"</string>
+    <string name="ota_error_tv_description">在电视上查看 Chromecast 的状态。</string>
+    <string name="ota_error_tv_option_installing">仍在安装</string>
+    <string name="ota_error_tv_option_ready">可以投射了</string>
+    <string name="ota_error_still_installing_header">仍在安装</string>
+    <string name="ota_error_still_installing_description">"Chromecast 更新完毕后，您应该会在电视上看到“可以投射了”这条消息。
+
+然后，您应该会在下一个屏幕的“设备”标签中看到自己的 Chromecast。"</string>
+    <string name="ota_error_ready_to_cast_header">可以投射了</string>
+    <string name="ota_error_ready_to_cast_description">"Chromecast 好像已经更新完毕并可以投射了，但您的手机或平板电脑与 Chromecast 连接的可能不是同一个 Wi-Fi 网络。
+
+请确保您的手机或平板电脑连接到 Chromecast 所在的 Wi-Fi 网络。"</string>
+    <string name="stop_casting_button">停止投射</string>
+    <string name="no_media_info">没有任何信息</string>
+</resources>

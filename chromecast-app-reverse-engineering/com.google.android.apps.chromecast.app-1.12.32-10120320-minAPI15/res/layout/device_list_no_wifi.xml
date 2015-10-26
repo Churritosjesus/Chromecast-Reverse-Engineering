@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_area" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/splash_padding" android:paddingTop="@dimen/empty_state_top_padding" android:paddingRight="@dimen/splash_padding" android:paddingBottom="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/wifi_enable_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_signal_wifi_off" android:contentDescription="@null" />
+            <TextView android:id="@id/wifi_enable_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_enable_title" style="@style/EmptyStateTextTitle" />
+            <TextView android:id="@id/wifi_enable_message" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/wifi_enable_message" style="@style/EmptyStateTextMessage" />
+            <Button android:id="@id/wifi_enable_proceed" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/wifi_enable_proceed" android:onClick="enableWifi" style="@style/Button.Orange.LargeFixed" />
+        </LinearLayout>
+    </ScrollView>
+</merge>

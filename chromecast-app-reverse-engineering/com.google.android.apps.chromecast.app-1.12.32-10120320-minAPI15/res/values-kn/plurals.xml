@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_photos_in_album">
+        <item quantity="other">%d ಫೋಟೊಗಳು</item>
+        <item quantity="zero">0 ಫೋಟೊಗಳು</item>
+        <item quantity="one">%d ಫೋಟೊ</item>
+    </plurals>
+</resources>

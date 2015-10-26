@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/setup_error_header" android:paddingBottom="@dimen/content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_sound_header" style="@style/SplashTextMedium" />
+        <TextView android:paddingBottom="@dimen/content_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_error_steps" style="@style/SplashTextSmall" />
+        <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+            <TextView android:textStyle="bold" android:textColor="@color/link_text_color" android:layout_gravity="top" android:paddingRight="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_one" style="@style/SplashTextSmall" />
+            <TextView android:layout_gravity="top" android:id="@id/setup_error_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplashTextSmall" />
+        </LinearLayout>
+        <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+            <TextView android:textStyle="bold" android:textColor="@color/link_text_color" android:layout_gravity="top" android:paddingRight="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_two" style="@style/SplashTextSmall" />
+            <TextView android:layout_gravity="top" android:id="@id/setup_error_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplashTextSmall" />
+        </LinearLayout>
+        <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+            <TextView android:textStyle="bold" android:textColor="@color/link_text_color" android:layout_gravity="top" android:id="@id/number_three" android:paddingRight="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_three" style="@style/SplashTextSmall" />
+            <TextView android:layout_gravity="top" android:id="@id/setup_error_text3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SplashTextSmall" />
+        </LinearLayout>
+        <Button android:id="@id/return_to_setup_button" android:layout_width="wrap_content" android:layout_marginTop="@dimen/content_vertical_padding" style="@style/Button.Orange.LargeFixed" />
+    </LinearLayout>
+</ScrollView>

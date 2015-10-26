@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RecipientEditTextView" parent="@style/RecipientEditTextViewBase">
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="LinkText.Bold.Splash" parent="@style/LinkText.Bold">
+        <item name="android:textSize">21.0sp</item>
+    </style>
+    <style name="SplashTextLarge">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">33.0sp</item>
+        <item name="android:textColor">@color/dark_text</item>
+    </style>
+    <style name="SplashTextMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">27.0sp</item>
+        <item name="android:textColor">@color/dark_text</item>
+    </style>
+    <style name="SplashTextSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">@color/dark_text</item>
+    </style>
+    <style name="PinCodeText">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange_button</item>
+    </style>
+</resources>

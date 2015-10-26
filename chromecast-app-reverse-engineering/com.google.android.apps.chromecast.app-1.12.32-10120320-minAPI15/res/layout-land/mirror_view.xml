@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/VerticalContainer">
+        <include layout="@layout/toolbar" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4" layout="@layout/mirror_view_image" />
+            <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" layout="@layout/mirror_view_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gms.people.accountswitcherview.AccountSwitcherView android:id="@id/left_drawer" style="@style/Navdrawer" />
+</android.support.v4.widget.DrawerLayout>

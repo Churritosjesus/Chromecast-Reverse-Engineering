@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:background="@color/ota_background" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/ota_troubleshoot_home_text" />
+        <View android:id="@id/center_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_below="@id/description" android:layout_centerHorizontal="true" />
+        <include android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/center_view" android:layout_below="@id/description" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/ota_troubleshoot_home_buttons" />
+        <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/graphics_ota_error_audio_device" android:scaleType="centerInside" android:layout_toLeftOf="@id/center_view" android:layout_below="@id/description" android:contentDescription="@null" />
+    </RelativeLayout>
+</ScrollView>

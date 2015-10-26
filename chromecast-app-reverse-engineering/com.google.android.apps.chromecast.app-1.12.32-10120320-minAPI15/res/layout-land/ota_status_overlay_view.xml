@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:paddingTop="@dimen/ota_video_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/panel_padding" layout="@layout/downloading_ota_status_bar" />
+    <Button android:textColor="@android:color/white" android:layout_gravity="end|bottom|center" android:id="@id/skip_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/panel_padding" android:text="@string/skip_learn_video_button_text" style="@style/Button.Flat" />
+</FrameLayout>

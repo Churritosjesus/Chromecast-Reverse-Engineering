@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.chromecast.app.widget.BoundedLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/app_background" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" chromecast:max_width="@dimen/setup_max_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/enable_opencast_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_off" style="@style/SplashTextLarge" />
+    <TextView android:textColor="@color/light_text" android:id="@id/opencast_button_subtext" android:paddingBottom="@dimen/content_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SplashTextSmall" />
+    <TextView android:id="@id/welcome_title" android:paddingBottom="@dimen/content_vertical_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_cast_nearby_learn_title" style="@style/SplashTextMedium" />
+    <TextView android:id="@id/welcome_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SplashTextSmall" />
+    <Button android:textSize="@dimen/welcome_page_button_text_size" android:textColor="@color/grey_button_text_color" android:id="@id/learn_more_btn" android:layout_marginTop="@dimen/content_large_padding" android:text="@string/settings_cast_nearby_learn_more" style="@style/Button.Flat" />
+</com.google.android.apps.chromecast.app.widget.BoundedLinearLayout>

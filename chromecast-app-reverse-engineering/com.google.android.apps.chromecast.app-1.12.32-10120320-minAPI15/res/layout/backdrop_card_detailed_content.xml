@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/backdrop_card_container" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.apps.chromecast.app.widget.OverlaidImageView android:id="@id/card_image" style="@style/CardImage" />
+        <View android:id="@id/image_click_target" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignLeft="@id/card_image" android:layout_alignTop="@id/card_image" android:layout_alignRight="@id/card_image" android:layout_alignBottom="@id/card_image" style="@style/SelectableItem" />
+        <View android:id="@id/card_scrim" android:background="@drawable/card_header_gradient" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/card_image" android:layout_alignTop="@id/card_image" android:layout_alignRight="@id/card_image" android:layout_alignBottom="@id/card_image" />
+        <ImageView android:id="@id/device_icon" android:padding="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <TextView android:id="@id/image_title" android:paddingTop="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/settings_icon" android:layout_toRightOf="@id/device_icon" style="@style/DeviceCardName" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/white" android:id="@id/pin_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/image_title" android:layout_alignLeft="@id/image_title" />
+        <ImageView android:id="@id/settings_icon" android:padding="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_white" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_settings" style="@style/SelectableItem" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/exit_backdrop_history_action_container" android:background="@color/cast_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/backdrop_history_icon_label" android:paddingLeft="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_history_white_24dp" android:contentDescription="@null" />
+        <TextView android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/backdrop_history_label" android:paddingLeft="@dimen/content_padding" android:paddingRight="@dimen/content_padding" android:layout_width="0.0dip" android:maxLines="1" android:layout_weight="1.0" style="@style/LinkText" />
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/backdrop_exit_history_button" android:padding="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backdrop_exit_history" android:maxLines="1" android:contentDescription="@string/accessibility_backdrop_history_exit" style="@style/Button.Flat.Blue" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_info_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:ellipsize="end" android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/description_text" android:ellipsize="end" android:id="@id/card_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/history_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_history_black" android:contentDescription="@string/accessibility_backdrop_history" style="@style/SelectableItem" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/previous_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/backdrop_chevron_left_selector" android:contentDescription="@string/accessibility_backdrop_history_previous" style="@style/SelectableItem" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/next_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/backdrop_chevron_right_selector" android:contentDescription="@string/accessibility_backdrop_history_next" style="@style/SelectableItem" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/secondary_action_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/divider" />
+        <TextView android:id="@id/secondary_action1" style="@style/BackdropSecondaryAction" />
+        <TextView android:id="@id/secondary_action2" style="@style/BackdropSecondaryAction" />
+        <TextView android:id="@id/secondary_action3" style="@style/BackdropSecondaryAction" />
+        <TextView android:id="@id/secondary_action4" style="@style/BackdropSecondaryAction" />
+        <TextView android:id="@id/special_secondary_action" style="@style/BackdropSecondaryAction" />
+    </LinearLayout>
+    <include android:id="@id/remote_secondary_action" layout="@layout/remote_action" />
+</LinearLayout>

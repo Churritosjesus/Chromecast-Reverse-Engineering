@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/networkNameWrapper" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DeviceSetting">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_padding" android:text="@string/wifi_name_title" />
+        <Spinner android:id="@id/networkNameSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/wifiOtherNetworkWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/wifiOtherNetwork" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:inputType="textNoSuggestions" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/wifiSecurityWrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/content_padding" android:onClick="onWifiSecurityClick" style="@style/DeviceSetting">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_padding" android:text="@string/wifi_security_title" />
+        <Spinner android:id="@id/wifiSecuritySpinner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/wifiPasswordView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" android:layout_marginTop="@dimen/setup_medium_section_spacing">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/wifiPasswordTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/wifi_password_title_setup" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/wifiPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:selectAllOnFocus="true" android:maxLength="@integer/password_max_length" android:inputType="textPassword" />
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/wifiPasswordShow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_password_text" />
+    </LinearLayout>
+</merge>

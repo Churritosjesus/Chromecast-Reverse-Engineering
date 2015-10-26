@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ClickableListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/image_thumbnail" android:layout_width="@dimen/backdrop_setting_thumbnail_size" android:layout_height="@dimen/backdrop_setting_thumbnail_size" android:layout_marginTop="@dimen/content_padding" android:layout_marginRight="@dimen/panel_padding" android:layout_marginBottom="@dimen/content_padding" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <FrameLayout android:gravity="center_vertical" android:id="@id/check_box_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/image_thumbnail" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <RadioButton android:gravity="center_vertical" android:id="@id/backdrop_setting_radio" android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SettingValue" />
+        <CheckBox android:gravity="center_vertical" android:id="@id/backdrop_setting_checkbox" android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SettingValue" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/title_description_wrapper" android:paddingTop="@dimen/panel_padding" android:paddingBottom="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/image_button" android:layout_toRightOf="@id/check_box_wrapper" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/backdrop_setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingName" />
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/backdrop_setting_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingValue" />
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/backdrop_setting_on_off_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingValue" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/image_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <FrameLayout android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/backdrop_toggle" />
+        </FrameLayout>
+    </FrameLayout>
+    <include android:id="@id/radio_group_header" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/backdrop_description" />
+    <RadioGroup android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/radio_group_header" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_security_list">
+        <item>[Ñöñé one]</item>
+        <item>[ŴÉÞ one]</item>
+        <item>[ŴÞÅ one]</item>
+        <item>[ŴÞÅ2 one]</item>
+    </string-array>
+</resources>

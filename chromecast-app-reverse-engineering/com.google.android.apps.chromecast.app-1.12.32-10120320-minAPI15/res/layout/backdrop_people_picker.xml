@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backdrop_background" android:paddingLeft="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/people_picker_label" android:paddingTop="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/people_picker_help_text" />
+    <com.google.android.apps.chromecast.app.backdrop.PeoplePickerRecipientView android:id="@id/email_search" android:paddingTop="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/email_hint" android:imeOptions="actionSearch" />
+    <Button android:id="@id/load_albums_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/people_picker_show_photos_button_text" />
+</LinearLayout>

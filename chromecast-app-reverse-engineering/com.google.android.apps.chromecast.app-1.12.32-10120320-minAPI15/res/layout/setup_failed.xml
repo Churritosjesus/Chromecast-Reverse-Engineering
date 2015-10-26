@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingBottom="@dimen/content_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_failed_header" style="@style/SplashTextMedium" />
+        <TextView android:paddingBottom="@dimen/content_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_failed_text1" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+        <TextView android:paddingBottom="@dimen/content_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_failed_text2" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:background="@color/app_background" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:background="@color/app_background" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/configure_tv_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/configure_tv_title_text" style="@style/SplashTextLarge" />
+        <TextView android:id="@id/configure_tv_title_body" android:paddingTop="4.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/configure_tv_title_body" style="@style/SplashTextMedium" />
+        <RelativeLayout android:id="@id/configure_tv_image_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/configure_tv_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/set_me_up_screen" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@null" />
+            <TextView android:id="@id/screen_pin_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/configure_tv_image" android:layout_alignBottom="@id/configure_tv_image" style="@style/PinCodeText" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/pinConfirm" android:text="@string/pin_confirmed_button" style="@style/Button.Orange.LargeFixed" />
+            <Button android:id="@id/pinMismatch" android:clickable="true" android:layout_marginTop="16.0dip" android:text="@string/pin_mismatched_button" style="@style/Button.Grey.LargeFixed" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/content_vertical_padding" android:text="@string/setup_error_steps" style="@style/SplashTextMedium" />
+    <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+        <TextView android:layout_gravity="top" android:paddingRight="@dimen/content_padding" android:text="@string/number_one" style="@style/LinkText.Bold.Splash" />
+        <TextView android:layout_gravity="top" android:id="@id/no_devices_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+    </LinearLayout>
+    <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+        <TextView android:layout_gravity="top" android:paddingRight="@dimen/content_padding" android:text="@string/number_two" style="@style/LinkText.Bold.Splash" />
+        <TextView android:layout_gravity="top" android:id="@id/no_devices_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+    </LinearLayout>
+    <LinearLayout android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+        <TextView android:layout_gravity="top" android:paddingRight="@dimen/content_padding" android:text="@string/number_three" style="@style/LinkText.Bold.Splash" />
+        <TextView android:layout_gravity="top" android:id="@id/no_devices_text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/item4" android:paddingBottom="@dimen/content_padding" style="@style/HorizontalContainer">
+        <TextView android:layout_gravity="top" android:id="@id/no_devices4" android:paddingRight="@dimen/content_padding" android:text="@string/number_four" style="@style/LinkText.Bold.Splash" />
+        <TextView android:layout_gravity="top" android:id="@id/no_devices_text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/SplashTextSmall" />
+    </LinearLayout>
+</merge>

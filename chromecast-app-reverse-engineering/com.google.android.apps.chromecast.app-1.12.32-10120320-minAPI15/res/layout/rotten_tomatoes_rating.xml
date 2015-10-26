@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/VerticalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/panel_padding" android:paddingTop="@dimen/panel_padding" android:paddingBottom="@dimen/panel_padding" style="@style/HorizontalContainer">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/tomato_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/rating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CriticRating" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/md_grey_500" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rotten_tomatoes_label" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/panel_padding" layout="@layout/divider" />
+</LinearLayout>

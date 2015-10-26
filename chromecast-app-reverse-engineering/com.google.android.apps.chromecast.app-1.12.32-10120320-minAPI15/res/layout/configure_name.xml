@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:background="@color/app_background" android:padding="@dimen/panel_padding" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.chromecast.app.widget.BoundedLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" chromecast:max_width="@dimen/setup_max_width">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/nameChoiceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_top_bottom_padding" />
+        <EditText android:textAppearance="?android:textAppearanceLarge" android:id="@id/deviceFriendlyName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_large_section_spacing" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="24" android:inputType="textFilter|textCapWords" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="end" android:id="@id/nameHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/setup_large_section_spacing" android:text="@string/name_choice_hint" />
+        <LinearLayout android:orientation="vertical" android:id="@id/opencastWrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/setup_medium_section_spacing">
+            <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/opencastEnable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_enable_opencast_text" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setup_checkbox_text_offset" android:text="@string/setup_enable_opencast_description" />
+        </LinearLayout>
+        <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/stats_opt_in_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send_crash_reports" />
+        <Button android:id="@id/configure_device_button" android:layout_marginTop="@dimen/setup_large_section_spacing" android:layout_marginBottom="@dimen/setup_top_bottom_padding" android:text="@string/apply_name_button_text" style="@style/Button.Orange.LargeFixed" />
+    </com.google.android.apps.chromecast.app.widget.BoundedLinearLayout>
+</ScrollView>

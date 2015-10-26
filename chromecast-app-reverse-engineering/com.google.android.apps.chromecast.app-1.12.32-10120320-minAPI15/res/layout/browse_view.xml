@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/browse_flipper" android:background="@color/md_grey_200" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/browse_view_normal" />
+    <include layout="@layout/browse_list_no_feed" />
+    <include android:id="@id/spinner" layout="@layout/spinner" />
+    <include layout="@layout/browse_view_timeout" />
+</ViewFlipper>

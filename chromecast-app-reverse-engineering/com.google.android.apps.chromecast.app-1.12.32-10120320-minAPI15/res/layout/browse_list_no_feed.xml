@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/browse_no_feed" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/whatson_empty" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" style="@style/EmptyStateImg" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browse_view_no_feeds_title" style="@style/EmptyStateTextTitle" />
+            <TextView android:text="@string/browse_view_no_feeds_message" style="@style/EmptyStateTextMessage" />
+            <Button android:id="@id/get_apps" android:layout_marginTop="@dimen/content_vertical_padding" android:text="@string/get_apps" style="@style/Button.Orange.LargeFixed" />
+        </LinearLayout>
+    </ScrollView>
+</merge>

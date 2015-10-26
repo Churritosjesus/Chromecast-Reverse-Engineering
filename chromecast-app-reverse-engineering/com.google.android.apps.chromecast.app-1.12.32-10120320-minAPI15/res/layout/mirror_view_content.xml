@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:background="@color/app_background" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:padding="@dimen/splash_padding" android:paddingBottom="@dimen/button_gray_vert_padding" style="@style/VerticalContainer">
+        <TextView android:textColor="@color/md_grey_800" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mirror_splash_heading" style="@style/SplashTextMedium" />
+        <TextView android:textColor="@color/md_grey_500" android:gravity="center" android:linksClickable="true" android:layout_gravity="center" android:id="@id/mirror_splash_body" android:padding="@dimen/content_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mirror_splash_body" style="@style/SplashTextSmall" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:layout_gravity="bottom|center" android:id="@id/mirror_button" android:text="@string/mirror_button" android:drawableLeft="@drawable/ic_cast_black_drawable" android:drawablePadding="@dimen/large_button_icon_padding" android:onClick="startMirroring" style="@style/Button.Orange.LargeFixed" />
+        <Button android:layout_gravity="bottom|center" android:id="@id/disconnect_button" android:visibility="gone" android:text="@string/disconnect_mirror_button" android:drawableLeft="@drawable/ic_cast_black_drawable_connected" android:drawablePadding="@dimen/large_button_icon_padding" android:onClick="disconnectMirroring" style="@style/Button.Orange.LargeFixed" />
+        <Button android:layout_gravity="bottom|center" android:id="@id/mirror_help_link" android:layout_marginTop="@dimen/button_gray_vert_padding" android:text="@string/mirror_help_link" android:onClick="showTips" style="@style/Button.Flat.Gray" />
+    </LinearLayout>
+</ScrollView>

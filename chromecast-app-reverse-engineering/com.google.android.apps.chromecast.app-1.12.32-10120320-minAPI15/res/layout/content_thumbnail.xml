@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/content_thumbnail_bg" android:background="@color/md_grey_300" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/content_thumbnail" android:layout_alignTop="@id/content_thumbnail" android:layout_alignRight="@id/content_thumbnail" android:layout_alignBottom="@id/content_thumbnail" />
+    <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/content_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <TextView android:id="@id/title" android:paddingTop="@dimen/text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content_thumbnail" android:layout_alignLeft="@id/content_thumbnail" android:layout_alignRight="@id/content_thumbnail" style="@style/ContentTitle" />
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/subtitle1" android:paddingLeft="@dimen/content_padding" android:paddingRight="@dimen/content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_below="@id/title" android:layout_alignLeft="@id/content_thumbnail" android:layout_alignRight="@id/content_thumbnail" />
+    <LinearLayout android:paddingLeft="@dimen/content_padding" android:paddingRight="@dimen/content_padding" android:layout_below="@id/subtitle1" android:layout_alignLeft="@id/content_thumbnail" android:layout_alignRight="@id/content_thumbnail" style="@style/HorizontalContainer">
+        <TextView android:id="@id/availability" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContentSubtitle" />
+        <TextView android:id="@id/subtitle2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContentSubtitle" />
+    </LinearLayout>
+    <TextView android:id="@id/duration_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/content_thumbnail" android:layout_alignBottom="@id/content_thumbnail" style="@style/DurationBadge" />
+</RelativeLayout>

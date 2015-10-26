@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/oneline_listitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider" />
+    <ImageButton android:id="@id/volume_btn" android:paddingLeft="@dimen/panel_padding" android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_volume_up_grey" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Button.Flat" />
+    <ImageButton android:id="@id/play_pause_btn" android:paddingLeft="@dimen/panel_padding" android:paddingRight="@dimen/panel_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_pause_grey" android:adjustViewBounds="true" android:layout_toLeftOf="@id/volume_btn" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/Button.Flat" />
+    <TextView android:id="@id/text_area" android:visibility="visible" android:text="@string/stop_casting_button" android:layout_toLeftOf="@id/play_pause_btn" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" style="@style/BackdropSecondaryAction" />
+</RelativeLayout>

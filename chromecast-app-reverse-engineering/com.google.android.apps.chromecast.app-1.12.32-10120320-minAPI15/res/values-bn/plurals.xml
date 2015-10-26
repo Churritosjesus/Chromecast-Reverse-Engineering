@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_photos_in_album">
+        <item quantity="other">%dটি ফটো</item>
+        <item quantity="zero">কোনো ফটো নেই</item>
+        <item quantity="one">%dটি ফটো</item>
+    </plurals>
+</resources>

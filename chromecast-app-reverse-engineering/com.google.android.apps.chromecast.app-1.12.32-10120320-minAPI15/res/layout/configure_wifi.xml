@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:background="@color/app_background" android:padding="@dimen/panel_padding" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chromecast="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.chromecast.app.widget.BoundedLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/configure_wifi_view" android:layout_width="fill_parent" android:layout_height="wrap_content" chromecast:max_width="@dimen/setup_max_width">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/configure_network_heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_top_bottom_padding" android:layout_marginBottom="@dimen/setup_medium_section_spacing" android:text="@string/configure_network_heading_text" />
+        <include layout="@layout/network_selector" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/device_mac_address" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_medium_section_spacing" android:textIsSelectable="true" />
+        <Button android:id="@id/finish_configuration_button" android:layout_marginTop="@dimen/setup_large_section_spacing" android:layout_marginBottom="@dimen/setup_top_bottom_padding" android:text="@string/apply_wifi_button_text" android:onClick="applyConfigureWifi" style="@style/Button.Orange.LargeFixed" />
+    </com.google.android.apps.chromecast.app.widget.BoundedLinearLayout>
+</ScrollView>

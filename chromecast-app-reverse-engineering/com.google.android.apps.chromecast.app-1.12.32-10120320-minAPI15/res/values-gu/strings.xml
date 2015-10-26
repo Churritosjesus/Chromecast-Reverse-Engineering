@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messenger_send_button_text">મોકલો</string>
+    <string name="com_facebook_like_button_not_liked">પસંદ કરો</string>
+    <string name="com_facebook_like_button_liked">પસંદ કર્યું</string>
+    <string name="com_facebook_loginview_log_out_button">લૉગ આઉટ કરો</string>
+    <string name="com_facebook_loginview_log_in_button">લૉગ ઇન કરો</string>
+    <string name="com_facebook_loginview_log_in_button_long">ફેસબુક સાથે લૉગ ઇન કરો</string>
+    <string name="com_facebook_loginview_logged_in_as">આ તરીકે લૉગ ઇન થયાં: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">ફેસબુકનો ઉપયોગ કરીને લૉગ ઇન કરો</string>
+    <string name="com_facebook_loginview_log_out_action">લૉગ આઉટ કરો</string>
+    <string name="com_facebook_loginview_cancel_action">રદ કરો</string>
+    <string name="com_facebook_loading">લોડ કરી રહ્યાં છે...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest ભૂલ</string>
+    <string name="com_facebook_internet_permission_error_message">WebView લૉગિન માટે ઇન્ટરનેટ પરવાગની આવશ્યક છે</string>
+    <string name="com_facebook_tooltip_default">નવું! તમે નિયંત્રણ કરો છો - તમે એપ્લિકેશન્સ સાથે કઈ માહિતી શેર કરવા માંગો છો તે પસંદ કરો.</string>
+    <string name="com_facebook_image_download_unknown_error">છબી ડાઉનલોડ કરતી વખતે અનપેક્ષિત ભૂલ આવી.</string>
+    <string name="com_facebook_share_button_text">શેર કરો</string>
+    <string name="com_facebook_send_button_text">મોકલો</string>
+    <string name="no_devices_title">કોઈ Chromecasts મળ્યાં નથી</string>
+    <string name="no_devices_text1">તમારા TV ના HDMI પોર્ટમાં Chromecast કનેક્ટ કરો.</string>
+    <string name="no_devices_text2">USB પાવરને TV અથવા USB પાવર એડેપ્ટરથી કનેક્ટ કરો.</string>
+    <string name="no_devices_text3">ખાતરી કરો કે તમારો ફોન/ટેબ્લેટ અને Chromecast સમાન Wi-Fi નેટવર્ક પર હોય.</string>
+    <string name="no_devices_text4">ખાતરી કરો કે તમારું TV ચાલુ હોય અને યોગ્ય ઇનપુટ પસંદ કરેલ હોય.</string>
+    <string name="no_audio_devices_text1">ખાતરી કરો કે Chromecast Audio વૉલ સૉકેટ અથવા USB પોર્ટમાં પ્લગ-ઇન કરેલું હોય.</string>
+    <string name="no_audio_devices_text2">ખાતરી કરો કે તમારો ફોન/ટેબ્લેટ અને Chromecast Audio સમાન Wi-Fi નેટવર્ક પર હોય.</string>
+    <string name="no_audio_devices_text3">ખાતરી કરો કે તમારું સ્પીકર ચાલુ હોય અને યોગ્ય ઇનપુટ પસંદ કરેલ હોય.</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">ચાલો આપણે તમારું Chromecast અથવા Chromecast Audio સેટ કરીએ!</string>
+    <string name="no_devices_splash_subtext">તમે જે પ્રકારનું Chromecast સેટ કરવા ઈચ્છતા હોવ તે પસંદ કરો:</string>
+    <string name="location_services_dialog">તમારા %1$s ને સેટ કરવા માટે સ્થાન સેવાઓ ચાલુ કરો. આ તમારા ફોનને સેટ કરવા માટે તૈયાર હોય એવા નજીકના %2$s ને શોધવાની મંજૂરી આપે છે.</string>
+    <string name="add_device">નવું ઉપકરણ ઉમેરો</string>
+    <string name="terms_title">ગોપનીયતા અને શરતો</string>
+    <string name="terms_text">"Google ગોપનીયતા નીતિ તે માહિતીનું વર્ણન કરે છે જે Google, Chromecast ના સેટ-અપ અને ઉપયોગ દરમિયાન એકત્રિત કરે છે. આ એપ્લિકેશનમાં ઉપકરણ સેટિંગ્સને ઍક્સેસ કરીને તમે તમારા ઉપકરણને સેટ કરી લો તે પછી, તમે Chromecast, Google ને ઉપયોગિતા ડેટા અને ક્રેશ રિપોર્ટ્સ મોકલે કે નહીં તેના જેવી તમારી Chromecast ની ગોપનીયતા સેટિંગ્સને સંશોધિત કરી શકો છો.
+
+નીચેના “સ્વીકારો”ને દબાવીને, તમે સ્વીકારો છો કે તમે %1$s અને %2$s થી સંમત છો."</string>
+    <string name="terms_text_germany">"Google ગોપનીયતા નીતિ તમારા સેટ-અપ અને Chromecast ના ઉપયોગ દરમિયાન Google એકત્રિત કરે છે તે માહિતીનું વર્ણન કરે છે. આ એપ્લિકેશનમાં ઉપકરણ સેટિંગ્સને ઍક્સેસ કરીને તમે તમારા ઉપકરણને સેટ કરી લો તે પછી, તમે Chromecast, Google ને ઉપયોગિતા ડેટા અને ક્રેશ રિપોર્ટ્સ મોકલે કે નહીં તેના જેવી તમારી Chromecast ની ગોપનીયતા સેટિંગ્સને સંશોધિત કરી શકો છો.
+
+નીચેના “સ્વીકારો”ને દબાવીને, તમે સ્વીકારો છો કે તમે %1$s થી સંમત છો અને પુષ્ટિ કરો છો કે તમે %2$s વાંચી છે."</string>
+    <string name="terms_of_service_pattern">Google સેવાની શરતો</string>
+    <string name="dogfood_confidentiality_text">Chromecast નું આ dogfood સંસ્કરણ માત્ર આંતરિક છે અને તે એવી સુવિધાઓ ધરાવે છે જે હજી સાર્વજનિક રૂપે રિલીઝ થઇ નથી.</string>
+    <string name="dogfood_confidentiality_title">ગોપનીય</string>
+    <string name="dogfood_confidentiality_accept">બરાબર, સમજાઇ ગયું</string>
+    <string name="privacy_policy_pattern">ગોપનીયતા નીતિ</string>
+    <string name="privacy_policy_pattern_germany">Google ગોપનીયતા નીતિ</string>
+    <string name="terms_accept">સ્વીકારો</string>
+    <string name="terms_decline">રદ કરો</string>
+    <string name="setup_title_enable_wifi">Wi-Fi સક્ષમ કરી રહ્યાં છે…</string>
+    <string name="not_set_up_info">સેટઅપની જરૂર છે</string>
+    <string name="wifi_enable_title">કોઈ Wi-Fi મળેલ નથી</string>
+    <string name="wifi_enable_message">તમારા Chromecast સાથે કનેક્શન સ્થાપિત કરવા માટે Wi-Fi ચાલુ કરો.</string>
+    <string name="wifi_enable_proceed">Wi-Fi ચાલુ કરો</string>
+    <string name="wifi_enable_fail">Wi-Fi સાથે કનેક્ટ કરી શકાયું નથી. કૃપા કરીને તમારી Wi-Fi સેટિંગ્સ તપાસો અને ફરી પ્રયાસ કરો.</string>
+    <string name="no_wifi_title">Wi-Fi ઉપલબ્ધ નથી</string>
+    <string name="menu_discover_help">સહાય અને પ્રતિસાદ</string>
+    <string name="discover_help_title">શા માટે મારું Chromecast/Chromecast Audio આ સૂચિમાં દેખાતું નથી?</string>
+    <string name="discover_help_text">"કૃપા કરીને તમારું Chromecast ચકાસો કે:
+• એ આ ઉપકરણના 20 ફુટની અંદર છે
+•એ ચાલુ છે (USB કેબલ દ્વારા) અને તેમાં સફેદ સૂચક લાઇટ છે
+• એ આ ઉપકરણના જેવા સમાન Wi-Fi નેટવર્ક પર છે (જો સેટ કરેલું હોય)
+
+કૃપા કરીને તમારું Wi-Fi નેટવર્ક ચકાસો કે:
+• એ નવા ઉપકરણોને જોડાવાની મંજૂરી આપે છે
+
+જો તમને હજી પણ તમારું Chromecast ન દેખાય, તો તમે આ કરી શકો છો:
+• ફેક્ટરી રીસેટ - Chromecast ફરીથી સેટ કરો બટનને 15 મિનિટ માટે દબાવી રાખો
+
+વધુ સહાય માટે આની મુલાકાત લો: support.google.com/chromecast."</string>
+    <string name="developer_mode_toast">વિકાસકર્તા મોડ સક્ષમ છે</string>
+    <string name="drawer_item_learn">જાણો</string>
+    <string name="drawer_item_backdrop">બેકડ્રોપ</string>
+    <string name="drawer_item_settings">સેટિંગ્સ</string>
+    <string name="drawer_item_cast_screen">સ્ક્રીન / ઑડિઓ કાસ્ટ કરો</string>
+    <string name="drawer_open">નેવિગેશન ડ્રોવરને ખોલો</string>
+    <string name="drawer_close">નેવિગેશન ડ્રોવરને બંધ કરો</string>
+    <string name="accessibility_settings">ઉપકરણ સેટિંગ્સ ખોલો</string>
+    <string name="ignore">અવગણો</string>
+    <string name="setup">સેટ કરો</string>
+    <string name="hidden_device_count">અવગણેલ ઉપકરણો (%1$d)</string>
+    <string name="opencast_pin">PIN %1$s</string>
+    <string name="backdrop_exit_history">થઈ ગયું</string>
+    <string name="backdrop_history_label">ઇતિહાસ %1$s/%2$s</string>
+    <string name="accessibility_backdrop_history">બેકડ્રોપ ઇતિહાસમાં પ્રવેશો</string>
+    <string name="accessibility_backdrop_history_exit">બેકડ્રોપ ઇતિહાસમાંથી બહાર નીકળો</string>
+    <string name="accessibility_backdrop_history_previous">બેકડ્રોપ ઇતિહાસમાં પહેલાંનાં ચિત્ર પર જાઓ</string>
+    <string name="accessibility_backdrop_history_next">બેકડ્રોપ ઇતિહાસમાં અાગલા ચિત્ર પર જાઓ</string>
+    <string name="device_settings_title">Chromecast સેટિંગ્સ</string>
+    <string name="device_connect_progress">%1$s થી કનેક્ટ થઈ રહ્યું છે</string>
+    <string name="device_connect_failed">તમારા Chromecast થી કનેક્ટ કરી શકાયું નથી. સુનિશ્ચિત કરો કે તમારું Chromecast નજીકમાં છે.</string>
+    <string name="device_connect_failed_poor_link_title">Chromecast થી કનેક્ટ કરી શકાતું નથી</string>
+    <string name="device_connect_failed_poor_link">ખાતરી કરો કે તમારું Chromecast નજીકમાં છે અને Chromecast સેટઅપ પૂર્ણ ન થાય ત્યાં સુધી તમારી Wi-Fi સેટિંગ્સમાં \"સ્વતઃ નેટવર્ક સ્વિચ\" બંધ કરેલું છે તેની તપાસ કરો.</string>
+    <string name="device_setup_progress">તમારું Chromecast %1$s થી કનેક્ટ થઈ રહ્યું છે</string>
+    <string name="device_ethernet_setup_progress">તમારા Chromecast ને કનેક્ટ કરી રહ્યું છે</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s, %2$s થી કનેક્ટ કરી શકાયું નથી - કૃપા કરીને તમારો પાસવર્ડ તપાસો.</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s, %2$s થી કનેક્ટ કરી શકાયું નથી - કૃપા કરીને તમારું Wi-Fi નેટવર્ક નામ તપાસો.</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s, %2$s થી કનેક્ટ કરી શકાયું નથી - તમારું Wi-Fi રાઉટર તપાસો.</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s ને %2$s થી કનેક્ટ કરી શકાયું નથી - તમારું ઇનપુટ તપાસો.</string>
+    <string name="device_reboot_progress">%1$s ને રીબૂટ કરી રહ્યું છે</string>
+    <string name="settings_saved_toast">તમારા Chromecast પર લાગુ સેટિંગ્સ બદલી</string>
+    <string name="wifi_different_title">Wi-Fi નેટવર્ક બદલી રહ્યાં છે</string>
+    <string name="wifi_different_message">તમારા Chromecast (%2$s) અને આ ઉપકરણ (%1$s) માટેના Wi-Fi નેટવર્ક્સ ભિન્ન છે. સેટઅપ પછી આ ઉપકરણ %2$s થી કનેક્ટ થશે જેથી તમે તમારા Chromecast નો ઉપયોગ કરી શકો.</string>
+    <string name="confirm_reboot">%1$s ને રીબૂટ કરીએ?</string>
+    <string name="confirm_reset">%1$s ને ફેક્ટરી રીસેટ કરીએ?</string>
+    <string name="reboot_ok">ઑકે</string>
+    <string name="settings_device_label">ઉપકરણ માહિતી</string>
+    <string name="settings_name_label">નામ</string>
+    <string name="settings_wifi_label">Wi-Fi</string>
+    <string name="settings_time_zone_label">સમય ઝોન</string>
+    <string name="settings_time_format_label">સમય ફોર્મેટ</string>
+    <string name="settings_locale_label">ભાષા</string>
+    <string name="settings_sounds_label">ધ્વનિઓ</string>
+    <string name="settings_playback_sounds_label">પ્લેબેક અવાજ</string>
+    <string name="settings_playback_sounds_description">કાસ્ટ પ્રારંભ અને વૉલ્યૂમ ફેરફારો</string>
+    <string name="settings_hdr_label">ઉચ્ચ ડાઇનેમિક શ્રેણી</string>
+    <string name="settings_hdr_description">AVR અને HiFi સિસ્ટમ્સ માટે</string>
+    <string name="settings_privacy_label">ગોપનીયતા</string>
+    <string name="settings_opencast_label">અતિથિ મોડ</string>
+    <string name="settings_opencast_pin">PIN %1$s</string>
+    <string name="settings_opencast_getting_pin">ઉપકરણ PIN મેળવી રહ્યું છે…</string>
+    <string name="settings_cast_nearby_intro_description">"તમારા Wi-Fi નેટવર્ક પર રહ્યાં વગર એ જ રૂમમાંના કોઇપણને તમારા %1$s પર કનેક્ટ થવા દો.
+
+તે નજીકના ઉપકરણોને ઓળખવા માટે તમારા %2$s સ્થાન અને Wi-Fi ના સંયોજનનો ઉપયોગ કરે છે."</string>
+    <string name="settings_cast_nearby_learn_more">વધુ જાણો</string>
+    <string name="settings_cast_nearby_learn_title">તે કેવી રીતે કાર્ય કરે છે</string>
+    <string name="settings_cast_nearby_learn_description">"તમારા અતિથિના ઉપકરણ સાથે કનેક્ટ કરવા માટે, તમારું %1$s તમે સાંભળી ન શકો તેવા એક ટૂંકા ઑડિઓ ટોનનો ઉપયોગ કરીને આપમેળે 4 અંકોનો પિન સ્થાનાંતરિત કરે છે.
+
+જો ઑડિઓ જોડી કરવાનું નિષ્ફળ થાય, તો તમારા અતિથિને પિન દાખલ કરવાનું કહેવામાં આવશે. ઉપકરણ માલિક Chromecast એપ્લિકેશનમાંથી પિન મેળવી શકે છે.
+
+તમે આ સુવિધાને કોઇપણ સમયે બંધ કરી શકો છો."</string>
+    <string name="settings_information_label">માહિતી</string>
+    <string name="wifi_other_name">અન્ય…</string>
+    <string name="wifi_name_title">નેટવર્કનું નામ</string>
+    <string name="wifi_password_title_setup">Wi-Fi પાસવર્ડ</string>
+    <string name="wifi_password_hint">(બદલાયેલ નથી)</string>
+    <string name="wifi_security_title">સુરક્ષા</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">ખૂબ જ નબળા સંકેત</string>
+    <string name="wifi_level_description_2">નબળા સંકેત</string>
+    <string name="wifi_level_description_3">પ્રબળ સંકેત</string>
+    <string name="wifi_level_description_4">ખૂબ જ પ્રબળ સંકેત</string>
+    <string name="device_mac_address_pattern">MAC સરનામું: %1$s</string>
+    <string name="device_ip_address_pattern">IP સરનામું: %1$s</string>
+    <string name="device_build_version_pattern">ફર્મવેયર સંસ્કરણ: %1$s</string>
+    <string name="device_country_code_pattern">દેશ કોડ: %1$s</string>
+    <string name="time_format_12_hours">12-કલાક ફોર્મેટનો ઉપયોગ કરો</string>
+    <string name="time_format_24_hours">24-કલાક ફોર્મેટનો ઉપયોગ કરો</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">અમે તમારા Chromecast સાથે વાર્તાલાપ કરવામાં અસમર્થ છીએ. તમારે ફરીથી પ્રયત્ન કરવાની જરૂર પડી શકે છે.</string>
+    <string name="execute_requests_failed">તમારા Chromecast સાથે વાર્તાલાપ કરી શકાયો નથી.</string>
+    <string name="execute_requests_failed_status">તમારા Chromecast સાથે વાર્તાલાપ કરી શકાયો નથી (%1$s).</string>
+    <string name="config_wifi_device_not_found">"%1$s ને તમારા Wi-Fi નેટવર્ક પર શોધી શકાયું નથી. કૃપા કરીને તમારી Wi-Fi સેટિંગ્સ તપાસો.
+• જો તમારી પાસે ડ્યુઅલ બેંડ (2.4 અને 5GHz) રૂટર હોય - ખાતરી કે તે AP isolation મોડમાં નથી
+• જો તમારા રૂટરમાં MAC વ્હાઇટલિસ્ટિંગ સક્ષમ કરેલ છે - તો ખાતરી કરો કે તે આ ડિવાઇસ અને તમારા Chromecast ને જોડાવાની મંજૂરી આપે છે
+આ સમસ્યા નિવારવામાં વધુ સહાય માટે કૃપા કરીને support.google.com/chromecast ની મુલાકાત લો."</string>
+    <string name="menu_reboot">Chromecast ને રીબૂટ કરો</string>
+    <string name="menu_reset">ફેક્ટરી રીસેટ Chromecast</string>
+    <string name="menu_feedback">પ્રતિસાદ રિપોર્ટ સબમિટ કરો</string>
+    <string name="menu_oss_licenses">ઓપન સોર્સ લાઇસેંસેસ</string>
+    <string name="menu_other_licenses_title">અન્ય લાઇસેંસેસ</string>
+    <string name="alert_cancel">રદ કરો</string>
+    <string name="alert_ok">ઑકે</string>
+    <string name="alert_yes">હા</string>
+    <string name="alert_settings">સેટિંગ્સ ખોલો</string>
+    <string name="alert_wifi_settings">Wi-Fi સેટિંગ્સ</string>
+    <string name="alert_dont_show_again">મને આ ફરી દર્શાવશો નહીં</string>
+    <string name="continue_button_text">ચાલુ રાખો</string>
+    <string name="menu_offers">ઓફર્સ માટે તપાસો</string>
+    <string name="prompt_offers_serial_number">શું તમે તમારી ઉપલબ્ધ ઓફર્સને શોધવા માટે Google સાથે તમારા Chromecast ના શ્રૃંખલા ક્રમાંકને શેર કરવા સંમત છો?</string>
+    <string name="prompt_offers_button_neg">રદ કરો</string>
+    <string name="prompt_offers_button_pos">સંમત છું</string>
+    <string name="progress_offers">ઓફર્સ માટે તપાસી રહ્યું છે…</string>
+    <string name="offers_failure">ઓફર્સ માટે તપાસવામાં અસમર્થ. કૃપા કરીને ખાતરી કરો કે તમારું Chromecast સેટ થયેલ છે અને કાસ્ટ કરવા માટે તૈયાર છે.</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">Chromecast નું</string>
+    <string name="device_type_chromecast_plural">Chromecasts</string>
+    <string name="device_type_chromecast_audio">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_possessive">Chromecast Audio નું</string>
+    <string name="device_type_chromecast_audio_plural">Chromecast Audios</string>
+    <string name="found_title">%1$s મળ્યું</string>
+    <string name="configure_title">%1$s સેટ કરો</string>
+    <string name="name_choice_title">તમારા %1$s ને નામ આપો</string>
+    <string name="name_choice_hint">ઉદાહરણ: \"બેઠક રૂમ\"</string>
+    <string name="setup_enable_opencast_text">અતિથિ મોડ સક્ષમ કરો</string>
+    <string name="setup_enable_opencast_description">આ સમાન રૂમમાં તમારા Wi-Fi નેટવર્ક પર રહ્યાં વગર ઉપકરણોને કાસ્ટ કરવાની મંજૂરી આપે છે. તે નજીકના ઉપકરણોને શોધવા માટે તમારા કાસ્ટ ઉપકરણના સ્થાન અને Wi-Fi ના સંયોજનનો ઉપયોગ કરે છે.</string>
+    <string name="apply_wifi_button_text">નેટવર્ક સેટ કરો</string>
+    <string name="apply_name_button_text">નામ સેટ કરો</string>
+    <string name="show_password_text">પાસવર્ડ બતાવો</string>
+    <string name="configure_network_heading_text">Chromecast ને તમારા Wi-Fi થી કનેક્ટ કરો</string>
+    <string name="configuration_fail_dialog_title">સેટઅપ દરમિયાન કનેક્શન સમસ્યા!</string>
+    <string name="configuration_fail_dialog_message">કૃપા કરીને તમારી Wi-Fi નેટવર્ક સેટિંગ્સ તપાસો.</string>
+    <string name="reconfigure_cancel">રદ કરો</string>
+    <string name="reconfigure_proceed">ફરી પ્રયાસ કરો</string>
+    <string name="prompt_friendly_name_title">Chromecast નું નામ</string>
+    <string name="prompt_network_title">Chromecast Wi-Fi</string>
+    <string name="prompt_country_title">તમારો દેશ પસંદ કરો</string>
+    <string name="prompt_country_text">તમારા Chromecast ને ઠીકથી ગોઠવવું આવશ્યક.</string>
+    <string name="missing_ssid_message">કૃપા કરીને નેટવર્ક SSID દાખલ કરો.</string>
+    <string name="wep_short_password_message">તમારો Wi-Fi નેટવર્ક પાસવર્ડ ઓછામાં ઓછો 5 અક્ષર લાંબો હોવો આવશ્યક છે.</string>
+    <string name="wpa_short_password_message">તમારો Wi-Fi નેટવર્ક પાસવર્ડ ઓછામાં ઓછો 8 અક્ષર લાંબો હોવો આવશ્યક છે.</string>
+    <string name="not_supported_network_message">આ Wi-Fi નેટવર્કને સમર્થન નથી. કૃપા કરીને એક WEP/WPA/WPA2 સુરક્ષિત નેટવર્ક પસંદ કરો.</string>
+    <string name="restore_wifi_toast">Wi-Fi ને પાછું %1$s પર સ્વિચ કર્યું</string>
+    <string name="wifi_restore_fail">%1$s Wi-Fi નેટવર્કથી કનેક્ટ કરી શક્યાં નથી. કૃપા કરીને તમારી Wi-Fi સેટિંગ્સ તપાસો.</string>
+    <string name="settings_network_fail">%1$s Wi-Fi નેટવર્કથી કનેક્ટ કરી શક્યાં નથી. તમારી Wi-Fi નેટવર્ક વિગતોની પુષ્ટિ કરવા માટે કૃપા કરીને તમારા ઉપકરણને ફરીથી સેટ કરો.</string>
+    <string name="configure_tv_title_text">તમારા TV પરનું ઇનપુટ બદલો</string>
+    <string name="configure_tv_title_body">Chromecast યોગ્ય છે? તેની ખાતરી કરવા માટે તમારા ટીવી પર આ કોડ શોધો.</string>
+    <string name="noupdate_app_alert_text">તમે ઇન્સ્ટોલ કરેલ Android ના આ સંસ્કરણની સાથે આ સુવિધા સુસંગત નથી.</string>
+    <string name="bad_device_message">અમે તમારા Chromecast ને પ્રમાણિત કરી શક્યાં નથી. આ સમસ્યાના નિવારણમાં સહાય માટે કૃપા કરીને support.google.com/chromecast ની મુલાકાત લો.</string>
+    <string name="validation_ignore_button">કોઈપણ રીતે આગળ વધારો</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">અમે તમારા Wi-Fi પેરામીટર્સ પર પ્રક્રિયા કરી શક્યાં નથી. તમને ફરીથી પ્રયત્ન કરવાની જરૂર પડી શકે છે.</string>
+    <string name="pin_confirmed_button">મને કોડ દેખાય છે</string>
+    <string name="pin_mismatched_button">મને કોડ દેખાતો નથી</string>
+    <string name="setup_ping_failed">અમે તમારા Chromecast સાથે વાર્તાલાપ કરી શકતા નથી. શક્ય છે કે તમારું Chromecast અને ઉપકરણ તે નેટવર્ક્સથી કનેક્ટ કરેલા છે કે જે એકબીજાથી વાત કરવામાં અસમર્થ છે. આને તમારી Wi-Fi રૂટર સેટિંગ્સમાં નાના ફેરફારની જરૂર પડી શકે છે. વધુ અહીં જાણો.</string>
+    <string name="setup_ping_pattern">અહીં</string>
+    <string name="setup_ssdp_scan_failed">અમે નેટવર્ક પર તમારું Chromecast શોધવા માટે સમર્થ ન હતા. આને તમારી Wi-Fi રૂટર સેટિંગ્સ પર એક નાના ફેરફારની જરૂર પડી શકે છે. વધુ અહીં જાણો.</string>
+    <string name="setup_ssdp_scan_pattern">અહીં</string>
+    <string name="wpa_auth_ieee_8021x">802.1x EAP સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_none_open">અસુરક્ષિત</string>
+    <string name="wpa_auth_none_wep">WEP સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_none_wep_shared">WEP સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">WPA સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_wpa_psk">WPA સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_wpa2_eap">WPA2 સાથે સુરક્ષિત</string>
+    <string name="wpa_auth_wpa2_psk">WPA2 સાથે સુરક્ષિત</string>
+    <string name="play_services_old_alert">Google Play સેવાઓને અપડેટ કરવાની જરૂર છે. Play Store ખોલો અને ઉપલબ્ધ અપડેટ્સ માટે તપાસો.</string>
+    <string name="oss_licenses_title">ખુલ્લા સ્ત્રોત લાઇસેંસેસ</string>
+    <string name="loading_licenses">લાઇસેન્સેસ પુનઃપ્રાપ્ત કરી રહ્યાં છે…</string>
+    <string name="loading_licenses_failed">અમે આ સમયે તમારા Chromecast માંથી ખુલ્લા સ્ત્રોત લાઇસેંસેસને આનયન કરી શકતાં નથી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="send_crash_reports">Chromecast ઉપયોગિતા ડેટા અને ક્રેશ રિપોર્ટ્સ Google ને મોકલો</string>
+    <string name="use_device_id_text">અપડેટ્સ માટે તપાસ કરતી વખતે આ Chromecast નો સિરિઅલ નંબર મોકલો</string>
+    <string name="preferences_info_title">માહિતી</string>
+    <string name="preference_terms_of_service_title">સેવાની શરતો</string>
+    <string name="preference_privacy_policy_title">ગોપનીયતા નીતિ</string>
+    <string name="preference_open_source_licenses_title">ઓપન સોર્સ લાઇસેંસેસ</string>
+    <string name="preference_software_version_title">સૉફ્ટવેર સંસ્કરણ</string>
+    <string name="help_menu_print">છાપો…</string>
+    <string name="help_menu_view_in_google_play_store">Google Play Store માં જુઓ</string>
+    <string name="mirror_splash_heading">તમારા ફોન અથવા ટેબ્લેટને પ્રતિબિંબિત કરો</string>
+    <string name="mirror_splash_body">સ્ક્રીન / ઑડિઓ કાસ્ટ કરો, તમને તમારા ઉપકરણ પરથી કંઈપણ તમારા ટીવી અથવા સ્પીકર્સ પર પ્રતિબિંબિત કરવામાં સક્ષમ કરે છે.</string>
+    <string name="mirror_button">સ્ક્રીન / ઑડિઓ કાસ્ટ કરો</string>
+    <string name="disconnect_mirror_button">ડિસ્કનેક્ટ કરવા માટે ટૅપ કરો</string>
+    <string name="disconnect_mirror_button_description">કાસ્ટ સ્ક્રીનને ડિસ્કનેક્ટ કરો</string>
+    <string name="mirror_help_link">સહાય કેંદ્રની મુલાકાત લો</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">સ્ક્રીનને કાસ્ટ કરી રહ્યાં છે</string>
+    <string name="cast_screen_on_long_status_name">હવે આ સ્ક્રીનને %1$s પર કાસ્ટ કરી રહ્યાં છે</string>
+    <string name="cast_screen_on_long_status_no_name">હવે આ સ્ક્રીનને કાસ્ટ કરી રહ્યાં છે</string>
+    <string name="cast_screen_disconnect_toast">ડિસ્કનેક્ટ કરી રહ્યું છે…</string>
+    <string name="cast_screen_connect_toast">કનેક્ટ કરી રહ્યું છે…</string>
+    <string name="cast_screen_no_devices">"તમારા નેટવર્ક પર કોઈ સંગત Google Cast ઉપકરણો મળ્યાં નહોતા.
+
+વધુ જાણવા માટે, %1$s."</string>
+    <string name="cast_screen_no_devices_link">સહાય કેન્દ્રની મુલાકાત લો</string>
+    <string name="cast_screen_unapproved_device_warning">આ ઉપકરણ માટે સ્ક્રીન કાસ્ટિંગ ઓપ્ટિમાઇઝ કરેલ નથી; તમારો અનુભવ જુદો હોઈ શકે છે.</string>
+    <string name="cast_screen_enable_wifi_title">Wi-Fi ચાલુ કરીએ?</string>
+    <string name="cast_screen_enable_wifi_message">તમારી સ્ક્રીનને કાસ્ટ કરવા માટે Wi-Fi કનેક્શન જરૂરી છે.</string>
+    <string name="backdrop_settings_entry_point">બેકડ્રોપ સેટિંગ્સ</string>
+    <string name="backdrop_unlinking_confirmation">%1$s માંથી તમારી બેકડ્રોપ પસંદગીઓ દૂર કરીએ?</string>
+    <string name="backdrop_on_current_network">તમારા નેટવર્ક પર</string>
+    <string name="backdrop_on_other_network">અન્ય નેટવર્ક પર</string>
+    <string name="photos_setting_turned_off_toast">\"તમારા ફોટા\"ને બંધ કરી રહ્યું છે કારણ કે કોઈ આલ્બમ્સ પસંદ કરેલા નથી.</string>
+    <string name="weather_activity_title">હવામાન</string>
+    <string name="weather_search_places">સ્થાન ઉમેરો</string>
+    <string name="backdrop_added_date">%1$s ઉમેર્યું</string>
+    <string name="backdrop_unlink_device_description">બેકડ્રોપ ઉપકરણ %1$s ને અનલિંક કરો</string>
+    <string name="backdrop_link_scan_text">Chromecasts માટે સ્કેન કરી રહ્યું છે…</string>
+    <string name="backdrop_legal_title">બેકડ્રોપને આ કરવાની જરૂર છે:</string>
+    <string name="backdrop_legal_text">"• સંબંધિત ફોટા અને અન્ય સામગ્રી શોધવા માટે તમારા Chromecast ના સ્થાનનો ઉપયોગ કરશે.
+
+• તમારા ફોટાને ઍક્સેસ કરવા, પૃષ્ઠભૂમિ સામગ્રીને કસ્ટમાઇઝ કરવા અને તમારી પસંદગીઓને સંચાલિત કરવા માટે તમારા Chromecast ને તમારા Google એકાઉન્ટનો ઉપયોગ કરવાની મંજૂરી આપશે.
+
+ તમે આ એપ્લિકેશનનો ઉપયોગ કરીને પછીથી આ સેટિંગ્સમાં સુધારો કરી શકો છો."</string>
+    <string name="backdrop_allow">મંજૂરી આપો</string>
+    <string name="backdrop_unlink_device_accessibility">બેકડ્રોપથી %1$s ને અનલિંક કરો</string>
+    <string name="backdrop_link_error_all_devices">બેકડ્રોપ પર લિંક કરી શકતાં નથી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="backdrop_unlink_error_all_devices">બેકડ્રોપથી અનલિંક કરી શકતાં નથી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="backdrop_network_error">તમારી બેકડ્રોપ સેટિંગ્સ લોડ કરી શકાઈ નથી. ખાતરી કરો કે તમે ઇન્ટરનેટથી કનેક્ટ કરી શકો છો અને ફરી પ્રયાસ કરો.</string>
+    <string name="backdrop_device_linking_message">બેકડ્રોપ પર ઉમેરી રહ્યાં છે…</string>
+    <string name="backdrop_device_unlinking_message">તમારી બેકડ્રોપ પસંદગીઓ દૂર કરી રહ્યાં છે…</string>
+    <string name="backdrop_device_unlink_success">બેકડ્રોપ પસંદગીઓ દૂર કરવામાં આવી છે</string>
+    <string name="backdrop_device_setting_update_error">અપડેટ કરેલી સેટિંગ્સ વિશે %1$s ને સૂચિત કરી શકાયું નથી</string>
+    <string name="backdrop_settings_turned_off_toast">%1$s ને બંધ કરી રહ્યું છે કારણ કે કોઈ આઇટમ્સ પસંદ કરી નહોતી.</string>
+    <string name="backdrop_setting_defer_loading_error">કંઇક ખોટું થયું. સેટિંગ્સ લોડ કરવામાં અસમર્થ.</string>
+    <string name="backdrop_oauth_callback_error">તમારું એકાઉન્ટ પ્રમાણિત કરી શકતા નથી.</string>
+    <string name="backdrop_revoke_third_party_error">કંઈક ખોટું થયું. તમારા એકાઉન્ટને દૂર કરવામાં અસમર્થ.</string>
+    <string name="backdrop_facebook_sdk_login_error">ફેસબુક પર કનેક્ટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="backdrop_revoke_third_party_dialog_title">એકાઉન્ટ દૂર કરીએ?</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">દૂર કરો</string>
+    <string name="setting_on">ચાલુ</string>
+    <string name="setting_off">બંધ</string>
+    <string name="accessibility_checked">ચેક કરેલ</string>
+    <string name="accessibility_not_checked">ચેક કર્યું નથી</string>
+    <string name="backdrop_no">નહીં આભાર</string>
+    <string name="backdrop_signin_ok">સાઇન ઇન કરો</string>
+    <string name="backdrop_default_title">બેકડ્રોપ છબી</string>
+    <string name="backdrop_default_attribution">કોઈ માહિતી ઉપલબ્ધ નથી</string>
+    <string name="backdrop_ready_to_cast">કાસ્ટ કરવા માટે તૈયાર</string>
+    <string name="tv_show_description">%1$s, સીઝન %2$d, એપિસોડ %3$d</string>
+    <string name="spinner_loading_text">ડેટા લોડ કરી રહ્યું છે…</string>
+    <string name="remote_devices">લિંક કરેલ બેકડ્રોપ ઉપકરણો (%1$d)</string>
+    <string name="albums_download_server_error">તમારા આલ્બમ્સ લોડ કરી શકાયા નથી. પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="albums_download_no_connection_error">તમારા આલ્બમ્સ લોડ કરી શકાયા નથી. ખાતરી કરો કે તમે ઇન્ટરનેટથી કનેક્ટ કરી શકો છો અને ફરી પ્રયાસ કરો.</string>
+    <string name="no_albums_text">તમે આ એકાઉન્ટમાં કોઈ આલ્બમ્સ ધરાવતાં નથી. આલ્બમ્સ બનાવો અને તેઓ અહીં ઉપલબ્ધ થશે.</string>
+    <string name="photos_progress_spinner_text">આલ્બમ્સ લોડ કરી રહ્યું છે…</string>
+    <string name="preview_title">પૂર્વાવલોકન કરો</string>
+    <string name="preview_num_photos">%2$d ફોટામાંથી પ્રથમ %1$d</string>
+    <string name="menu_sorting">સૉર્ટ કરો</string>
+    <string name="menu_album_refresh">તાજું કરો</string>
+    <string name="remove_weather_location_dialog_body">શું તમે %1$s માટે હવામાન સ્થાનને કાઢી નાખવા માગો છો?</string>
+    <string name="remove_weather_location_dialog_remove">દૂર કરો</string>
+    <string name="remove_weather_location_dialog_keep">રાખો</string>
+    <string name="temperature_format_dialog_title">તાપમાન ફોર્મેટ</string>
+    <string name="temperature_format_dialog_set">સેટ કરો</string>
+    <string name="temperature_format_dialog_cancel">રદ કરો</string>
+    <string name="farenheit">°ફે</string>
+    <string name="celsius">°સે</string>
+    <string name="add_location">સ્થાન ઉમેરો</string>
+    <string name="use_chromecast_location">Chromecast સ્થાનોનો ઉપયોગ કરો</string>
+    <string name="temperature_format_preference">તાપમાન ફોર્મેટ પસંદગી</string>
+    <string name="location_toast_message">%1$s, પહેલાંથી તમારા સ્થાનોની સૂચિમાં છે.</string>
+    <string name="update_prompt">એવું લાગે છે કે આ એપ્લિકેશનનું એક નવું સંસ્કરણ છે. જ્યાં સુધી તમે અપડેટ કરતાં નથી ત્યાં સુધી આ સુવિધા કામ કરશે નહીં.</string>
+    <string name="update_title">Chromecast એપ્લિકેશનને અપડેટ કરીએ?</string>
+    <string name="update_button">અપડેટ કરો</string>
+    <string name="update_cancel">નહીં આભાર</string>
+    <string name="whats_on_tab_name">શું ચાલી રહ્યું છે</string>
+    <string name="my_devices_tab_name">ઉપકરણો</string>
+    <string name="get_apps_tab_name">એપ્લિકેશનો મેળવો</string>
+    <string name="open_app_button">એપ્લિકેશન ખોલો</string>
+    <string name="search_hint">મૂવીઝ અને શોઝ શોધો</string>
+    <string name="app_install_button">ઇન્સ્ટોલ કરો</string>
+    <string name="browse_all_apps">તમામ એપ્લિકેશનો બ્રાઉઝ કરો</string>
+    <string name="view_all_text">બધુ જુઓ</string>
+    <string name="intent_error">એપ્લિકેશન ખોલી શકાઈ નથી.</string>
+    <string name="trailer">ટ્રેલર</string>
+    <string name="drawer_item_home">હોમ</string>
+    <string name="unavailable_to_cast">કાસ્ટ કરવા માટે આ સામગ્રી ઉપલબ્ધ નથી.</string>
+    <string name="details_error_msg">આ સામગ્રી માટે વિગતો લોડ કરી શક્યાં નથી.</string>
+    <string name="browse_view_no_feeds_title">કેટલીક એપ્લિકેશનો મેળવો</string>
+    <string name="browse_view_no_feeds_message">તમારા ટીવી અને સ્પીકર્સ પર તમારી મનપસંદ સામગ્રી કાસ્ટ કરવાનો પ્રારંભ કરવા માટે કેટલીક કાસ્ટ-સક્ષમ એપ્લિકેશનો ઇન્સ્ટોલ કરો.</string>
+    <string name="get_apps">એપ્લિકેશનો મેળવો</string>
+    <string name="browse_view_timeout_title">નેટવર્ક સુધી પહોંચવામાં અસમર્થ</string>
+    <string name="browse_view_timeout_message">અમે નેટવર્ક કનેક્શન સ્થાપિત કરવામાં અસમર્થ છીએ. Wi-Fi ચાલુ કરો અને તમારું ઉપકરણ એરપ્લેન મોડમાં નથી તેની ખાતરી કરો.</string>
+    <string name="try_again">ફરી પ્રયાસ કરો</string>
+    <string name="search_no_results_title">કોઈ પરિણામ મળ્યાં નથી</string>
+    <string name="search_no_results_description">કૃપા કરીને કંઇક બીજું શોધવાનો પ્રયાસ કરો.</string>
+    <string name="accessibility_open_app">એપ્લિકેશન ખોલો: %1$s</string>
+    <string name="accessibility_clip_duration">અવધિ: %1$s</string>
+    <string name="accessibility_offer_card">ઓફર કાર્ડ</string>
+    <string name="accessibility_app_card">%1$s એપ્લિકેશન કાર્ડ</string>
+    <string name="accessibility_category_card">%1$s એપ્લિકેશન કાર્ડ: %2$s</string>
+    <string name="redeem_offer">રિડિમ કરો</string>
+    <string name="offer_terms">શરતો બતાવો</string>
+    <string name="hide_offer">છુપાવો</string>
+    <string name="offer_options">ઓફર વિકલ્પો</string>
+    <string name="offer_redemption_error">માફ કરશો, અમે આ ઓફર રિડિમ કરવામાં અસમર્થ છીએ. આ ઉપકરણ માટે તે પહેલાંથી જ રિડિમ કરી લીધી હોઇ શકે છે.</string>
+    <string name="found_header_text">ચાલો ત્યારે %1$s ને સેટ કરીએ</string>
+    <string name="found_body_text">તમે તમારી મનપસંદ સામગ્રી ક્ષણભરમાં કાસ્ટ કરશો.</string>
+    <string name="start_setup_button">સેટ અપ</string>
+    <string name="setup_before_sound_text">અમે તમારા Chromecast Audio નું પરીક્ષણ કરવા માટે અવાજ ચલાવવાના છીએ.</string>
+    <string name="setup_after_sound_text">શું તમને તમારા સ્પીકર્સમાંથી અવાજ સંભળાયો હતો?</string>
+    <string name="setup_play_sound_button">પરીક્ષણ અવાજ ચલાવો</string>
+    <string name="setup_heard_sound_button">મેં તે સાંભળ્યો હતો</string>
+    <string name="setup_no_sound_button">મેં તે સાંભળ્યો ન હતો</string>
+    <string name="setup_help_text">ખાતરી કરો કે તમારા સ્પીકર્સ ચાલુ કરેલ છે અને મ્યૂટ કરેલ નથી.</string>
+    <string name="setup_tap_image_text">(ફરીથી ચલાવવા માટે ટેપ કરો)</string>
+    <string name="no_sound_header">અવાજ સંભળાતો નથી?</string>
+    <string name="setup_error_steps">આ પગલાંઓ અજમાવો…</string>
+    <string name="no_sound_text1">ખાતરી કરો કે તમારા Chromecast Audio પર ઑડિઓ કેબલ યોગ્ય ઇનપુટમાં પ્લગ ઇન કરેલ છે.</string>
+    <string name="no_sound_text2">ખાતરી કરો કે તમારા સ્પીકર ચાલુ કરેલ છે અને યોગ્ય ઇનપુટ પસંદ કરેલ છે.</string>
+    <string name="no_sound_text3">તમારા સ્પીકરમાં વૉલ્યૂમ મ્યૂટ કરેલ નથી તેની ખાતરી કરો.</string>
+    <string name="play_sound_again_button">અવાજ ફરીથી ચલાવો</string>
+    <string name="setup_failed_header">કંઇક ઠીક નથી…</string>
+    <string name="audio_setup_failed_text1">તમે અકસ્માતે તમારા ન હોય તેવા Chromecast Audio સાથે કનેક્ટ કર્યું હોઇ શકે છે. કૃપા કરીને ખાતરી કરો કે તમારું Chromecast Audio પ્લગ-ઇન થયેલું હોય અને તમારું સ્પીકર યોગ્ય ઇનપુટ પર હોય.</string>
+    <string name="audio_setup_failed_text2">તમને તમારા સ્પીકરમાંથી અવાજ ન સંભળાય ત્યાં સુધી આ ઉપકરણ સેટ કરવા તરફ આગળ ન વધવાની અમે ભલામણ કરીએ છીએ.</string>
+    <string name="wrong_pin_header">તમારા TV પર કોડ દેખાઇ રહ્યો નથી?</string>
+    <string name="wrong_pin_text1">ખાતરી કરો કે તમારું TV ચાલુ છે.</string>
+    <string name="wrong_pin_text2">ખાતરી કરો કે તમારું TV એ HDMI ઇનપુટ પર છે જેમાં તમે તમારું Chromecast પ્લગ ઇન કરેલું છે.</string>
+    <string name="done_header_text">તમે કાસ્ટ કરવા માટે તૈયાર છો!</string>
+    <string name="done_body_audio_text">તમારી કાસ્ટ-સક્ષમ કરેલ સંગીત એપ્લિકેશનો પૈકી એક ખોલો અને કાસ્ટ કરો બટન ટેપ કરો</string>
+    <string name="done_body_text">તમારી કાસ્ટ-સક્ષમ કરેલ એપ્લિકેશનો પૈકી એક ખોલો અને કાસ્ટ કરો બટન ટેપ કરો</string>
+    <string name="done_button">તમારી કાસ્ટ એપ્લિકેશનો બ્રાઉઝ કરો</string>
+    <string name="setup_failed_text1">તમે અકસ્માતે તમારા ન હોય તેવા Chromecast સાથે કનેક્ટ કર્યું હોઇ શકે છે. કૃપા કરીને તમારું Chromecast પ્લગ-ઇન થયેલું છે અને તમારું TV યોગ્ય ઇનપુટ પર સેટ થયેલું છે તેની ખાતરી કરો.</string>
+    <string name="setup_failed_text2">અમે ભલામણ કરીએ છીએ કે જ્યાં સુધી તમે કોડ ચકાસો નહીં ત્યાં સુધી આ Chromecast સેટ કરશો નહીં.</string>
+    <string name="setup_complete_header_text">અમે ઓનલાઇન છીએ</string>
+    <string name="setup_complete_check_ota_body_text">અમે અપડેટ્સ તપાસીએ ત્યાં સુધી રાહ જુઓ.</string>
+    <string name="ota_wait_percent">%1$d%%</string>
+    <string name="ota_wait_header_text">અપડેટ આવશ્યક છે</string>
+    <string name="ota_wait_body_text">અમે અપડેટનું આનયન કરીએ ત્યાં સુધી રાહ જુઓ.</string>
+    <string name="chromecast_ota_downloading">અપડેટ ડાઉનલોડ કરી રહ્યાં છીએ</string>
+    <string name="chromecast_ota_updating">અપડેટ ઇન્સ્ટોલ કરી રહ્યાં છે, રાહ જુઓ</string>
+    <string name="chromecast_ota_done">અપડેટ કરવાનું પૂર્ણ થયું</string>
+    <string name="skip_learn_video_button_text">છોડો</string>
+    <string name="skip_tutorial_page_button_text">છોડો</string>
+    <string name="tutorial_next_description">આગલું</string>
+    <string name="ota_error_header">અપડેટમાં અપેક્ષા કરતાં વધુ સમય લાગી રહ્યો છે</string>
+    <string name="ota_error_options_none">ઉપરોક્તમાંથી કોઈ નહીં</string>
+    <string name="ota_error_done_btn">બરાબર, સમજાઇ ગયું</string>
+    <string name="ota_error_troubleshoot_btn">સમસ્યા નિવારણ</string>
+    <string name="ota_error_download_slow_header">અપડેટ ડાઉનલોડ થવામાં અપેક્ષિત કરતાં વધુ સમય લાગી રહ્યો છે</string>
+    <string name="ota_error_download_slow_description">આ તમારા Wi-Fi રાઉટર સેટિંગ્સ અથવા તમારી ઇન્ટરનેટ ગતિને કારણે હોઈ શકે છે.</string>
+    <string name="ota_error_audio_description">તમારા Chromecast Audio ની સ્થિતિ તપાસવા માટે, ઉપકરણની બાજુ પર LED લાઇટ શોધો.</string>
+    <string name="ota_error_audio_option_blink_orange">નારંગી રંગમાં ઝબકે છે</string>
+    <string name="ota_error_audio_option_blink_white">સફેદ રંગમાં ઝબકે છે</string>
+    <string name="ota_error_audio_option_white">એકદમ સફેદ</string>
+    <string name="ota_error_blink_orange_header">અપડેટ હજુ પણ પ્રક્રિયામાં છે</string>
+    <string name="ota_error_blink_orange_description">"એકવાર તમારું Chromecast Audio અપડેટ થઈ જાય, પછી LED લાઇટ ઘાટી સફેદ થશે.
+
+જ્યારે આ થઈ જાય, ત્યારે તમને નીચેની સ્ક્રીન પરના ઉપકરણો ટેબમાં તમારું Chromecast Audio દેખાવું જોઈએ."</string>
+    <string name="ota_error_blink_white_header">અપડેટ પૂર્ણ થયું ન હતું</string>
+    <string name="ota_error_blink_white_description">એવું લાગે છે કે અપડેટ સાથે કંઇક ખોટું થયું છે.</string>
+    <string name="ota_error_solid_white_header">અપડેટ પૂર્ણ થયું</string>
+    <string name="ota_error_solid_white_description">"એવું લાગે છે કે અપડેટ પૂર્ણ થયું છે. જો કે, આ ઉપકરણ Chromecast Audio કરતાં અલગ Wi-Fi નેટવર્ક સાથે કનેક્ટ થયેલ હોઇ શકે છે.
+
+કૃપા કરીને તમારા Chromecast Audio ની જેમ સમાન Wi-Fi નેટવર્ક સાથે કનેક્ટ કરવાનો પ્રયાસ કરો.
+
+જ્યારે આ સફળ થાય, ત્યારે તમને નીચેની સ્ક્રીન પરના ઉપકરણ ટેબમાં તમારું Chromecast Audio દેખાવું જોઇએ."</string>
+    <string name="ota_error_tv_description">તમારા Chromecast ની સ્થિતિ તપાસવા માટે TV જુઓ.</string>
+    <string name="ota_error_tv_option_installing">હજુ ઇન્સ્ટોલ કરી રહ્યાં છે</string>
+    <string name="ota_error_tv_option_ready">કાસ્ટ કરવા માટે તૈયાર</string>
+    <string name="ota_error_still_installing_header">હજુ ઇન્સ્ટોલ કરી રહ્યાં છે</string>
+    <string name="ota_error_still_installing_description">"એકવાર તમારું Chromecast અપડેટ થઈ જાય, પછી તમને તમારા TV પર “કાસ્ટ કરવા માટે તૈયાર” સંદેશ દેખાવો જોઈએ.
+
+જ્યારે આ થઈ જાય, ત્યારે તમને નીચેની સ્ક્રીન પરના ઉપકરણો ટેબ પર તમારું Chromecast દેખાવું જોઈએ."</string>
+    <string name="ota_error_ready_to_cast_header">કાસ્ટ કરવા માટે તૈયાર</string>
+    <string name="ota_error_ready_to_cast_description">"એવું લાગે છે કે તમારું Chromecast અપડેટ થઈ ગયું છે અને તે કાસ્ટ કરવા માટે તૈયાર છે, જો કે તમારો ફોન અથવા ટેબ્લેટ અલગ Wi-Fi નેટવર્ક પર હોઇ શકે છે.
+
+કૃપા કરીને ખાતરી કરો કે તમારો ફોન અને ટેબ્લેટ, તમારા Chromecast ની જેમ સમાન Wi-Fi નેટવર્ક પર છે."</string>
+    <string name="stop_casting_button">કાસ્ટ કરવાનું રોકો</string>
+    <string name="no_media_info">કોઇ માહિતી ઉપલબ્ધ નથી</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/location_text" android:layout_toRightOf="@id/remove_icon" style="@style/BackdropSettingDescription" />
+    <ImageView android:id="@id/remove_icon" android:src="@drawable/button_remove" android:contentDescription="@string/backdrop_unlink_device_description" style="@style/WeatherIconStyle" />
+    <View android:layout_toRightOf="@id/remove_icon" android:layout_below="@id/location_text" android:layout_alignLeft="@id/location_text" style="@style/Line" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="@dimen/dialog_with_icon_padding_offset" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/close_btn" android:background="?android:selectableItemBackground" android:padding="@dimen/dialog_with_icon_padding_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_clear" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:ellipsize="end" android:id="@id/device_name_text" android:paddingLeft="@dimen/dialog_with_icon_padding_offset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/close_btn" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/cast_blue" android:paddingLeft="@dimen/dialog_outer_padding" android:paddingTop="@dimen/dialog_outer_padding" android:paddingRight="@dimen/dialog_with_icon_padding_offset" android:paddingBottom="@dimen/dialog_outer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/metadata_container" android:paddingRight="@dimen/dialog_with_icon_padding_offset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/play_pause_btn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true">
+            <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MediaItemTitle" />
+            <TextView android:id="@id/attribution" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MediaItemDescription" />
+        </LinearLayout>
+        <ImageButton android:id="@id/play_pause_btn" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pause_white_48dp" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_outer_padding" android:layout_below="@id/metadata_container">
+            <ImageView android:id="@id/volume_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_volume_up_white" />
+            <SeekBar android:id="@id/change_volume_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/VolumeSlider" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:gravity="right" android:id="@id/stop_cast_btn" android:padding="@dimen/panel_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/stop_casting_button" style="@style/BackdropSecondaryAction" />
+</LinearLayout>

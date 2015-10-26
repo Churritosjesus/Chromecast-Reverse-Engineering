@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SelectableItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/content_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_thumbnail_padding" android:layout_marginTop="@dimen/app_thumbnail_padding" android:layout_marginRight="@dimen/app_thumbnail_padding" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/md_grey_500" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/content_thumbnail" />
+</RelativeLayout>

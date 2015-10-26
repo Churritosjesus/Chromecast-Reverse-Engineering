@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_photos_in_album">
+        <item quantity="other">Nuotraukų: %d</item>
+        <item quantity="zero">Nuotraukų: 0</item>
+        <item quantity="one">Nuotraukų: %d</item>
+    </plurals>
+</resources>

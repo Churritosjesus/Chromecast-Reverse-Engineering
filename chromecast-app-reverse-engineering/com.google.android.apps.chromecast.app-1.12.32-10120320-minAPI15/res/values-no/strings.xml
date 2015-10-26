@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_devices_title">Fant ingen Chromecast-enheter</string>
+    <string name="no_devices_text1">Koble Chromecasten til HDMI-porten på TV-en.</string>
+    <string name="no_devices_text2">Koble USB-strømkabelen til TV-en eller USB-strømadapteren.</string>
+    <string name="no_devices_text3">Sørg for at telefonen/nettbrettet og Chromecasten er på samme Wi-Fi-nettverk.</string>
+    <string name="no_devices_text4">Sørg for at TV-en er slått på, og at riktig kilde er valgt.</string>
+    <string name="no_audio_devices_text1">Sørg for at Chromecast Audio-enheten er koblet til en stikkontakt eller USB-port.</string>
+    <string name="no_audio_devices_text2">Sørg for at telefonen/nettbrettet og Chromecast Audio-enheten er på samme Wi-Fi-nettverk.</string>
+    <string name="no_audio_devices_text3">Sørg for at høyttaleren er slått på, og at riktig kilde er valgt.</string>
+    <string name="number_one">1.</string>
+    <string name="number_two">2.</string>
+    <string name="number_three">3.</string>
+    <string name="number_four">4.</string>
+    <string name="no_devices_splash_header">La oss konfigurere en Chromecast eller Chrome Audio-enhet</string>
+    <string name="no_devices_splash_subtext">Velg Chromecast-typen du vil konfigurere:</string>
+    <string name="location_services_dialog">Slå på Posisjonstjenester for å konfigurere %1$s. Dette gjør at telefonen kan oppdage %2$s i nærheten som er klare for konfigurering.</string>
+    <string name="add_device">Legg til en ny enhet</string>
+    <string name="terms_title">Personvern og vilkår</string>
+    <string name="terms_text">"Informasjonen Google samler inn når du konfigurerer og bruker Chromecast, er beskrevet i personvernreglene til Google. Du kan endre personverninnstillingene for Chromecasten – for eksempel om du vil at Chromecasten skal sende bruksstatistikk og programstopprapporter til Google – ved å gå til enhetsinnstillingene i denne appen etter at enheten er konfigurert.
+
+Hvis du trykker på «Godta» nedenfor, bekrefter du at du godtar %1$s og %2$s."</string>
+    <string name="terms_text_germany">"Informasjonen Google samler inn når du konfigurerer og bruker Chromecast, er beskrevet i personvernreglene til Google. Du kan endre personverninnstillingene for Chromecasten – for eksempel om du vil at Chromecasten skal sende bruksstatistikk og programstopprapporter til Google – ved å gå til enhetsinnstillingene i denne appen etter at enheten er konfigurert.
+
+Hvis du trykker på «Godta» nedenfor, bekrefter du at du godtar %1$s, og at du har lest %2$s."</string>
+    <string name="terms_of_service_pattern">Googles vilkår for bruk</string>
+    <string name="dogfood_confidentiality_text">Denne versjonen av Chromecast er en versjon for intern testing. Den er bare beregnet på intern bruk og inneholder funksjoner som ikke er offentlig tilgjengelig.</string>
+    <string name="dogfood_confidentiality_title">Konfidensielt</string>
+    <string name="dogfood_confidentiality_accept">Greit</string>
+    <string name="privacy_policy_pattern">Personvernregler</string>
+    <string name="privacy_policy_pattern_germany">Googles personvernregler</string>
+    <string name="terms_accept">Godta</string>
+    <string name="terms_decline">Avbryt</string>
+    <string name="setup_title_enable_wifi">Aktiverer Wi-Fi…</string>
+    <string name="not_set_up_info">Må konfigureres</string>
+    <string name="wifi_enable_title">Ingen Wi-Fi-nettverk oppdaget</string>
+    <string name="wifi_enable_message">Slå på Wi-Fi for å opprette en tilkobling til Chromecasten.</string>
+    <string name="wifi_enable_proceed">Slå på Wi-Fi</string>
+    <string name="wifi_enable_fail">Kunne ikke koble til Wi-Fi. Sjekk Wi-Fi-innstillingene og prøv igjen.</string>
+    <string name="no_wifi_title">Wi-Fi er ikke tilgjengelig</string>
+    <string name="menu_discover_help">Hjelp og tilbakemelding</string>
+    <string name="discover_help_title">Hvorfor ser jeg ikke Chromecasten eller Chrome Audio-enheten min på denne listen?</string>
+    <string name="discover_help_text">"Kontrollér at Chromecasten
+• er maksimalt 6 meter fra denne enheten.
+• har strøm (via USB-kabelen), og at et hvitt lys lyser.
+• er på samme Wi-Fi-nettverk som denne enheten (hvis den er konfigurert).
+
+Kontrollér at Wi-Fi-nettverket
+• tillater at nye enheter kobler seg til.
+
+Hvis du fortsatt ikke ser Chromecasten din, kan du
+• tilbakestille Chromecasten til fabrikkstandard ved å holde inne tilbakestillingsknappen i 15 sekunder.
+
+Du finner mer hjelp på support.google.com/chromecast."</string>
+    <string name="developer_mode_toast">Utviklermodus aktivert</string>
+    <string name="drawer_item_learn">Finn ut mer</string>
+    <string name="drawer_item_backdrop">Bakteppe</string>
+    <string name="drawer_item_settings">Innstillinger</string>
+    <string name="drawer_item_cast_screen">Cast skjerm/lyd</string>
+    <string name="drawer_open">Åpne uttrekksmenyen for navigasjon</string>
+    <string name="drawer_close">Lukk uttrekksmenyen for navigasjon</string>
+    <string name="accessibility_settings">Åpne enhetsinnstillingene</string>
+    <string name="ignore">Ignorer</string>
+    <string name="setup">Konfigurer</string>
+    <string name="hidden_device_count">Ignorerte enheter %1$d</string>
+    <string name="opencast_pin">PIN-kode %1$s</string>
+    <string name="backdrop_exit_history">Ferdig</string>
+    <string name="backdrop_history_label">Logg %1$s/%2$s</string>
+    <string name="accessibility_backdrop_history">Gå inn i bakteppeloggen</string>
+    <string name="accessibility_backdrop_history_exit">Gå ut av bakteppeloggen</string>
+    <string name="accessibility_backdrop_history_previous">Gå til forrige bilde i bakteppeloggen</string>
+    <string name="accessibility_backdrop_history_next">Gå til neste bilde i bakteppeloggen</string>
+    <string name="device_settings_title">Chromecast-innstillinger</string>
+    <string name="device_connect_progress">Kobler til %1$s</string>
+    <string name="device_connect_failed">Kunne ikke koble til Chromecasten. Sørg for at den ikke er for langt unna.</string>
+    <string name="device_connect_failed_poor_link_title">Kan ikke koble til Chromecast</string>
+    <string name="device_connect_failed_poor_link">Sørg for at Chromecasten ikke er for langt unna, og sjekk at «Automatisk nettverksbytte» i Wi-Fi-innstillingene er slått av inntil Chromecast-konfigurasjonen er ferdig.</string>
+    <string name="device_setup_progress">Kobler Chromecasten din til %1$s</string>
+    <string name="device_ethernet_setup_progress">Kobler til Chromecasten din</string>
+    <string name="device_configure_wifi_monitor_bad_password">%1$s kunne ikke koble til %2$s – sjekk passordet.</string>
+    <string name="device_configure_wifi_monitor_bad_ssid">%1$s kunne ikke koble til %2$s – sjekk navnet på Wi-Fi-nettverket.</string>
+    <string name="device_configure_wifi_monitor_bad_ap">%1$s kunne ikke koble til %2$s – sjekk Wi-Fi-ruteren.</string>
+    <string name="device_configure_wifi_monitor_failure">%1$s kunne ikke koble til %2$s – sjekk verdiene du har lagt inn.</string>
+    <string name="device_reboot_progress">Starter opp %1$s på nytt</string>
+    <string name="settings_saved_toast">Innstillingene for Chromecasten din er endret</string>
+    <string name="wifi_different_title">Endrer Wi-Fi-nettverk</string>
+    <string name="wifi_different_message">Wi-Fi-nettverkene for Chromecasten (%2$s) og denne enheten (%1$s) er forskjellige. Når enheten er konfigurert, blir den koblet til %2$s, slik at du kan bruke Chromecasten.</string>
+    <string name="confirm_reboot">Vil du starte opp %1$s på nytt?</string>
+    <string name="confirm_reset">Vil du tilbakestille %1$s til fabrikkstandard?</string>
+    <string name="reboot_ok">OK</string>
+    <string name="settings_device_label">ENHETSINFORMASJON</string>
+    <string name="settings_name_label">Navn</string>
+    <string name="settings_wifi_label">Wi-Fi</string>
+    <string name="settings_time_zone_label">Tidssone</string>
+    <string name="settings_time_format_label">Tidsformat</string>
+    <string name="settings_locale_label">Språk</string>
+    <string name="settings_sounds_label">LYDER</string>
+    <string name="settings_playback_sounds_label">Avspillingslyder</string>
+    <string name="settings_playback_sounds_description">Volumendringer og start av casting</string>
+    <string name="settings_hdr_label">HDR (høyt dynamisk omfang)</string>
+    <string name="settings_hdr_description">For AV-mottakere og HiFi-systemer</string>
+    <string name="settings_privacy_label">PERSONVERN</string>
+    <string name="settings_opencast_label">Gjestemodus</string>
+    <string name="settings_opencast_pin">Personlig kode %1$s</string>
+    <string name="settings_opencast_getting_pin">Henter enhetens personlige kode …</string>
+    <string name="settings_cast_nearby_intro_description">"La hvem som helst i samme rom koble til %1$s uten å være på Wi-Fi-nettverket ditt.
+
+En kombinasjon av %2$s-posisjonen og Wi-Fi brukes til å identifisere enheter i nærheten."</string>
+    <string name="settings_cast_nearby_learn_more">Finn ut mer</string>
+    <string name="settings_cast_nearby_learn_title">Sånn fungerer det</string>
+    <string name="settings_cast_nearby_learn_description">"%1$s kobler til enhetene til gjestene dine ved overføre den firesifrede PIN-koden automatisk med en kort lydtone du ikke kan høre.
+
+Hvis lydsammenkoblingen mislykkes, blir gjestene bedt om å skrive inn PIN-koden. Eieren av enheten finner PIN-koden i Chromecast-appen.
+
+Du kan slå av denne funksjonen når som helst."</string>
+    <string name="settings_information_label">INFORMASJON</string>
+    <string name="wifi_other_name">Annet…</string>
+    <string name="wifi_name_title">Nettverksnavn</string>
+    <string name="wifi_password_title_setup">Wi-Fi-passord</string>
+    <string name="wifi_password_hint">(uendret)</string>
+    <string name="wifi_security_title">Sikkerhet</string>
+    <string name="wifi_level_description_blank" />
+    <string name="wifi_level_description_1">veldig svakt signal</string>
+    <string name="wifi_level_description_2">svakt signal</string>
+    <string name="wifi_level_description_3">sterkt signal</string>
+    <string name="wifi_level_description_4">veldig sterkt signal</string>
+    <string name="device_mac_address_pattern">MAC-adresse: %1$s</string>
+    <string name="device_ip_address_pattern">IP-adresse: %1$s</string>
+    <string name="device_build_version_pattern">Fastvareversjon: %1$s</string>
+    <string name="device_country_code_pattern">Landskode: %1$s</string>
+    <string name="time_format_12_hours">Bruk 12-timers format</string>
+    <string name="time_format_24_hours">Bruk 24-timers format</string>
+    <string name="time_format_default" />
+    <string name="get_info_request_timeout">Vi får ikke kontakt med Chromecasten. Du må kanskje prøve på nytt.</string>
+    <string name="execute_requests_failed">Fikk ikke kontakt med Chromecasten.</string>
+    <string name="execute_requests_failed_status">Fikk ikke kontakt med Chromecasten (%1$s).</string>
+    <string name="config_wifi_device_not_found">"Fant ikke %1$s på Wi-Fi-nettverket. Sjekk Wi-Fi-innstillingene.
+• Hvis du har en to-båndsruter (2,4 og 5 GHz), må du kontrollere at den ikke er i modusen for tilgangspunktisolering.
+• Hvis MAC-godkjenning er slått på for ruteren, må du kontrollere at den tillater at denne enheten og Chromecasten kobles til.
+Gå til support.google.com/chromecast hvis du vil ha mer hjelp med å feilsøke dette problemet."</string>
+    <string name="menu_reboot">Start Chromecast på nytt</string>
+    <string name="menu_reset">Tilbakestill Chromecast til fabrikkstandard</string>
+    <string name="menu_feedback">Send inn tilbakemeldingsrapport</string>
+    <string name="menu_oss_licenses">Lisenser for åpen kildekode</string>
+    <string name="menu_other_licenses_title">Andre lisenser</string>
+    <string name="alert_cancel">Avbryt</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">Ja</string>
+    <string name="alert_settings">Åpne innstillingene</string>
+    <string name="alert_wifi_settings">Wi-Fi-innstillinger</string>
+    <string name="alert_dont_show_again">Ikke vis meg dette igjen</string>
+    <string name="continue_button_text">Fortsett</string>
+    <string name="menu_offers">Se etter tilbud</string>
+    <string name="prompt_offers_serial_number">Godtar du å dele Chromecast-serienummeret ditt med Google for å finne tilgjengelige tilbud?</string>
+    <string name="prompt_offers_button_neg">Avbryt</string>
+    <string name="prompt_offers_button_pos">Godta</string>
+    <string name="progress_offers">Ser etter tilbud …</string>
+    <string name="offers_failure">Kunne ikke se etter tilbud. Sjekk at Chromecasten er konfigurert og klar til å caste.</string>
+    <string name="device_type_chromecast">Chromecast</string>
+    <string name="device_type_chromecast_possessive">Chromecasts</string>
+    <string name="device_type_chromecast_plural">Chromecast-enheter</string>
+    <string name="device_type_chromecast_audio">Chromecast Audio</string>
+    <string name="device_type_chromecast_audio_possessive">Chromecast Audios</string>
+    <string name="device_type_chromecast_audio_plural">Chromecast Audio-enheter</string>
+    <string name="found_title">Fant %1$s</string>
+    <string name="configure_title">Konfigurer %1$s</string>
+    <string name="name_choice_title">Gi navn til %1$s-enheten</string>
+    <string name="name_choice_hint">Eksempel: «Stuen»</string>
+    <string name="setup_enable_opencast_text">Slå på gjestemodus</string>
+    <string name="setup_enable_opencast_description">Dette gjør at enheter i samme rom kan caste uten å være på Wi-Fi-nettverket ditt. Gjestemodus bruker en kombinasjon av castingenhetens posisjon og Wi-Fi for å finne enheter i nærheten.</string>
+    <string name="apply_wifi_button_text">Angi nettverk</string>
+    <string name="apply_name_button_text">Angi navn</string>
+    <string name="show_password_text">Vis passord</string>
+    <string name="configure_network_heading_text">Koble Chromecasten til Wi-Fi-nettverket ditt</string>
+    <string name="configuration_fail_dialog_title">Tilkoblingsproblemer under konfigureringen</string>
+    <string name="configuration_fail_dialog_message">Sjekk innstillingene for Wi-Fi-nettverket</string>
+    <string name="reconfigure_cancel">Avbryt</string>
+    <string name="reconfigure_proceed">Prøv på nytt</string>
+    <string name="prompt_friendly_name_title">Navn på Chromecast</string>
+    <string name="prompt_network_title">Wi-Fi for Chromecast</string>
+    <string name="prompt_country_title">Velg landet ditt</string>
+    <string name="prompt_country_text">Dette er nødvendig for å konfigurere Chromecasten på riktig måte.</string>
+    <string name="missing_ssid_message">Skriv inn en nettverks-SSID.</string>
+    <string name="wep_short_password_message">Passordet for Wi-Fi-nettverket må bestå av minst fem tegn.</string>
+    <string name="wpa_short_password_message">Passordet for Wi-Fi-nettverket må bestå av minst åtte tegn.</string>
+    <string name="not_supported_network_message">Dette Wi-Fi-nettverket støttes ikke. Velg et nettverk som er sikret med WEP/WPA/WPA2.</string>
+    <string name="restore_wifi_toast">Byttet Wi-Fi tilbake til %1$s</string>
+    <string name="wifi_restore_fail">Kunne ikke koble til Wi-Fi-nettverket %1$s. Sjekk Wi-Fi-innstillingene.</string>
+    <string name="settings_network_fail">Kunne ikke koble til Wi-Fi-nettverket %1$s. Konfigurer enheten på nytt for å bekrefte detaljene for Wi-Fi-nettverket.</string>
+    <string name="configure_tv_title_text">Bytt inngang på TV-en din</string>
+    <string name="configure_tv_title_body">Er det riktig Chromecast? Se etter denne koden på TV-en din for å være sikker.</string>
+    <string name="noupdate_app_alert_text">Denne funksjonen er ikke kompatibel med versjonen av Android du har installert.</string>
+    <string name="bad_device_message">Vi kunne ikke autentisere Chromecasten. Gå til support.google.com/chromecast hvis du trenger hjelp med å feilsøke dette problemet.</string>
+    <string name="validation_ignore_button">Fortsett likevel</string>
+    <string name="support_link_pattern">support.google.com/chromecast</string>
+    <string name="encrypt_password_failed">Vi kunne ikke behandle Wi-Fi-parameterne dine. Du må kanskje prøve på nytt.</string>
+    <string name="pin_confirmed_button">Jeg ser koden</string>
+    <string name="pin_mismatched_button">Jeg ser ikke koden</string>
+    <string name="setup_ping_failed">Vi fikk ikke kontakt med Chromecasten. Det kan hende Chromecasten og enheten er koblet til nettverk som ikke kan kommunisere med hverandre. Du kan sannsynligvis løse dette ved å endre innstillingene for Wi-Fi-ruteren. Finn ut mer her.</string>
+    <string name="setup_ping_pattern">her</string>
+    <string name="setup_ssdp_scan_failed">Vi fant ikke Chromecasten på nettverket. Du kan sannsynligvis løse dette ved å endre innstillingene for Wi-Fi-ruteren. Finn ut mer her.</string>
+    <string name="setup_ssdp_scan_pattern">her</string>
+    <string name="wpa_auth_ieee_8021x">Sikret med 802,1 x EAP</string>
+    <string name="wpa_auth_none_open">Usikret</string>
+    <string name="wpa_auth_none_wep">Sikret med WEP</string>
+    <string name="wpa_auth_none_wep_shared">Sikret med WEP</string>
+    <string name="wpa_auth_unknown" />
+    <string name="wpa_auth_wpa_eap">Sikret med WPA</string>
+    <string name="wpa_auth_wpa_psk">Sikret med WPA</string>
+    <string name="wpa_auth_wpa2_eap">Sikret med WPA2</string>
+    <string name="wpa_auth_wpa2_psk">Sikret med WPA2</string>
+    <string name="play_services_old_alert">Google Play Tjenester må oppdateres. Åpne Play-butikken og se etter tilgjengelige oppdateringer.</string>
+    <string name="oss_licenses_title">Lisenser for åpen kildekode</string>
+    <string name="loading_licenses">Henter lisenser…</string>
+    <string name="loading_licenses_failed">Vi kan ikke hente lisensene for åpen kildekode fra Chromecasten akkurat nå. Prøv igjen senere.</string>
+    <string name="send_crash_reports">Send bruksstatistikk og programstopprapporter for Chromecast til Google.</string>
+    <string name="use_device_id_text">Send dette Chromecast-serienummeret når du ser etter oppdateringer</string>
+    <string name="preferences_info_title">Informasjon</string>
+    <string name="preference_terms_of_service_title">Vilkår for bruk</string>
+    <string name="preference_privacy_policy_title">Personvern</string>
+    <string name="preference_open_source_licenses_title">Lisenser for åpen kildekode</string>
+    <string name="preference_software_version_title">Programvareversjon</string>
+    <string name="help_menu_print">Skriv ut</string>
+    <string name="help_menu_view_in_google_play_store">Se i Google Play-butikken</string>
+    <string name="mirror_splash_heading">Speil telefonen eller nettbrettet</string>
+    <string name="mirror_splash_body">Du kan caste skjermen/lyden for å speile det som foregår på enheten, til TV-en eller høyttalerne.</string>
+    <string name="mirror_button">Cast skjerm/lyd</string>
+    <string name="disconnect_mirror_button">Trykk for å koble fra</string>
+    <string name="disconnect_mirror_button_description">Koble fra skjermcastingen</string>
+    <string name="mirror_help_link">Gå til brukerstøtten</string>
+    <string name="cast_screen_off_status" />
+    <string name="cast_screen_on_short_status_no_name">Caster skjermen</string>
+    <string name="cast_screen_on_long_status_name">Denne skjermen castes til %1$s</string>
+    <string name="cast_screen_on_long_status_no_name">Denne skjermen castes nå</string>
+    <string name="cast_screen_disconnect_toast">Kobler fra …</string>
+    <string name="cast_screen_connect_toast">Kobler til …</string>
+    <string name="cast_screen_no_devices">"Fant ingen kompatible Google Cast-enheter på nettverket ditt.
+
+Hvis du vil ha mer informasjon, %1$s."</string>
+    <string name="cast_screen_no_devices_link">kan du gå til brukerstøtten</string>
+    <string name="cast_screen_unapproved_device_warning">Casting av skjermbildet er ikke optimalisert for denne enheten. Seeropplevelsen kan kanskje forbedres.</string>
+    <string name="cast_screen_enable_wifi_title">Vil du slå på Wi-Fi?</string>
+    <string name="cast_screen_enable_wifi_message">Casting av skjermen krever en Wi-Fi-tilkobling.</string>
+    <string name="backdrop_settings_entry_point">Bakteppe-innstillinger</string>
+    <string name="backdrop_unlinking_confirmation">Vil du fjerne bakteppeinnstillingene fra %1$s?</string>
+    <string name="backdrop_on_current_network">På nettverket ditt</string>
+    <string name="backdrop_on_other_network">På et annet nettverk</string>
+    <string name="photos_setting_turned_off_toast">«Dine bilder» slås av fordi ingen album er valgt.</string>
+    <string name="weather_activity_title">Været</string>
+    <string name="weather_search_places">Legg til en posisjon</string>
+    <string name="backdrop_added_date">%1$s er lagt til</string>
+    <string name="backdrop_unlink_device_description">Fjern tilkoblingen til bakteppe-enheten %1$s</string>
+    <string name="backdrop_link_scan_text">Søker etter Chromecast-enheter …</string>
+    <string name="backdrop_legal_title">Bakteppet må:</string>
+    <string name="backdrop_legal_text">"• bruke Chromecastens posisjon til å finne relevante bilder og annet innhold.
+
+• gi Chromecasten tillatelse til å bruke Google-kontoen din, slik at den kan bruke bildene dine, tilpasse bakteppeinnhold og administrere innstillingene dine.
+
+ Du kan når som helst endre disse innstillingene ved å bruke denne appen."</string>
+    <string name="backdrop_allow">Tillat</string>
+    <string name="backdrop_unlink_device_accessibility">Koble %1$s fra bakteppet</string>
+    <string name="backdrop_link_error_all_devices">Kan ikke koble til bakteppet. Prøv igjen senere.</string>
+    <string name="backdrop_unlink_error_all_devices">Kan ikke oppheve koblingen til bakteppet. Prøv igjen senere.</string>
+    <string name="backdrop_network_error">Kunne ikke laste inn bakteppeinnstillingene dine. Sjekk at du er tilkoblet Internett, og prøv på nytt.</string>
+    <string name="backdrop_device_linking_message">Legger til i Bakteppe …</string>
+    <string name="backdrop_device_unlinking_message">Bakteppeinnstillingene fjernes …</string>
+    <string name="backdrop_device_unlink_success">Bakteppeinnstillingene er fjernet</string>
+    <string name="backdrop_device_setting_update_error">Kunne ikke varsle %1$s om oppdaterte innstillinger</string>
+    <string name="backdrop_settings_turned_off_toast">%1$s slås av fordi ingen elementer ble valgt.</string>
+    <string name="backdrop_setting_defer_loading_error">Noe gikk galt. Kan ikke laste inn innstillingene.</string>
+    <string name="backdrop_oauth_callback_error">Kan ikke autentisere kontoen din.</string>
+    <string name="backdrop_revoke_third_party_error">Noe gikk galt. Kan ikke fjerne kontoen.</string>
+    <string name="backdrop_facebook_sdk_login_error">Kan ikke koble til Facebook. Prøv igjen senere.</string>
+    <string name="backdrop_revoke_third_party_dialog_title">Vil du fjerne kontoen?</string>
+    <string name="backdrop_revoke_third_party_dialog_positive_button">Fjern</string>
+    <string name="setting_on">På</string>
+    <string name="setting_off">Av</string>
+    <string name="accessibility_checked">Avmerket</string>
+    <string name="accessibility_not_checked">Ikke avmerket</string>
+    <string name="backdrop_no">Nei takk</string>
+    <string name="backdrop_signin_ok">Logg på</string>
+    <string name="backdrop_default_title">Bakteppebilde</string>
+    <string name="backdrop_default_attribution">Det er ingen informasjon tilgjengelig.</string>
+    <string name="backdrop_ready_to_cast">Klar til å caste</string>
+    <string name="tv_show_description">%1$s, sesong %2$d, episode %3$d</string>
+    <string name="spinner_loading_text">Laster inn data …</string>
+    <string name="remote_devices">Koblede bakteppeenheter (%1$d)</string>
+    <string name="albums_download_server_error">Kunne ikke laste inn albumene dine. Prøv på nytt senere.</string>
+    <string name="albums_download_no_connection_error">Kunne ikke laste inn albumene dine. Sjekk at du er tilkoblet Internett, og prøv på nytt.</string>
+    <string name="no_albums_text">Du har ingen album på denne kontoen. Når du oppretter album, blir de tilgjengelige her.</string>
+    <string name="photos_progress_spinner_text">Henter album …</string>
+    <string name="preview_title">Se forhåndsvisning</string>
+    <string name="preview_num_photos">Første %1$d av %2$d bilder</string>
+    <string name="menu_sorting">Sortér</string>
+    <string name="menu_album_refresh">Last inn på nytt</string>
+    <string name="remove_weather_location_dialog_body">Vil du slette værposisjonen for %1$s?</string>
+    <string name="remove_weather_location_dialog_remove">Fjern</string>
+    <string name="remove_weather_location_dialog_keep">Behold</string>
+    <string name="temperature_format_dialog_title">Temperaturformat</string>
+    <string name="temperature_format_dialog_set">Angi</string>
+    <string name="temperature_format_dialog_cancel">Avbryt</string>
+    <string name="farenheit">°F</string>
+    <string name="celsius">°C</string>
+    <string name="add_location">Legg til et sted</string>
+    <string name="use_chromecast_location">Bruk Chromecast-posisjoner</string>
+    <string name="temperature_format_preference">Innstilling for temperaturformat</string>
+    <string name="location_toast_message">%1$s er allerede i posisjonslisten din.</string>
+    <string name="update_prompt">Det ser ut til at det finnes en nyere versjon av denne appen. Hvis du vil at denne funksjonen skal fungere, må du oppdatere appen.</string>
+    <string name="update_title">Vil du oppdatere Chromecast-appen?</string>
+    <string name="update_button">Oppdater</string>
+    <string name="update_cancel">Nei takk</string>
+    <string name="whats_on_tab_name">Forslag</string>
+    <string name="my_devices_tab_name">Enheter</string>
+    <string name="get_apps_tab_name">Finn apper</string>
+    <string name="open_app_button">Åpne appen</string>
+    <string name="search_hint">Søk etter filmer og programmer</string>
+    <string name="app_install_button">Installer</string>
+    <string name="browse_all_apps">Bla gjennom alle apper</string>
+    <string name="view_all_text">Se alle</string>
+    <string name="intent_error">Kunne ikke åpne appen.</string>
+    <string name="trailer">Trailer</string>
+    <string name="drawer_item_home">Startside</string>
+    <string name="unavailable_to_cast">Dette innholdet kan ikke castes.</string>
+    <string name="details_error_msg">Kunne ikke laste inn detaljer for dette innholdet.</string>
+    <string name="browse_view_no_feeds_title">Last ned noen apper</string>
+    <string name="browse_view_no_feeds_message">Installer noen cast-kompatible apper, og begynn å caste favorittinnholdet ditt til TV-en og høyttalerne.</string>
+    <string name="get_apps">Finn apper</string>
+    <string name="browse_view_timeout_title">Får ikke kontakt med nettverket</string>
+    <string name="browse_view_timeout_message">Vi kan ikke opprette noen tilkobling til nettverket. Slå på Wi-Fi, og sjekk at enheten ikke er i flymodus.</string>
+    <string name="try_again">Prøv på nytt</string>
+    <string name="search_no_results_title">Fant ingen treff</string>
+    <string name="search_no_results_description">Prøv å søke etter noe annet.</string>
+    <string name="accessibility_open_app">Åpne app: %1$s</string>
+    <string name="accessibility_clip_duration">Varighet: %1$s</string>
+    <string name="accessibility_offer_card">Tilbudskort</string>
+    <string name="accessibility_app_card">Appkort for %1$s</string>
+    <string name="accessibility_category_card">Appkort for %1$s: %2$s</string>
+    <string name="redeem_offer">Løs inn</string>
+    <string name="offer_terms">Se vilkårene</string>
+    <string name="hide_offer">Skjul</string>
+    <string name="offer_options">Alternativer for tilbud</string>
+    <string name="offer_redemption_error">Beklager, men dette tilbudet kan ikke løses inn. Det kan ha blitt løst inn for denne enheten allerede.</string>
+    <string name="found_header_text">Alt klart for å konfigurere %1$s</string>
+    <string name="found_body_text">Du er straks klar til å caste favorittunderholdningen din.</string>
+    <string name="start_setup_button">Konfigurer</string>
+    <string name="setup_before_sound_text">Vi kommer nå til å spille av en lyd for å teste Chromecast Audio.</string>
+    <string name="setup_after_sound_text">Hørte du lyden fra høyttalerne?</string>
+    <string name="setup_play_sound_button">Spill av en testlyd</string>
+    <string name="setup_heard_sound_button">Ja</string>
+    <string name="setup_no_sound_button">Nei</string>
+    <string name="setup_help_text">Kontrollér at høyttalerne er slått på, og at lyden ikke er dempet.</string>
+    <string name="setup_tap_image_text">(trykk for å spille av på nytt)</string>
+    <string name="no_sound_header">Hørte du ikke lyden?</string>
+    <string name="setup_error_steps">Prøv disse trinnene</string>
+    <string name="no_sound_text1">Kontrollér at lydkabelen til Chromecast Audio er koblet til riktig inngang.</string>
+    <string name="no_sound_text2">Kontrollér at høyttaleren er slått på, og at du har valgt riktig inngang.</string>
+    <string name="no_sound_text3">Kontrollér at lyden på høyttaleren ikke er dempet.</string>
+    <string name="play_sound_again_button">Spill av lyden på nytt</string>
+    <string name="setup_failed_header">Noe er galt</string>
+    <string name="audio_setup_failed_text1">Det kan hende at du ved en feiltakelse har koblet til feil Chromecast Audio. Kontrollér at Chromecast Audio-enheten er koblet til, og at riktig inngang er valgt for høyttaleren.</string>
+    <string name="audio_setup_failed_text2">Vi anbefaler at du ikke fortsetter konfigurasjonen av enheten før du hører lyden fra høyttaleren.</string>
+    <string name="wrong_pin_header">Ser du ikke koden på TV-en?</string>
+    <string name="wrong_pin_text1">Sjekk at TV-en er på.</string>
+    <string name="wrong_pin_text2">Sjekk at HDMI-inngangen du koblet Chromecasten til, er valgt på TV-en.</string>
+    <string name="done_header_text">Du er klar til å caste.</string>
+    <string name="done_body_audio_text">Åpne en av de Cast-kompatible musikkappene dine, og trykk på cast-ikonet.</string>
+    <string name="done_body_text">Åpne en av de Cast-kompatible appene dine, og trykk på cast-ikonet.</string>
+    <string name="done_button">Bla gjennom Cast-appene dine</string>
+    <string name="setup_failed_text1">Det kan hende at du ved en feiltakelse har koblet til feil Chromecast. Sjekk at du har koblet til riktig Chromecast, og at riktig inngang er valgt på TV-en.</string>
+    <string name="setup_failed_text2">Vi anbefaler at du venter med å konfigurere denne Chromecasten til du kan bekrefte koden.</string>
+    <string name="setup_complete_header_text">Vi er på nettet</string>
+    <string name="setup_complete_check_ota_body_text">Vent litt mens vi ser etter oppdateringer.</string>
+    <string name="ota_wait_percent">%1$d %%</string>
+    <string name="ota_wait_header_text">Enheten må oppdateres</string>
+    <string name="ota_wait_body_text">Vent litt mens vi laster ned oppdateringen.</string>
+    <string name="chromecast_ota_downloading">Laster ned oppdatering</string>
+    <string name="chromecast_ota_updating">Oppdateringen installeres – vent litt</string>
+    <string name="chromecast_ota_done">Oppdateringen er fullført</string>
+    <string name="skip_learn_video_button_text">Hopp over</string>
+    <string name="skip_tutorial_page_button_text">Hopp over</string>
+    <string name="tutorial_next_description">Neste</string>
+    <string name="ota_error_header">Oppdateringen tar lengre tid enn forventet</string>
+    <string name="ota_error_options_none">Ingen av de ovennevnte</string>
+    <string name="ota_error_done_btn">Greit</string>
+    <string name="ota_error_troubleshoot_btn">Feilsøk</string>
+    <string name="ota_error_download_slow_header">Det tar lengre tid en ventet å laste ned oppdateringen</string>
+    <string name="ota_error_download_slow_description">Dette kan skyldes innstillingene til Wi-Fi-ruteren din eller hastigheten til Internett-tilkoblingen.</string>
+    <string name="ota_error_audio_description">For å sjekke statusen til Chromecast Audio, finn LED-lyset på siden av enheten.</string>
+    <string name="ota_error_audio_option_blink_orange">Blinker oransje</string>
+    <string name="ota_error_audio_option_blink_white">Blinker hvitt</string>
+    <string name="ota_error_audio_option_white">Lyser hvitt</string>
+    <string name="ota_error_blink_orange_header">Oppdateringen pågår fortsatt</string>
+    <string name="ota_error_blink_orange_description">"Når Chromecast Audio-enheten er ferdig oppdatert, begynner LED-lyset å lyse hvitt.
+
+Du skal da kunne se Chromecast Audio-enheten din på Enheter-fanen på det følgende skjermbildet."</string>
+    <string name="ota_error_blink_white_header">Oppdateringen ble ikke fullført</string>
+    <string name="ota_error_blink_white_description">Det ser ut til at noe gikk galt med oppdateringen.</string>
+    <string name="ota_error_solid_white_header">Oppdateringen er fullført</string>
+    <string name="ota_error_solid_white_description">"Det ser ut til at oppdateringen er fullført. Det kan imidlertid hende denne enheten er koblet til et annet Wi-Fi-nettverk enn Chromecast Audio.
+
+Prøv å koble til samme Wi-Fi-nettverk som Chromecast Audio.
+
+Når du har gjort dette, skal du se Chromecast Audio på Enheter-fanen på følgende skjerm."</string>
+    <string name="ota_error_tv_description">Se på TV-skjermen for å sjekke statusen til Chromecasten.</string>
+    <string name="ota_error_tv_option_installing">Installasjonen pågår</string>
+    <string name="ota_error_tv_option_ready">Klar til å caste</string>
+    <string name="ota_error_still_installing_header">Installasjonen pågår</string>
+    <string name="ota_error_still_installing_description">"Når Chromecasten er ferdig oppdatert, skal du se meldingen «Klar til å caste» på TV-en.
+
+Du skal da kunne se Chromecasten din på Enheter-fanen på det følgende skjermbildet."</string>
+    <string name="ota_error_ready_to_cast_header">Klar til å caste</string>
+    <string name="ota_error_ready_to_cast_description">"Det ser ut til at Chromecasten er ferdig med å oppdatere og er klar til å caste, men telefonen eller nettbrettet er kanskje på et annet Wi-Fi-nettverk.
+
+Sørg for at telefonen eller nettbrettet er på samme Wi-Fi-nettverk som Chromecasten."</string>
+    <string name="stop_casting_button">Stopp castingen</string>
+    <string name="no_media_info">Ingen informasjon er tilgjengelig</string>
+</resources>

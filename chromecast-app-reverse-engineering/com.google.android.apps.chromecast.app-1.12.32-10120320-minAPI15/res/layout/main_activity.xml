@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/search_toolbar" layout="@layout/search_toolbar" />
+        <include layout="@layout/toolbar" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout style="@style/VerticalContainer">
+                <com.google.android.apps.chromecast.app.widget.SlidingTabLayout android:id="@id/sliding_tabs" android:background="@color/cast_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.google.android.apps.chromecast.app.widget.NonSwipeableViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:id="@id/search_scrim" android:background="@color/scrim_overlay" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.google.android.gms.people.accountswitcherview.AccountSwitcherView android:id="@id/left_drawer" android:fitsSystemWindows="true" style="@style/Navdrawer" />
+</android.support.v4.widget.DrawerLayout>

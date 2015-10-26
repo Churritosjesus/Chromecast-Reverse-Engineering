@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/title_section" layout="@layout/content_details_header" />
+            <include android:id="@id/rotten_tomatoes_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_section" layout="@layout/rotten_tomatoes_rating" />
+            <LinearLayout android:orientation="vertical" android:id="@id/provider_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rotten_tomatoes_section" />
+            <LinearLayout android:id="@id/description_container" android:layout_below="@id/provider_container" style="@style/VerticalContainer">
+                <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/panel_padding" layout="@layout/divider" />
+                <TextView android:ellipsize="end" android:id="@id/description" android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/details_description_lines" />
+                <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/panel_padding" layout="@layout/divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/metadata_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/description_container" />
+        </RelativeLayout>
+    </ScrollView>
+    <include android:id="@id/spinner" layout="@layout/spinner" />
+    <android.support.v7.widget.Toolbar android:theme="@style/Theme.AppCompat.NoActionBar" android:id="@id/toolbar" android:background="@drawable/card_header_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_buffer_height" />
+</RelativeLayout>

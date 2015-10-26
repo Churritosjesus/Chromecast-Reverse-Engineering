@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.chromecast.app.widget.ReusableImageView android:id="@id/app_logo" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:scaleType="fitStart" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+    <Button android:id="@id/watch_button" android:visibility="gone" android:layout_alignParentRight="true" style="@style/Button.Orange" />
+</RelativeLayout>

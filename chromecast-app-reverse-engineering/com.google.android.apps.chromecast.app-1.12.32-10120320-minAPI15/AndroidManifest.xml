@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.apps.chromecast.app" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <project name="platform/vendor/unbundled_google/libs/owners" path="vendor/unbundled_google/libs/owners" revision="ub-ownerswitchhelpers-electro"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="true"/>
+    <application android:allowBackup="false" android:icon="@mipmap/product_logo_google_cast_launcher_color_48" android:label="@string/app_name" android:logo="@drawable/ic_logo" android:name="com.google.android.apps.chromecast.app.SetupApplication" android:theme="@style/AppTheme.TransparentStatusBar">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:label="@string/app_name" android:name="com.google.android.apps.chromecast.app.DiscoveryActivity" android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="chromecast.com" android:scheme="comgooglecast"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.apps.chromecast.app.MainActivity">
+            <meta-data android:name="android.app.default_searchable" android:value=".search.SearchResultsActivity"/>
+        </activity>
+        <activity android:name="com.google.android.apps.chromecast.app.NoDevicesActivity" android:parentActivityName="com.google.android.apps.chromecast.app.MainActivity"/>
+        <activity android:name="com.google.android.apps.chromecast.app.tutorial.TutorialActivity"/>
+        <activity android:name="com.google.android.apps.chromecast.app.tutorial.TutorialOtaActivity"/>
+        <activity android:name="com.google.android.apps.chromecast.app.setup.ota.OtaErrorActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.google.android.apps.chromecast.app.search.SearchResultsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.apps.chromecast.app.WebViewActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.apps.chromecast.app.HelpActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:name="com.google.android.apps.chromecast.app.mirror.CastScreenActivity"/>
+        <activity android:name="com.google.android.apps.chromecast.app.DeviceSettingsActivity" android:parentActivityName="com.google.android.apps.chromecast.app.MainActivity" android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.google.android.apps.chromecast.app.MainActivity"/>
+        </activity>
+        <activity android:name="com.google.android.apps.chromecast.app.setup.DeviceSetupActivity" android:parentActivityName="com.google.android.apps.chromecast.app.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.google.android.apps.chromecast.app.MainActivity"/>
+        </activity>
+        <activity android:label="@string/drawer_item_settings" android:name="com.google.android.apps.chromecast.app.settings.ApplicationSettingsActivity"/>
+        <activity android:name="com.google.android.apps.chromecast.app.DebugActivity"/>
+        <activity android:label="@string/drawer_item_settings" android:name="com.google.android.apps.chromecast.app.settings.ApplicationSettingsActivityV11"/>
+        <activity android:label="@string/oss_licenses_title" android:name="com.google.android.apps.chromecast.app.settings.OpenSourceLicenseActivity" android:parentActivityName="com.google.android.apps.chromecast.app.settings.ApplicationSettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.google.android.apps.chromecast.app.MainActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

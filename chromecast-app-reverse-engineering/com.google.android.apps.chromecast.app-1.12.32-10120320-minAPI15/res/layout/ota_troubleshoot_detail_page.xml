@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ota_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/done_btn" android:layout_marginBottom="@dimen/tutorial_padding_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Button.Orange.LargeFixed" />
+    <TextView android:id="@id/header" android:layout_alignParentTop="true" style="@style/WarmWelcomeText.Title.Inverse" />
+    <TextView android:gravity="center|top" android:id="@id/description" android:paddingBottom="@dimen/panel_padding" android:scrollbars="vertical" android:layout_height="fill_parent" android:layout_above="@id/done_btn" android:layout_below="@id/header" style="@style/WarmWelcomeText.Description.Inverse" />
+</RelativeLayout>

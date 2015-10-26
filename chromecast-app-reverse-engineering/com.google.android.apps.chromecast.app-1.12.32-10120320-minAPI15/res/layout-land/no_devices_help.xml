@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/splash_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <ImageView android:id="@id/no_devices_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/no_devices_image" android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="false" android:layout_weight="0.5" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/content_padding" android:layout_weight="0.5">
+            <include layout="@layout/no_devices_steps" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:layout_gravity="center" android:id="@id/get_help" android:layout_marginTop="@dimen/content_padding" android:text="@string/mirror_help_link" android:onClick="onGetHelpClicked" style="@style/Button.Flat.Gray" />
+</LinearLayout>

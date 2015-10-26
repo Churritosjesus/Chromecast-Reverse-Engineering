@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_account">Add account</string>
+    <string name="manage_accounts">Manage Accounts</string>
+    <string name="sign_in">Sign In</string>
+    <string name="show_account_list">Show accounts</string>
+    <string name="hide_account_list">Hide accounts</string>
+    <string name="account_item">Switch to %1$s</string>
+    <string name="selected_account">Signed in to %1$s</string>
+    <string name="account_list">Account list</string>
+    <string name="more_string">+%1$d</string>
+    <string name="copy_email">Copy email address</string>
+    <string name="copy_number">Copy phone number</string>
+    <string name="action_label">Return</string>
+    <string name="accessbility_suggestion_dropdown_opened">Contact suggestions opened</string>
+    <string name="dropdown_delete_button_desc">Remove %s from recipients</string>
+    <string name="chips_action_copy">Copy</string>
+    <string name="chips_action_cancel">Cancel</string>
+    <string name="chips_permission_text">Allow contacts suggestions</string>
+</resources>
