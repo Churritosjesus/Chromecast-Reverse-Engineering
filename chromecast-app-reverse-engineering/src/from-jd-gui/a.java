@@ -1062,20 +1062,20 @@ public class a
     throw new UnsupportedOperationException();
   }
   
-  public static bde a(bdf parambdf, X509Certificate paramX509Certificate)
+  public static CertInfo a(bdf parambdf, X509Certificate paramX509Certificate)
   {
     Object localObject2 = null;
-    bde localbde = new bde();
+    CertInfo localCertInfo = new CertInfo();
     bcv localbcv = parambdf.U;
     if (localbcv == null) {
-      localbde.b = "No certificate is present";
+      localCertInfo.mErrorMessage = "No certificate is present";
     }
     for (;;)
     {
-      return localbde;
+      return localCertInfo;
       if (TextUtils.isEmpty(parambdf.r))
       {
-        localbde.b = "No public key in device configuration";
+        localCertInfo.mErrorMessage = "No public key in device configuration";
       }
       else
       {
@@ -1090,13 +1090,13 @@ public class a
           try
           {
             PublicKey localPublicKey;
-            localbde.c = a(localPublicKey.getEncoded());
+            localCertInfo.mSetupPINCode = getSetupPINCode(localPublicKey.getEncoded());
             Signature localSignature = Signature.getInstance("SHA1withRSA");
             localSignature.initVerify(localPublicKey);
             localSignature.update((byte[])localObject1);
             if (!localSignature.verify(localbcv.c))
             {
-              localbde.b = "Signed data failed to verify";
+              localCertInfo.mErrorMessage = "Signed data failed to verify";
               continue;
               localUnsupportedEncodingException = localUnsupportedEncodingException;
               arrayOfString = null;
@@ -1108,7 +1108,7 @@ public class a
             if (parambdf.length() != 0) {}
             for (parambdf = "Verification exception: ".concat(parambdf);; parambdf = new String("Verification exception: "))
             {
-              localbde.b = parambdf;
+              localCertInfo.mErrorMessage = parambdf;
               break;
             }
           }
@@ -1118,7 +1118,7 @@ public class a
             if (parambdf.length() != 0) {}
             for (parambdf = "Verification exception: ".concat(parambdf);; parambdf = new String("Verification exception: "))
             {
-              localbde.b = parambdf;
+              localCertInfo.mErrorMessage = parambdf;
               break;
             }
           }
@@ -1128,7 +1128,7 @@ public class a
             if (parambdf.length() != 0) {}
             for (parambdf = "Verification exception: ".concat(parambdf);; parambdf = new String("Verification exception: "))
             {
-              localbde.b = parambdf;
+              localCertInfo.mErrorMessage = parambdf;
               break;
             }
           }
@@ -1138,7 +1138,7 @@ public class a
             if (parambdf.length() != 0) {}
             for (parambdf = "Verification exception: ".concat(parambdf);; parambdf = new String("Verification exception: "))
             {
-              localbde.b = parambdf;
+              localCertInfo.mErrorMessage = parambdf;
               break;
             }
             String[] arrayOfString = paramX509Certificate.getSubjectX500Principal().getName().split(",");
@@ -1158,7 +1158,7 @@ public class a
                 if (paramX509Certificate != null) {
                   break label444;
                 }
-                localbde.b = "No CN found!";
+                localCertInfo.mErrorMessage = "No CN found!";
                 break;
               }
             }
@@ -1166,7 +1166,7 @@ public class a
             paramX509Certificate = new StringTokenizer(paramX509Certificate);
             if (paramX509Certificate.countTokens() != 2)
             {
-              localbde.b = "Malformed CN; expected two whitespace-separated tokens";
+              localCertInfo.mErrorMessage = "Malformed CN; expected two whitespace-separated tokens";
             }
             else
             {
@@ -1174,9 +1174,9 @@ public class a
               paramX509Certificate = paramX509Certificate.nextToken();
               parambdf = parambdf.q.replace(":", "");
               if (!paramX509Certificate.equals(parambdf)) {
-                localbde.b = String.format(Locale.US, "CN '%s' does not match hotspot BSSID '%s'", new Object[] { parambdf, paramX509Certificate });
+                localCertInfo.mErrorMessage = String.format(Locale.US, "CN '%s' does not match hotspot BSSID '%s'", new Object[] { parambdf, paramX509Certificate });
               } else {
-                localbde.a = true;
+                localCertInfo.mCertOK = true;
               }
             }
           }
@@ -1617,7 +1617,8 @@ public class a
     }
   }
   
-  public static String a(byte[] paramArrayOfByte)
+  //public static String a(byte[] paramArrayOfByte)
+  public static String getSetupPINCode(byte[] paramArrayOfByte)
   {
     try
     {

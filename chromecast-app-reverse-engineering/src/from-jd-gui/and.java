@@ -447,10 +447,10 @@ public class and
       if (localObject != null)
       {
         localObject = a.a(this.i, (X509Certificate)localObject);
-        if (!TextUtils.isEmpty(((bde)localObject).c)) {
-          this.q = ((bde)localObject).c;
+        if (!TextUtils.isEmpty(((CertInfo)localObject).mSetupPINCode)) {
+          this.q = ((CertInfo)localObject).mSetupPINCode;
         }
-        if (((bde)localObject).a) {
+        if (((CertInfo)localObject).mCertOK) {
           paramaop.a();
         }
       }
@@ -459,7 +459,7 @@ public class and
     {
       return;
       SetupApplication.a().c("Could not authenticate device");
-      localObject = ((bde)localObject).b;
+      localObject = ((CertInfo)localObject).b;
       w();
       if (!isFinishing())
       {
